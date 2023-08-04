@@ -1,0 +1,20 @@
+[Buttonbar]
+Buttoncount=5
+button1=wcmicons.dll,15
+cmd1=%COMMANDER_PATH%\LANGUAGE\wcmd_win10amd64_eng\win10amd64_1b_eng.bar
+iconic1=0
+menu1=Windows Accessories
+button2=
+iconic2=0
+button3=%ProgramFiles(x86)%\Internet Explorer\iexplore.exe
+cmd3=%ProgramFiles(x86)%\Internet Explorer\iexplore.exe
+iconic3=0
+menu3=Internet Explorer
+button4=%PROGRAMW6432%\Internet Explorer\iexplore.exe
+cmd4=%PROGRAMW6432%\Internet Explorer\iexplore.exe
+iconic4=0
+menu4=Internet Explorer (64-bit)
+button5=%ProgramFiles(x86)%\Internet Explorer\iexplore.exe
+cmd5=%ProgramFiles(x86)%\Internet Explorer\iexplore.exe -extoff
+iconic5=0
+menu5=Internet Explorer (No Add-ons)

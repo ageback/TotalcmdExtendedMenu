@@ -1,0 +1,24 @@
+[Buttonbar]
+Buttoncount=6
+button1=wcmicons.dll,15
+cmd1=%COMMANDER_PATH%\LANGUAGE\wcmd_win10amd64_eng\win10amd64_1_eng.bar
+iconic1=0
+menu1=Windows 10 Button Bar
+button2=
+iconic2=0
+button3=%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe
+cmd3=%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe
+iconic3=0
+menu3=Windows PowerShell
+button4=%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe
+cmd4=%SystemRoot%\syswow64\WindowsPowerShell\v1.0\powershell.exe
+iconic4=0
+menu4=Windows PowerShell (x86)
+button5=%windir%\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+cmd5=%windir%\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+iconic5=0
+menu5=Windows PowerShell ISE
+button6=%windir%\sysWOW64\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+cmd6=%windir%\sysWOW64\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+iconic6=0
+menu6=Windows PowerShell ISE (x86)

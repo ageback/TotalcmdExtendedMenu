@@ -1,0 +1,20 @@
+[Buttonbar]
+Buttoncount=5
+button1=wcmicons.dll,15
+cmd1=%COMMANDER_PATH%\LANGUAGE\wcmd_win10amd64_eng\win10amd64_1b_eng.bar
+iconic1=0
+menu1=Windows Accessories
+button2=
+iconic2=0
+button3=%CommonProgramW6432%\Microsoft Shared\Ink\ShapeCollector.exe
+cmd3=%CommonProgramW6432%\Microsoft Shared\Ink\ShapeCollector.exe
+iconic3=0
+menu3=Personalize Handwriting Recognition
+button4=%CommonProgramW6432%\Microsoft Shared\Ink\TabTip.exe
+cmd4=%CommonProgramW6432%\Microsoft Shared\Ink\TabTip.exe
+iconic4=0
+menu4=Tablet PC Input Panel
+button5=tabletpc.cpl
+cmd5=explorer.exe shell:::{80F3F1D5-FECA-45F3-BC32-752C152E456E}
+iconic5=0
+menu5=Tablet PC Settings

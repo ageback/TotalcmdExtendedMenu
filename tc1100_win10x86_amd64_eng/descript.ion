@@ -1,0 +1,225 @@
+wcmd_win10amd64_dan Udvidet Dansk Menu I & II for TC 11.00 64bit under Windows 10 64bit (af petermad) - Knappaneler
+wcmd_win10amd64_1_dan.lng Udvidet Dansk Menu I  for TC 11.00 64bit under Windows 10 64bit (af petermad) - Sprogfil
+wcmd_win10amd64_1_dan.mnu Udvidet Dansk Menu I  for TC 11.00 64bit under Windows 10 64bit (af petermad) - Menufil
+wcmd_win10amd64_1_dan.inc Udvidet Dansk Menu I  for TC 11.00 64bit under Windows 10 64bit (af petermad) - Kommandobeskrivelser
+wcmd_win10amd64_1_dan.ini Udvidet Dansk Menu I  for TC 11.00 64bit under Windows 10 64bit (af petermad) - Brugerkommandoer
+wcmd_win10amd64_2_dan.lng Udvidet Dansk Menu II for TC 11.00 64bit under Windows 10 64bit (af petermad) - Sprogfil
+wcmd_win10amd64_2_dan.mnu Udvidet Dansk Menu II for TC 11.00 64bit under Windows 10 64bit (af petermad) - Menufil
+wcmd_win10amd64_2_dan.inc Udvidet Dansk Menu II for TC 11.00 64bit under Windows 10 64bit (af petermad) - Kommandobeskrivelser
+wcmd_win10amd64_2_dan.ini Udvidet Dansk Menu II for TC 11.00 64bit under Windows 10 64bit (af petermad) - Brugerkommandoer
+wcmd_win10amd64_dan.zip Udvidet Dansk Menu I & II for TC 11.00 64bit under Windows 10 64bit (af petermad) - Udvidelser
+wcmd_win10amd64_dan.txt Udvidet Dansk Menu I & II for TC 11.00 64bit under Windows 10 64bit (af petermad) - Læsmig-fil
+wcmd_win10amd64_eng Extended English Menu I & II for TC 11.00 64bit under Windows 10 64bit (by petermad) - Buttton bars
+wcmd_win10amd64_1_eng.lng Extended English Menu I  for TC 11.00 64bit under Windows 10 64bit (by petermad) - Language file
+wcmd_win10amd64_1_eng.mnu Extended English Menu I  for TC 11.00 64bit under Windows 10 64bit (by petermad) - Menu file
+wcmd_win10amd64_1_eng.inc Extended English Menu I  for TC 11.00 64bit under Windows 10 64bit (by petermad) - Command descriptions
+wcmd_win10amd64_1_eng.ini Extended English Menu I  for TC 11.00 64bit under Windows 10 64bit (by petermad) - User commands
+wcmd_win10amd64_eng.zip Extended English Menu I & II for TC 11.00 64bit under Windows 10 64bit (by petermad) - Addons  
+wcmd_win10amd64_eng.txt Extended English Menu I & II for TC 11.00 64bit under Windows 10 64bit (by petermad) - Readme file
+
+wcmd_win10x86_dan Udvidet Dansk Menu I & II for TC 11.00 32bit under Windows 10 64bit (af petermad) - Knappaneler
+wcmd_win10x86_1_dan.lng Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 10 64bit (af petermad) - Sprogfil
+wcmd_win10x86_1_dan.mnu Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 10 64bit (af petermad) - Menufil
+wcmd_win10x86_1_dan.inc Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 10 64bit (af petermad) - Kommandobeskrivelser
+wcmd_win10x86_1_dan.ini Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 10 64bit (af petermad) - Brugerkommandoer
+wcmd_win10x86_2_dan.lng Udvidet Dansk Menu II for TC 11.00 32bit under Windows 10 64bit (af petermad) - Sprogfil
+wcmd_win10x86_2_dan.mnu Udvidet Dansk Menu II for TC 11.00 32bit under Windows 10 64bit (af petermad) - Menufil
+wcmd_win10x86_2_dan.inc Udvidet Dansk Menu II for TC 11.00 32bit under Windows 10 64bit (af petermad) - Kommandobeskrivelser
+wcmd_win10x86_2_dan.ini Udvidet Dansk Menu II for TC 11.00 32bit under Windows 10 64bit (af petermad) - Brugerkommandoer
+wcmd_win10x86_dan.zip Udvidet Dansk Menu I & II for TC 11.00 32bit under Windows 10 64bit (af petermad) - Udvidelser
+wcmd_win10x86_dan.txt Udvidet Dansk Menu I & II for TC 11.00 32bit under Windows 10 64bit (af petermad) - Læsmig-fil
+wcmd_win10x86_eng Extended English Menu I & II for TC 11.00 32bit under Windows 10 64bit (by petermad) - Buttton bars
+wcmd_win10x86_1_eng.lng Extended English Menu I  for TC 11.00 32bit under Windows 10 64bit (by petermad) - Language file
+wcmd_win10x86_1_eng.mnu Extended English Menu I  for TC 11.00 32bit under Windows 10 64bit (by petermad) - Menu file
+wcmd_win10x86_1_eng.inc Extended English Menu I  for TC 11.00 32bit under Windows 10 64bit (by petermad) - Command descriptions
+wcmd_win10x86_1_eng.ini Extended English Menu I  for TC 11.00 32bit under Windows 10 64bit (by petermad) - User commands
+wcmd_win10x86_eng.zip Extended English Menu I & II for TC 11.00 32bit under Windows 10 64bit (by petermad) - Addons  
+wcmd_win10x86_eng.txt Extended English Menu I & II for TC 11.00 32bit under Windows 10 64bit (by petermad) - Readme file
+
+wcmd_win10%PROCESSOR_ARCHITECTURE%_1_dan.lng Udvidet Dansk Menu I  for TC 11.00 32/64bit under Windows 10 64bit (af petermad) - Sprogfil
+wcmd_win10%PROCESSOR_ARCHITECTURE%_2_dan.lng Udvidet Dansk Menu II for TC 11.00 32/64bit under Windows 10 64bit (af petermad) - Sprogfil
+wcmd_win10%PROCESSOR_ARCHITECTURE%_1_eng.lng Extended English Menu I  for TC 11.00 32/64bit under Windows 10 64bit (by petermad) - Language file
+wcmd_win10%PROCESSOR_ARCHITECTURE%_2_eng.lng Extended English Menu II for TC 11.00 32/64bit under Windows 10 64bit (by petermad) - Language file
+
+
+wcmd_win81amd64_dan Udvidet Dansk Menu I & II for TC 11.00 64bit under Windows 8.1 64bit (af petermad) - Knappaneler
+wcmd_win81amd64_1_dan.lng Udvidet Dansk Menu I  for TC 11.00 64bit under Windows 8.1 64bit (af petermad) - Sprogfil
+wcmd_win81amd64_1_dan.mnu Udvidet Dansk Menu I  for TC 11.00 64bit under Windows 8.1 64bit (af petermad) - Menufil
+wcmd_win81amd64_1_dan.inc Udvidet Dansk Menu I  for TC 11.00 64bit under Windows 8.1 64bit (af petermad) - Kommandobeskrivelser
+wcmd_win81amd64_1_dan.ini Udvidet Dansk Menu I  for TC 11.00 64bit under Windows 8.1 64bit (af petermad) - Brugerkommandoer
+wcmd_win81amd64_2_dan.lng Udvidet Dansk Menu II for TC 11.00 64bit under Windows 8.1 64bit (af petermad) - Sprogfil
+wcmd_win81amd64_2_dan.mnu Udvidet Dansk Menu II for TC 11.00 64bit under Windows 8.1 64bit (af petermad) - Menufil
+wcmd_win81amd64_2_dan.inc Udvidet Dansk Menu II for TC 11.00 64bit under Windows 8.1 64bit (af petermad) - Kommandobeskrivelser
+wcmd_win81amd64_2_dan.ini Udvidet Dansk Menu II for TC 11.00 64bit under Windows 8.1 64bit (af petermad) - Brugerkommandoer
+wcmd_win81amd64_dan.zip Udvidet Dansk Menu I & II for TC 11.00 64bit under Windows 8.1 64bit (af petermad) - Udvidelser
+wcmd_win81amd64_dan.txt Udvidet Dansk Menu I & II for TC 11.00 64bit under Windows 8.1 64bit (af petermad) - Læsmig-fil
+wcmd_win81amd64_eng Extended English Menu I & II for TC 11.00 64bit under Windows 8.1 64bit (by petermad) - Buttton bars
+wcmd_win81amd64_1_eng.lng Extended English Menu I  for TC 11.00 64bit under Windows 8.1 64bit (by petermad) - Language file
+wcmd_win81amd64_1_eng.mnu Extended English Menu I  for TC 11.00 64bit under Windows 8.1 64bit (by petermad) - Menu file
+wcmd_win81amd64_1_eng.inc Extended English Menu I  for TC 11.00 64bit under Windows 8.1 64bit (by petermad) - Command descriptions
+wcmd_win81amd64_1_eng.ini Extended English Menu I  for TC 11.00 64bit under Windows 8.1 64bit (by petermad) - User commands
+wcmd_win81amd64_2_eng.lng Extended English Menu II for TC 11.00 64bit under Windows 8.1 64bit (by petermad) - Language file
+wcmd_win81amd64_2_eng.mnu Extended English Menu II for TC 11.00 64bit under Windows 8.1 64bit (by petermad) - Menu file
+wcmd_win81amd64_2_eng.inc Extended English Menu II for TC 11.00 64bit under Windows 8.1 64bit (by petermad) - Command descriptions
+wcmd_win81amd64_2_eng.ini Extended English Menu II for TC 11.00 64bit under Windows 8.1 64bit (by petermad) - User commands
+wcmd_win81amd64_eng.zip Extended English Menu I & II for TC 11.00 64bit under Windows 8.1 64bit (by petermad) - Addons  
+wcmd_win81amd64_eng.txt Extended English Menu I & II for TC 11.00 64bit under Windows 8.1 64bit (by petermad) - Readme file
+
+wcmd_win81x86_dan Udvidet Dansk Menu I & II for TC 11.00 32bit under Windows 8.1 64bit (af petermad) - Knappaneler
+wcmd_win81x86_1_dan.lng Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 8.1 64bit (af petermad) - Sprogfil
+wcmd_win81x86_1_dan.mnu Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 8.1 64bit (af petermad) - Menufil
+wcmd_win81x86_1_dan.inc Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 8.1 64bit (af petermad) - Kommandobeskrivelser
+wcmd_win81x86_1_dan.ini Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 8.1 64bit (af petermad) - Brugerkommandoer
+wcmd_win81x86_2_dan.lng Udvidet Dansk Menu II for TC 11.00 32bit under Windows 8.1 64bit (af petermad) - Sprogfil
+wcmd_win81x86_2_dan.mnu Udvidet Dansk Menu II for TC 11.00 32bit under Windows 8.1 64bit (af petermad) - Menufil
+wcmd_win81x86_2_dan.inc Udvidet Dansk Menu II for TC 11.00 32bit under Windows 8.1 64bit (af petermad) - Kommandobeskrivelser
+wcmd_win81x86_2_dan.ini Udvidet Dansk Menu II for TC 11.00 32bit under Windows 8.1 64bit (af petermad) - Brugerkommandoer
+wcmd_win81x86_dan.zip Udvidet Dansk Menu I & II for TC 11.00 32bit under Windows 8.1 64bit (af petermad) - Udvidelser
+wcmd_win81x86_dan.txt Udvidet Dansk Menu I & II for TC 11.00 32bit under Windows 8.1 64bit (af petermad) - Læsmig-fil
+wcmd_win81x86_eng Extended English Menu I & II for TC 11.00 32bit under Windows 8.1 64bit (by petermad) - Buttton bars
+wcmd_win81x86_1_eng.lng Extended English Menu I  for TC 11.00 32bit under Windows 8.1 64bit (by petermad) - Language file
+wcmd_win81x86_1_eng.mnu Extended English Menu I  for TC 11.00 32bit under Windows 8.1 64bit (by petermad) - Menu file
+wcmd_win81x86_1_eng.inc Extended English Menu I  for TC 11.00 32bit under Windows 8.1 64bit (by petermad) - Command descriptions
+wcmd_win81x86_1_eng.ini Extended English Menu I  for TC 11.00 32bit under Windows 8.1 64bit (by petermad) - User commands
+wcmd_win81x86_2_eng.lng Extended English Menu II for TC 11.00 32bit under Windows 8.1 64bit (by petermad) - Language file
+wcmd_win81x86_2_eng.mnu Extended English Menu II for TC 11.00 32bit under Windows 8.1 64bit (by petermad) - Menu file
+wcmd_win81x86_2_eng.inc Extended English Menu II for TC 11.00 32bit under Windows 8.1 64bit (by petermad) - Command descriptions
+wcmd_win81x86_2_eng.ini Extended English Menu II for TC 11.00 32bit under Windows 8.1 64bit (by petermad) - User commands
+wcmd_win81x86_eng.zip Extended English Menu I & II for TC 11.00 32bit under Windows 8.1 64bit (by petermad) - Addons  
+wcmd_win81x86_eng.txt Extended English Menu I & II for TC 11.00 32bit under Windows 8.1 64bit (by petermad) - Readme file
+
+wcmd_win81%PROCESSOR_ARCHITECTURE%_1_dan.lng Udvidet Dansk Menu I  for TC 11.00 32/64bit under Windows 8.1 64bit (af petermad) - Sprogfil
+wcmd_win81%PROCESSOR_ARCHITECTURE%_2_dan.lng Udvidet Dansk Menu II for TC 11.00 32/64bit under Windows 8.1 64bit (af petermad) - Sprogfil
+wcmd_win81%PROCESSOR_ARCHITECTURE%_1_eng.lng Extended English Menu I  for TC 11.00 32/64bit under Windows 8.1 64bit (by petermad) - Language file
+wcmd_win81%PROCESSOR_ARCHITECTURE%_2_eng.lng Extended English Menu II for TC 11.00 32/64bit under Windows 8.1 64bit (by petermad) - Language file
+
+wcmd_win81_eng Extended English Menu I & II for TC 11.00 32bit under Windows 8.1 32bit (by petermad) - Buttton bars
+wcmd_win81_1_eng.lng Extended English Menu I  for TC 11.00 32bit under Windows 8.1 32bit (by petermad) - Language file
+wcmd_win81_1_eng.mnu Extended English Menu I  for TC 11.00 32bit under Windows 8.1 32bit (by petermad) - Menu file
+wcmd_win81_1_eng.inc Extended English Menu I  for TC 11.00 32bit under Windows 8.1 32bit (by petermad) - Command descriptions
+wcmd_win81_1_eng.ini Extended English Menu I  for TC 11.00 32bit under Windows 8.1 32bit (by petermad) - User commands
+wcmd_win81_2_eng.lng Extended English Menu II for TC 11.00 32bit under Windows 8.1 32bit (by petermad) - Language file
+wcmd_win81_2_eng.mnu Extended English Menu II for TC 11.00 32bit under Windows 8.1 32bit (by petermad) - Menu file
+wcmd_win81_2_eng.inc Extended English Menu II for TC 11.00 32bit under Windows 8.1 32bit (by petermad) - Command descriptions
+wcmd_win81_2_eng.ini Extended English Menu II for TC 11.00 32bit under Windows 8.1 32bit (by petermad) - User commands
+wcmd_win81_eng.zip Extended English Menu I & II for TC 11.00 32bit under Windows 8.1 32bit (by petermad) - Addons  
+wcmd_win81_eng.txt Extended English Menu I & II for TC 11.00 32bit under Windows 8.1 32bit (by petermad) - Readme file
+
+
+wcmd_win7amd64_dan Udvidet Dansk Menu I & II for TC 11.00 64bit under Windows 7 64bit (af petermad) - Knappaneler
+wcmd_win7amd64_1_dan.lng Udvidet Dansk Menu I  for TC 11.00 64bit under Windows 7 64bit (af petermad) - Sprogfil
+wcmd_win7amd64_1_dan.mnu Udvidet Dansk Menu I  for TC 11.00 64bit under Windows 7 64bit (af petermad) - Menufil
+wcmd_win7amd64_1_dan.inc Udvidet Dansk Menu I  for TC 11.00 64bit under Windows 7 64bit (af petermad) - Kommandobeskrivelser
+wcmd_win7amd64_1_dan.ini Udvidet Dansk Menu I  for TC 11.00 64bit under Windows 7 64bit (af petermad) - Brugerkommandoer
+wcmd_win7amd64_2_dan.lng Udvidet Dansk Menu II for TC 11.00 64bit under Windows 7 64bit (af petermad) - Sprogfil
+wcmd_win7amd64_2_dan.mnu Udvidet Dansk Menu II for TC 11.00 64bit under Windows 7 64bit (af petermad) - Menufil
+wcmd_win7amd64_2_dan.inc Udvidet Dansk Menu II for TC 11.00 64bit under Windows 7 64bit (af petermad) - Kommandobeskrivelser
+wcmd_win7amd64_2_dan.ini Udvidet Dansk Menu II for TC 11.00 64bit under Windows 7 64bit (af petermad) - Brugerkommandoer
+wcmd_win7amd64_dan.zip Udvidet Dansk Menu I & II for TC 11.00 64bit under Windows 7 64bit (af petermad) - Udvidelser
+wcmd_win7amd64_dan.txt Udvidet Dansk Menu I & II for TC 11.00 64bit under Windows 7 64bit (af petermad) - Læsmig-fil
+wcmd_win7amd64_eng Extended English Menu I & II for TC 11.00 64bit under Windows 7 64bit (by petermad) - Buttton bars
+wcmd_win7amd64_1_eng.lng Extended English Menu I  for TC 11.00 64bit under Windows 7 64bit (by petermad) - Language file
+wcmd_win7amd64_1_eng.mnu Extended English Menu I  for TC 11.00 64bit under Windows 7 64bit (by petermad) - Menu file
+wcmd_win7amd64_1_eng.inc Extended English Menu I  for TC 11.00 64bit under Windows 7 64bit (by petermad) - Command descriptions
+wcmd_win7amd64_1_eng.ini Extended English Menu I  for TC 11.00 64bit under Windows 7 64bit (by petermad) - User commands
+wcmd_win7amd64_2_eng.lng Extended English Menu II for TC 11.00 64bit under Windows 7 64bit (by petermad) - Language file
+wcmd_win7amd64_2_eng.mnu Extended English Menu II for TC 11.00 64bit under Windows 7 64bit (by petermad) - Menu file
+wcmd_win7amd64_2_eng.inc Extended English Menu II for TC 11.00 64bit under Windows 7 64bit (by petermad) - Command descriptions
+wcmd_win7amd64_2_eng.ini Extended English Menu II for TC 11.00 64bit under Windows 7 64bit (by petermad) - User commands
+wcmd_win7amd64_eng.zip Extended English Menu I & II for TC 11.00 64bit under Windows 7 64bit (by petermad) - Addons  
+wcmd_win7amd64_eng.txt Extended English Menu I & II for TC 11.00 64bit under Windows 7 64bit (by petermad) - Readme file
+
+wcmd_win7x86_dan Udvidet Dansk Menu I & II for TC 11.00 32bit under Windows 7 64bit (af petermad) - Knappaneler
+wcmd_win7x86_1_dan.lng Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 7 64bit (af petermad) - Sprogfil
+wcmd_win7x86_1_dan.mnu Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 7 64bit (af petermad) - Menufil
+wcmd_win7x86_1_dan.inc Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 7 64bit (af petermad) - Kommandobeskrivelser
+wcmd_win7x86_1_dan.ini Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 7 64bit (af petermad) - Brugerkommandoer
+wcmd_win7x86_2_dan.lng Udvidet Dansk Menu II for TC 11.00 32bit under Windows 7 64bit (af petermad) - Sprogfil
+wcmd_win7x86_2_dan.mnu Udvidet Dansk Menu II for TC 11.00 32bit under Windows 7 64bit (af petermad) - Menufil
+wcmd_win7x86_2_dan.inc Udvidet Dansk Menu II for TC 11.00 32bit under Windows 7 64bit (af petermad) - Kommandobeskrivelser
+wcmd_win7x86_2_dan.ini Udvidet Dansk Menu II for TC 11.00 32bit under Windows 7 64bit (af petermad) - Brugerkommandoer
+wcmd_win7x86_dan.zip Udvidet Dansk Menu I & II for TC 11.00 32bit under Windows 7 64bit (af petermad) - Udvidelser
+wcmd_win7x86_dan.txt Udvidet Dansk Menu I & II for TC 11.00 32bit under Windows 7 64bit (af petermad) - Læsmig-fil
+wcmd_win7x86_eng Extended English Menu I & II for TC 11.00 32bit under Windows 7 64bit (by petermad) - Buttton bars
+wcmd_win7x86_1_eng.lng Extended English Menu I  for TC 11.00 32bit under Windows 7 64bit (by petermad) - Language file
+wcmd_win7x86_1_eng.mnu Extended English Menu I  for TC 11.00 32bit under Windows 7 64bit (by petermad) - Menu file
+wcmd_win7x86_1_eng.inc Extended English Menu I  for TC 11.00 32bit under Windows 7 64bit (by petermad) - Command descriptions
+wcmd_win7x86_1_eng.ini Extended English Menu I  for TC 11.00 32bit under Windows 7 64bit (by petermad) - User commands
+wcmd_win7x86_2_eng.lng Extended English Menu II for TC 11.00 32bit under Windows 7 64bit (by petermad) - Language file
+wcmd_win7x86_2_eng.mnu Extended English Menu II for TC 11.00 32bit under Windows 7 64bit (by petermad) - Menu file
+wcmd_win7x86_2_eng.inc Extended English Menu II for TC 11.00 32bit under Windows 7 64bit (by petermad) - Command descriptions
+wcmd_win7x86_2_eng.ini Extended English Menu II for TC 11.00 32bit under Windows 7 64bit (by petermad) - User commands
+wcmd_win7x86_eng.zip Extended English Menu I & II for TC 11.00 32bit under Windows 7 64bit (by petermad) - Addons  
+wcmd_win7x86_eng.txt Extended English Menu I & II for TC 11.00 32bit under Windows 7 64bit (by petermad) - Readme file
+
+wcmd_win7%PROCESSOR_ARCHITECTURE%_1_dan.lng Udvidet Dansk Menu I  for TC 11.00 32/64bit under Windows 7 64bit (af petermad) - Sprogfil
+wcmd_win7%PROCESSOR_ARCHITECTURE%_2_dan.lng Udvidet Dansk Menu II for TC 11.00 32/64bit under Windows 7 64bit (af petermad) - Sprogfil
+wcmd_win7%PROCESSOR_ARCHITECTURE%_1_eng.lng Extended English Menu I  for TC 11.00 32/64bit under Windows 7 64bit (by petermad) - Language file
+wcmd_win7%PROCESSOR_ARCHITECTURE%_2_eng.lng Extended English Menu II for TC 11.00 32/64bit under Windows 7 64bit (by petermad) - Language file
+
+
+wcmd_win7_dan Udvidet Dansk Menu I & II for TC 11.00 32bit under Windows 7 32bit (af petermad) - Knappaneler
+wcmd_win7_1_dan.lng Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 7 32bit (af petermad) - Sprogfil
+wcmd_win7_1_dan.mnu Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 7 32bit (af petermad) - Menufil
+wcmd_win7_1_dan.inc Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 7 32bit (af petermad) - Kommandobeskrivelser
+wcmd_win7_1_dan.ini Udvidet Dansk Menu I  for TC 11.00 32bit under Windows 7 32bit (af petermad) - Brugerkommandoer
+wcmd_win7_2_dan.lng Udvidet Dansk Menu II for TC 11.00 32bit under Windows 7 32bit (af petermad) - Sprogfil
+wcmd_win7_2_dan.mnu Udvidet Dansk Menu II for TC 11.00 32bit under Windows 7 32bit (af petermad) - Menufil
+wcmd_win7_2_dan.inc Udvidet Dansk Menu II for TC 11.00 32bit under Windows 7 32bit (af petermad) - Kommandobeskrivelser
+wcmd_win7_2_dan.ini Udvidet Dansk Menu II for TC 11.00 32bit under Windows 7 32bit (af petermad) - Brugerkommandoer
+wcmd_win7_dan.zip Udvidet Dansk Menu I & II for TC 11.00 32bit under Windows 7 32bit (af petermad) - Udvidelser
+wcmd_win7_dan.txt Udvidet Dansk Menu I & II for TC 11.00 32bit under Windows 7 32bit (af petermad) - Læsmig-fil
+wcmd_win7_eng Extended English Menu I & II for TC 11.00 32bit under Windows 7 32bit (by petermad) - Buttton bars
+wcmd_win7_1_eng.lng Extended English Menu I  for TC 11.00 32bit under Windows 7 32bit (by petermad) - Language file
+wcmd_win7_1_eng.mnu Extended English Menu I  for TC 11.00 32bit under Windows 7 32bit (by petermad) - Menu file
+wcmd_win7_1_eng.inc Extended English Menu I  for TC 11.00 32bit under Windows 7 32bit (by petermad) - Command descriptions
+wcmd_win7_1_eng.ini Extended English Menu I  for TC 11.00 32bit under Windows 7 32bit (by petermad) - User commands
+wcmd_win7_2_eng.lng Extended English Menu II for TC 11.00 32bit under Windows 7 32bit (by petermad) - Language file
+wcmd_win7_2_eng.mnu Extended English Menu II for TC 11.00 32bit under Windows 7 32bit (by petermad) - Menu file
+wcmd_win7_2_eng.inc Extended English Menu II for TC 11.00 32bit under Windows 7 32bit (by petermad) - Command descriptions
+wcmd_win7_2_eng.ini Extended English Menu II for TC 11.00 32bit under Windows 7 32bit (by petermad) - User commands
+wcmd_win7_eng.zip Extended English Menu I & II for TC 11.00 32bit under Windows 7 32bit (by petermad) - Addons  
+wcmd_win7_eng.txt Extended English Menu I & II for TC 11.00 32bit under Windows 7 32bit (by petermad) - Readme file
+
+
+wcmd_winxp_dan Udvidet Dansk Menu I & II For TC 11.00 32bit under Windows XP 32Bit (af petermad) - Knappaneler
+wcmd_winxp_1_dan.lng Udvidet Dansk Menu I  For TC 11.00 32bit under Windows XP 32Bit (af petermad) - Sprogfil
+wcmd_winxp_1_dan.mnu Udvidet Dansk Menu I  For TC 11.00 32bit under Windows XP 32Bit (af petermad) - Menufil
+wcmd_winxp_1_dan.inc Udvidet Dansk Menu I  For TC 11.00 32bit under Windows XP 32Bit (af petermad) - Kommandobeskrivelser
+wcmd_winxp_1_dan.ini Udvidet Dansk Menu I  For TC 11.00 32bit under Windows XP 32Bit (af petermad) - Brugerkommandoer
+wcmd_winxp_2_dan.lng Udvidet Dansk Menu II For TC 11.00 32bit under Windows XP 32Bit (af petermad) - Sprogfil
+wcmd_winxp_2_dan.mnu Udvidet Dansk Menu II For TC 11.00 32bit under Windows XP 32Bit (af petermad) - Menufil
+wcmd_winxp_2_dan.inc Udvidet Dansk Menu II For TC 11.00 32bit under Windows XP 32Bit (af petermad) - Kommandobeskrivelser
+wcmd_winxp_2_dan.ini Udvidet Dansk Menu II For TC 11.00 32bit under Windows XP 32Bit (af petermad) - Brugerkommandoer
+wcmd_winxp_dan.zip Udvidet Dansk Menu I & II For TC 11.00 32bit under Windows XP 32Bit (af petermad) - Udvidelser
+wcmd_winxp_dan.txt Udvidet Dansk Menu I & II For TC 11.00 32bit under Windows XP 32Bit (af petermad) - Læsmig-fil
+wcmd_winxp_eng Extended English I & II For TC 11.00 32bit under Windows XP 32Bit (by petermad) - Buttton bars
+wcmd_winxp_1_eng.lng Extended English Menu I  For TC 11.00 32bit under Windows XP 32Bit (by petermad) - Language file
+wcmd_winxp_1_eng.mnu Extended English Menu I  For TC 11.00 32bit under Windows XP 32Bit (by petermad) - Menu file
+wcmd_winxp_1_eng.inc Extended English Menu I  For TC 11.00 32bit under Windows XP 32Bit (by petermad) - Command descriptions
+wcmd_winxp_1_eng.ini Extended English Menu I  For TC 11.00 32bit under Windows XP 32Bit (by petermad) - User commands
+wcmd_winxp_2_eng.lng Extended English Menu II For TC 11.00 32bit under Windows XP 32Bit (by petermad) - Language file
+wcmd_winxp_2_eng.mnu Extended English Menu II For TC 11.00 32bit under Windows XP 32Bit (by petermad) - Menu file
+wcmd_winxp_2_eng.inc Extended English Menu II For TC 11.00 32bit under Windows XP 32Bit (by petermad) - Command descriptions
+wcmd_winxp_2_eng.ini Extended English Menu II For TC 11.00 32bit under Windows XP 32Bit (by petermad) - User commands
+wcmd_winxp_eng.zip Extended English Menu I & II For TC 11.00 32bit under Windows XP 32Bit (by petermad) - Addons  
+wcmd_winxp_eng.txt Extended English Menu I & II For TC 11.00 32bit under Windows XP 32Bit (by petermad) - Readme file
+
+
+wcmd_eng.lng External English Language file
+wcmd_eng.mnu External English Menu file
+wcmd_eng.inc External English Command descriptions
+
+wcmd_dan.lng Dansk sprogfil
+wcmd_dan.mnu Dansk menufil
+wcmd_dan.inc Danske kommandobeskrivelser
+
+wcmd_deu.lng Deutsche Sprachedatei
+wcmd_deu.mnu Deutsche Menüdatei
+wcmd_deu.inc Deutsche Befehlsbeschreibungen
+
+wcmd_eng.chm English Help file
+wcmd_engdark.chm English Help file - Dark
+
+wcmd_deu.chm Deutsche Hilfedatei
+wcmd_deudark.chm Deutsche Hilfedatei - Dunkel
