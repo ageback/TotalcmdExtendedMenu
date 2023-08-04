@@ -1,0 +1,112 @@
+
+Extended English Menus for Total Commander 9.50 32bit under Windows 10 64bit (by petermad)
+
+Contents:
+wcmd_win81x86_1_eng.mnu
+wcmd_win81x86_2_eng.mnu
+wcmd_win10x86_1_eng.lng
+wcmd_win10x86_2_eng.lng
+wcmd_win10x86_1_eng.inc
+wcmd_win10x86_2_eng.inc
+wcmd_win10x86_1_eng.ini
+wcmd_win10x86_2_eng.ini
+wcmd_win10x86_eng\*.bar
+wcmd_win10x86_eng.zip
+wcmd_win10x86_eng.txt
+
+
+wcmd_win10x86_1_eng.mnu and wcmd_win10x86_2_eng.mnu are alternative menus for TC
+that includes almost all the internal commands that it makes sense to use in
+the menu.  Includes among others separate menu items for "Filter", "Navigate",
+"Focus", "Lister", "Tabs", "FTP", "Folders" and "Misc.". Furthermore there is
+a "Windows 10" menu item that holds most programs installed with Windows 10
+and an extended "Help" menu item with links to Total Commander related web
+pages.
+
+wcmd_win10x86_1_eng.mnu has a single "View" menu which is common to both file
+panels.  wcmd_win10x86_2_eng.mnu has separate "Left" and "Right" menus (like
+Norton Commander).
+
+wcmd_win10x86_1_eng.lng and wcmd_win10x86_2_eng.lng are (almost) identical to
+TC's internal dialog, and the use of these two files makes it easy to change
+language and menu at the same time with just one click - simply just choose
+"English with Extended Menu I for TC 9.50 32bit under Windows 10 64bit" or
+"English with Extended Menu II for TC 9.50 32bit under Windows 10 64bit" in
+the language dialog.
+
+wcmd_win10x86_1_eng.inc and wcmd_win10x86_2_eng.inc are slightly improved
+versions of the original commands descriptions.
+
+wcmd_win10x86_1_eng.ini and wcmd_win10x86_2_eng.ini are user command files which
+are necessary for the user commands in the "Windows 10" and "Help" menu entries
+among others.
+
+wcmd_win10x86_eng\*.bar is a folder with a series of button bars with the same
+programs as the "Windows 10" menu item together with a button bar that shows
+all the internal commands that has an icon in the wcmicons.dll file.  You can
+switch between the button bars using the menu item "Windows 10".
+
+
+wcmd_win10x86_eng.zip is a self installing archive containing several Addons for
+Total Commander:
+
+1: Extended Icon Set for TC (with 48x48 icons) (wcmicon_win10x86.dll, wcmicon_win10x86.inc).
+2: Old Style Help for TC (totalcmd.hlp, winhlp32.exe).
+3: English Standalone Lister (lister.exe, lister.exe.manifest).
+4: Extended File Comments for TC (descript.ion).
+5: Folder Icon for TC (desktop.ini). Write protect TC's program folder to see
+   the icon.
+6: Official English language files (wcmd_eng.lng, wcmd_eng.mnu and
+   wcmd_eng.inc).
+
+You can install this package from the Menu: "Help" -> "Install Addons for
+Total Commander".  If the files already exists, you will be asked whether
+you want to overwrite them.
+
+
+wcmd_win10x86_eng.txt is this file.
+
+
+Contact: petermad@madsenworld.dk
+
+
+                    -------------------------------------------
+
+About Plugins
+
+As from version 7.55 a new item "Lister" is added to the Extended Menus.
+
+From this item a separate version of Lister can be opened in forced view mode.
+If the chosen mode is not possible with the selected file, then Total Commander
+will fallback to text view or binary text view.
+
+
+The following plugin/addon programs are supported in the "Lister" menu item:
+
+Imagine: http://www.totalcmd.net/plugring/imagine.html | http://www.nyam.pe.kr/phpBB3/viewtopic.php?f=2&t=14
+IrfanView: http://www.irfanview.com/main_download_engl.htm
+XnView: http://www.xnview.com/en/download.html
+HTMLView: http://www.totalcmd.net/plugring/htmlview.html | http://sites.google.com/site/htmlview/
+Multimedia Player: http://www.totalcmd.net/plugring/mmedia.html | http://physio-a.univ-tours.fr/tcplugins/MMEDIA.htm
+SWFView: http://www.totalcmd.net/plugring/swfview.html
+FileInfo: http://www.totalcmd.net/plugring/fileinfo.html | http://physio-a.univ-tours.fr/tcplugins/FILEINFO.htm
+SGViewer: http://www.totalcmd.net/plugring/sgviewer.html
+IMGView: http://www.totalcmd.net/plugring/imgv.html
+ICLView: http://www.totalcmd.net/plugring/iclview.html
+Office: http://www.totalcmd.net/plugring/office.html
+Office2007: http://www.totalcmd.net/plugring/office2007wlx.html
+Listdoc: http://www.totalcmd.net/plugring/wordfileviewer.html
+Excellence: http://www.totalcmd.net/plugring/xlsview.html | http://sites.google.com/site/ivansdump/excellence
+RedCell: http://www.totalcmd.net/plugring/wlx_redcell.html
+IEView: http://www.totalcmd.net/plugring/ieview.html 
+FlashView: http://www.totalcmd.net/plugring/flashview.html
+SWF Lister Lite: http://www.totalcmd.net/plugring/swf_lister_lite.html
+PhotoViewer: http://totalcmd.net/plugring/photoviewer.html
+AKFont Viewer: http://totalcmd.net/plugring/akfont.html | https://fontmassive.com/akfont.php
+Font lister: http://users.telenet.be/liontech/Downloads.htm | http://www.totalcmd.net/plugring/font.html
+TTFViewer: http://www.totalcmd.net/plugring/TTFviewer.html
+SynPlus: http://www.totalcmd.net/plugring/synplus.html
+Syn2: http://www.totalcmd.net/plugring/syn2.html | http://atorg.net.ru/temp/beta/syn2.rar | http://sepa.spb.ru/?syn
+CudaLister: https://totalcmd.net/plugring/CudaLister.html
+VisualDirSize: http://www.totalcmd.net/plugring/visdirsize.html | http://members.multimania.co.uk/kajoj100/
+DirSizeCalc Charts: http://totalcmd.net/plugring/dirsizecalc_charts.html

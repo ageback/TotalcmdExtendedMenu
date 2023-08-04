@@ -1,0 +1,6 @@
+[plugininstall]
+description= 简体中文扩展菜单 I  for TC 9.50 32/64bit 适用于 Windows 10(1083) 64bit (by petermad & yeskky@DRL/CCF 翻译)
+type=lng
+file=wcmd_win10%PROCESSOR_ARCHITECTURE%_1_chn.lng
+defaultdir=language
+version=9.50
