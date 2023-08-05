@@ -485,110 +485,110 @@ POPUP "命令(&C)"
   MENUITEM "忽略列表中的文件(&F)", 2922
 ;  MENUITEM "不要重定向 system&32 文件夹", 2925
   MENUITEM SEPARATOR
-  MENUITEM "Source &<-> Target\tCtrl+U", 531
-  MENUITEM "Source <-&> Target (Including Tabs)\tShift+Ctrl+U", 535
-  MENUITEM "Source &= Target", 532
-  MENUITEM "Directory/Link at Cursor -> &Left/Top\tCtrl+Left", 2024
-  MENUITEM "Directory/Link at Cursor -> &Right/Bottom\tCtrl+Right", 2025
-  MENUITEM "Sync&hronize Directory Change Source && Target", 2600
+  MENUITEM "源 &<-> 目标\tCtrl+U", 531
+  MENUITEM "源 <-&> 目标 (包括标签)\tShift+Ctrl+U", 535
+  MENUITEM "源 &= 目标", 532
+  MENUITEM "光标下的目录/链接 -> 左/上(&L)\tCtrl+Left", 2024
+  MENUITEM "光标下的目录/链接 -> 右/下(&R)\tCtrl+Right", 2025
+  MENUITEM "同步源和目标的目录变更(&H)", 2600
   MENUITEM SEPARATOR
-  MENUITEM "Reread Source\tF2 / Ctrl+R", 540
-  MENUITEM "Reload Selected Thum&bnails", 2918
-  MENUITEM "Reload Icons in Button Bars and Main Menu", 2945
-  MENUITEM "Reload Icons in File Panels", 2958
-  MENUITEM "Reload File in Quic&k View", 2946
-  MENUITEM "Decrease Thumbnail Size (min. 10%)\tCtrl+Wheel", 2954
-  MENUITEM "Increase Thumbnail Size (max. 200%)\tCtrl+Wheel", 2953
-  POPUP "Custom Colum&ns"
-    MENUITEM "Load 'On Demand' Fields for &All Files", 5512
-    MENUITEM "Load 'On Demand' Fields for &Selected Files", 5513
-    MENUITEM "Stop Loading of Fields in the &Background", 5514
+  MENUITEM "刷新来源窗口\tF2 / Ctrl+R", 540
+  MENUITEM "刷新选中的缩略图(&B)", 2918
+  MENUITEM "刷新主菜单和工具栏中的图标", 2945
+  MENUITEM "刷新文件面板中的图标", 2958
+  MENUITEM "刷新快速查看中的文件(&K)", 2946
+  MENUITEM "减小缩略图大小（最小 10%）\tCtrl+Wheel", 2954
+  MENUITEM "增加缩略图大小（最大 200%）\tCtrl+Wheel", 2953
+  POPUP "自定义列(&N)"
+    MENUITEM "所有文件都按需加载字段(&A)", 5512
+    MENUITEM "仅选中的文件按需加载字段(&S)", 5513
+    MENUITEM "停止后台加载字段(&B)", 5514
   END_POPUP
   MENUITEM SEPARATOR
-  MENUITEM "Center &Panel Divider", 909
-  MENUITEM "Panel Divider &100% Towards Destination", 910
-  MENUITEM "Vertical Button Bar On/Off", 2944
-  MENUITEM "Vertical Ali&gnment", 305
+  MENUITEM "面板分隔栏居中(&P)", 909
+  MENUITEM "面板分隔栏向目标面板 &100%", 910
+    MENUITEM "垂直工具栏 开/关", 2944
+  MENUITEM "垂直对齐(&G)", 305
   MENUITEM SEPARATOR
-  MENUITEM "Rest&art Total Commander...", em_ext_restartcommander
-  MENUITEM "Restart Total Commander as Administrator...", em_ext_restartcommander2
-  POPUP "Run S&eparate Instance of..."
+  MENUITEM "重新启动 Total Commander(&A)...", em_ext_restartcommander
+  MENUITEM "以管理员身份重新启动 Total Commander...", em_ext_restartcommander2
+  POPUP "运行单独的程序(&E)..."
     MENUITEM "&Total Commander...", em_ext_newcommander
-    MENUITEM "Total Commander as &Administrator ...", em_ext_newcommander1
-    MENUITEM "Total Commander with &Fresh ini Files *...", em_ext_newcommander2
-    MENUITEM "&Lister...", em_ext_list
-    MENUITEM "Fi&nd Files...", em_ext_find
-    MENUITEM "&Compare Contents...", em_ext_comp
-    MENUITEM "&Synchronize Directories...", em_ext_sync
-    MENUITEM "Synchronize &Directories (Only Selected Files/Folders)...", em_ext_sync2
-    MENUITEM "Syncroni&ze First Two Selected Folders/Archives...", em_ext_sync3
-    MENUITEM "Synchronize Directories - Autostart &with Current Settings...", em_ext_sync4
-    MENUITEM "Synchronize Directories - Autostart wit&h Default Settings...", em_ext_sync5
-    MENUITEM "&USB Cable Connection - Server...", em_ext_USBcable
-    MENUITEM "L&PT1 Cable Connection - Server...", em_ext_LPTcable
+    MENUITEM "Total Commander 作为管理员运行(&A)...", em_ext_newcommander1
+    MENUITEM "以出厂ini文件运行Total Commander(&F) *...", em_ext_newcommander2
+    MENUITEM "查看器(&L)...", em_ext_list
+    MENUITEM "查找文件(&N)...", em_ext_find
+    MENUITEM "比较内容(&C)...", em_ext_comp
+    MENUITEM "同步目录(&S)...", em_ext_sync
+    MENUITEM "同步目录(仅对选中的文件/文件夹)(&D)...", em_ext_sync2
+    MENUITEM "同步前两个选中的文件夹/压缩包(&z)...", em_ext_sync3
+    MENUITEM "同步目录 - 以当前设置自动开始(&W)...", em_ext_sync4
+    MENUITEM "同步目录 - 以默认设置自动开始(&H)...", em_ext_sync5
+    MENUITEM "&USB线连接 - 服务器...", em_ext_USBcable
+    MENUITEM "L&PT1线连接 - 服务器...", em_ext_LPTcable
   END_POPUP
   MENUITEM SEPARATOR
-  POPUP "C&ommand Line"
-    MENUITEM "C&opy File Name to Command Line\tCtrl+Enter", 3021
-    MENUITEM "Copy P&ath + File Name to Command Line\tSkift+Ctrl+Enter", 3022
-    MENUITEM "&Copy Path to Command Line\tCtrl+P", 2019
-    MENUITEM "&Next Command Line", 2005
-    MENUITEM "&Previous Command Line\tCtrl+E", 2006
-    MENUITEM "&Delete Command Line\tCtrl+Y", 2004
-    MENUITEM "&Focus on Command Line\tShift+Right", 4003
-    MENUITEM "Show Command Line &History\tAlt+F8", 3023
+  POPUP "命令行(&O)"
+    MENUITEM "复制文件名到命令行(&O)\tCtrl+Enter", 3021
+    MENUITEM "复制路径 + 文件名到命令行(&A)\tSkift+Ctrl+Enter", 3022
+    MENUITEM "复制路径到命令行(&C)\tCtrl+P", 2019
+    MENUITEM "下一条命令(&N)", 2005
+    MENUITEM "上一条命令(&P)\tCtrl+E", 2006
+    MENUITEM "清除命令行(&D)\tCtrl+Y", 2004
+    MENUITEM "激活命令行(&F)\tShift+Right", 4003
+    MENUITEM "显示命令行历史(&H)\tAlt+F8", 3023
     MENUITEM SEPARATOR
-    MENUITEM "&Show Command Line", 2910
+    MENUITEM "显示命令行(&S)", 2910
   END_POPUP
-  MENUITEM "Comman&d Prompt Window...", 511
-  MENUITEM "Command Prompt Window (Administrator) *...", em_ext_cmdelevated
+  MENUITEM "命令提示符窗口(&D)...", 511
+  MENUITEM "命令提示符窗口 (管理员)...", em_ext_cmdelevated
   MENUITEM SEPARATOR
-  MENUITEM "Ma&ximize Window", 2015
-  MENUITEM "Minimi&ze Window\tShift+Esc", 2000
-  MENUITEM "Re&store Window", 2016
-  MENUITEM "Close Window (&Quit)\tAlt+F4", 24340
+  MENUITEM "最大化窗口(&X)", 2015
+  MENUITEM "最小化窗口(&Z)\tShift+Esc", 2000
+  MENUITEM "还原窗口(&S)", 2016
+  MENUITEM "关闭窗口（退出）(&Q)\tAlt+F4", 24340
 END_POPUP
 
-POPUP "Lister"
-  MENUITEM "Separa&te Instance (Auto-detect)", em_ext_list
+POPUP "查看器"
+  MENUITEM "单独的实例（自动检测）(&T)", em_ext_list
   MENUITEM SEPARATOR
-  MENUITEM "&0  Auto (No Plugins/Multimedia)", em_ext_listN
-  MENUITEM "&1  Text Only", em_ext_list1
-  MENUITEM "&2  Binary (Fixed Line Length)", em_ext_list2
-  MENUITEM "&3  Hex", em_ext_list3
-  MENUITEM "&4  Image/Multimedia", em_ext_list4
-  MENUITEM "&5  HTML Text (Strip Tags)", em_ext_list5
+  MENUITEM "&0  自动（无插件或多媒体）", em_ext_listN
+    MENUITEM "&1  纯文本", em_ext_list1
+    MENUITEM "&2  二进制(固定行宽)", em_ext_list2
+    MENUITEM "&3  十六进制", em_ext_list3
+    MENUITEM "&4  图像/多媒体", em_ext_list4
+    MENUITEM "&5  HTML 文本(去除标记)", em_ext_list5
   MENUITEM "&6  Unicode", em_ext_list6
   MENUITEM "&7  UTF-8", em_ext_list7
-  MENUITEM "&8  Explorer Preview", em_ext_list8
+  MENUITEM "&8  资源管理器预览", em_ext_list8
   MENUITEM SEPARATOR
-  MENUITEM "&ANSI (Windows Charset)", em_ext_listA
-  MENUITEM "A&SCII (DOS Charset)", em_ext_listS
-  MENUITEM "&Variable Char Width", em_ext_listV
-  MENUITEM "&Full Screen", em_ext_listF
+    MENUITEM "ANSI(Windows 字符集)(&A)", em_ext_listA
+    MENUITEM "ASCII(DOS 字符集)(&S)", em_ext_listS
+    MENUITEM "可变字符宽度(&V)", em_ext_listV
+  MENUITEM "全屏(&F)", em_ext_listF
   MENUITEM SEPARATOR
   MENUITEM "GDI+ / DirectShow / MCI / I&rfanView / XnView", em_ext_list_irfanview
-  MENUITEM "&Imagine Plugin", em_ext_list_imagine
-  MENUITEM "Ph&otoViewer plugin", em_ext_list_photoviewer
-  MENUITEM "I&CLView Plugin", em_ext_list_iclview
+    MENUITEM "Imagine 插件(&I)", em_ext_list_imagine
+    MENUITEM "PhotoViewer 插件(&O)", em_ext_list_photoviewer
+    MENUITEM "ICLView 插件(&C)", em_ext_list_iclview
   MENUITEM SEPARATOR
-  MENUITEM "&HTMLView Plugin", em_ext_list_htmlview
-  MENUITEM "sLister Plugin", em_ext_list_slister
-  MENUITEM "Office2007 &Plugin", em_ext_list_office2007
-  MENUITEM "R&edCell Plugin", em_ext_list_redcell
+  MENUITEM "HTMLView 插件(&H)", em_ext_list_htmlview
+  MENUITEM "sLister 插件", em_ext_list_slister
+  MENUITEM "Office2007 插件(&P)", em_ext_list_office2007
+  MENUITEM "RedCell 插件(&E)", em_ext_list_redcell
   MENUITEM SEPARATOR
-  MENUITEM "Multime&dia Player Plugin", em_ext_list_mmedia
-  MENUITEM "S&WFView Plugin", em_ext_list_swfview
+    MENUITEM "Multimedia Player 插件(&D)", em_ext_list_mmedia
+    MENUITEM "SWFView 插件(&W)", em_ext_list_swfview
   MENUITEM SEPARATOR
-  MENUITEM "AKFo&nt Viewer", em_ext_list_akfont
+  MENUITEM "AKFont 查看器(&N)", em_ext_list_akfont
   MENUITEM SEPARATOR
-  MENUITEM "C&udalister plugin", em_ext_list_cudalister
-  MENUITEM "S&yn2 Plugin", em_ext_list_syn2
+  MENUITEM "Cudalister 插件(&U)", em_ext_list_cudalister
+  MENUITEM "Syn2 插件(&Y)", em_ext_list_syn2
   MENUITEM SEPARATOR
-  MENUITEM "Fi&leInfo Plugin", em_ext_list_fileinfo
-  MENUITEM "DirSi&zeCalc Chart Plugin (Only Folders)", em_ext_list_dirsizecalccharts
+    MENUITEM "FileInfo 插件(&L)", em_ext_list_fileinfo
+  MENUITEM "DirSizeCalc Chart 插件 (仅文件夹)(&Z)", em_ext_list_dirsizecalccharts
   MENUITEM SEPARATOR
-  MENUITEM "Confi&gure Lister...", 3036
+  MENUITEM "配置查看器(&G)...", 3036
 END_POPUP
 
 POPUP "T&abs"
