@@ -19,18 +19,18 @@ POPUP "文件(&F)"
     MENUITEM "更改属性 - 以默认/保存的设置自动开始(&H)...", em_ext_attrib_user_auto
     MENUITEM SEPARATOR
     MENUITEM "查找文件 - 使用默认/保存的设置(&F)...", em_ext_search_user
-    MENUITEM "Find files - A&utostart with Default/Saved Setup...", em_ext_search_user_auto
-    MENUITEM "Find files - Aut&ostart with Default/Saved Setup - Copy to Listbox...", em_ext_search_user_auto2
-    MENUITEM "&Save Search Result", em_ext_savelist
-    MENUITEM "&Load Search Result", em_ext_loadlist
-    MENUITEM "Load Search Result Fro&m File Under Cursor", em_ext_loadlist2
+    MENUITEM "查找文件 - 以默认/保存的设置自动开始(&U)...", em_ext_search_user_auto
+    MENUITEM "查找文件 - 以默认/保存的设置自动开始 - 复制到列表框(&O)...", em_ext_search_user_auto2
+    MENUITEM "保存搜索结果(&S)", em_ext_savelist
+    MENUITEM "加载搜索结果(&L)", em_ext_loadlist
+    MENUITEM "从光标下的文件中加载搜索结果(&M)", em_ext_loadlist2
     MENUITEM SEPARATOR
-    MENUITEM "Synchroni&ze Directories - with Default/Saved Setup...", em_ext_sync_user
-    MENUITEM "Synchronize Directories - &Autostart with Default/Saved Setup...", em_ext_sync_user_auto
+    MENUITEM "同步目录 - 使用默认/保存的设置(&Z)...", em_ext_sync_user
+    MENUITEM "同步目录 - 以默认/保存的设置自动启动(&A)...", em_ext_sync_user_auto
     MENUITEM SEPARATOR
-    MENUITEM "Multi-&Rename Tool - with Default/Saved Setup...", em_ext_multirename_user
-    MENUITEM "Multi-R&ename Tool - Autostart with Saved Setup...", em_ext_multirename_user_auto
-    MENUITEM "Multi-Re&name Tool - Autostart with Saved Setup - Close Afterwards...", em_ext_multirename_user_auto2
+    MENUITEM "批量重命名工具 - 使用默认/保存的设置(&R)...", em_ext_multirename_user
+    MENUITEM "批量重命名工具 - 以保存的设置自动启动(&E)...", em_ext_multirename_user_auto
+    MENUITEM "批量重命名工具 - 以保存的设置自动启动 - 然后关闭(&N)...", em_ext_multirename_user_auto2
   END_POPUP
   MENUITEM SEPARATOR
     POPUP "压缩(&P)"
@@ -38,9 +38,9 @@ POPUP "文件(&F)"
     MENUITEM "压缩文件(&M)(打包并删除)...\tSkift+Alt+F5", 2956
     MENUITEM "解压缩文件(&U)...\tAlt+F9", 509
     MENUITEM "测试压缩包(&T)\tShift+Alt+F9", 518
-    MENUITEM "P&ack Selected Elements to Archive with Name of File Under Cursor - in Same Folder", em_ext_zipfromlist1
-    MENUITEM "Move &Selected Elements to Archive with Name of File Under Cursor - in Same Folder", em_ext_zipfromlist3
-    MENUITEM "Pac&k Selected Elements to Archive with Name of File Under Curdor - with Encryption", em_ext_zipfromlist2
+    MENUITEM "压缩选中的元素，并以光标下的文件名命名 - 在同文件夹中(&A)", em_ext_zipfromlist1
+    MENUITEM "将选中的元素移动到以光标下的文件名命名的压缩包中 - 在同文件夹中(&S)", em_ext_zipfromlist3
+    MENUITEM "压缩选中的元素，并以光标下的文件名命名 - 使用加密(&K)", em_ext_zipfromlist2
         MENUITEM "打开自释放压缩包(&O)\tCtrl+PgDn", 2003
     MENUITEM "更改已打开的 ZIP 文件中的文件名的编码(&E)", 2948
     MENUITEM SEPARATOR
@@ -55,7 +55,7 @@ POPUP "文件(&F)"
         MENUITEM "编码文件(MIME, UUE, XXE)(&E)...", 562
         MENUITEM "解码文件(MIME, UUE, XXE, BinHex)(&D)...", 563
   END_POPUP
-  POPUP "Checks&um"
+  POPUP "校验和(&U)"
     MENUITEM "创建校验和文件(&C) (SFV, MD5, SHA1 等)...", 564
     MENUITEM "验证校验和文件(&V) (SFV, MD5, SHA1 等)...", 565
   END_POPUP
@@ -203,160 +203,160 @@ POPUP "过滤器(&i)"
 END_POPUP
 
 POPUP "标记(&M)"
-  MENUITEM "&Compare Panels\tShift+F2", 533
-  MENUITEM "Compare Panels Incl. &Folders", 536
-  MENUITEM "&Mark Newer, Hide Same Files *", 534
-  MENUITEM "Mar&k Files and Folders that Exist in Both Panels", em_ext_select_duplicates
-  MENUITEM "Mark Files and Folders that Does Not Exist in Both Panels", em_ext_select_non_duplicates
-  MENUITEM "Remove All Selections in &Both Panels", em_ext_clearallselected
-  MENUITEM "Go to Pr&evious Selected Folder or File", 2054
-  MENUITEM "Go to Next Selected Folder or File", 2053
+  MENUITEM "比较两边面板(&C)\tShift+F2", 533
+  MENUITEM "比较两边面板，包括文件夹(&F)", 536
+    MENUITEM "标记新文件, 隐藏相同文件(&M)", 534
+  MENUITEM "标记两边面板都存在的文件和文件夹(&K)", em_ext_select_duplicates
+  MENUITEM "标记两个面板中都不存在的文件和文件夹", em_ext_select_non_duplicates
+  MENUITEM "清除两个面板中的所有选择(&B)", em_ext_clearallselected
+  MENUITEM "转到上一个选定的文件夹或文件(&E)", 2054
+  MENUITEM "转到下一个选定的文件夹或文件", 2053
   MENUITEM SEPARATOR
-  MENUITEM "Show &Only Selected Files and Folders *", 2023
-  MENUITEM "Hide Selected Files and Folders *", em_ext_hideallselected
-  MENUITEM "Reread So&urce Panel\tF2 / Ctrl+R", 540
-  MENUITEM "Sho&w Only Files and Folders that Exist In Both Panels *", em_ext_show_duplicates
-  MENUITEM "Hide Files and Folders that Exist In Both Panels *", em_ext_show_non_duplicates
-  MENUITEM "Reread Both Panels", em_ext_UpdateBothPanels
+  MENUITEM "仅显示选中的文件和文件夹(&O)", 2023
+  MENUITEM "隐藏选中的文件和文件夹", em_ext_hideallselected
+  MENUITEM "刷新来源窗口(&U)\tF2 / Ctrl+R", 540
+  MENUITEM "仅显示两个面板中都存在的文件和文件夹(&W)*", em_ext_show_duplicates
+  MENUITEM "隐藏两个面板中都存在的文件和文件夹*", em_ext_show_non_duplicates
+  MENUITEM "刷新两边面板", em_ext_UpdateBothPanels
   MENUITEM SEPARATOR
-  MENUITEM "* = Only as Long as Total Commander is in Focus", em_ext_dummy
+  MENUITEM "* = 仅当 Total Commander 处于焦点状态时", em_ext_dummy
   MENUITEM SEPARATOR
-  POPUP "E&xpand Selection...\tNum +"
-    MENUITEM "E&xpand Selection (as Configured)...\tNum +", 521
-    MENUITEM "Expand Selection, Same Ex&tension (as Configured)...", 546
+  POPUP "扩展选择(&X)...\tNum +"
+    MENUITEM "扩展选择（根据配置）(&X)...\tNum +", 521
+    MENUITEM "扩展选择，相同扩展名（根据配置）(&T)...", 546
     MENUITEM SEPARATOR
-    MENUITEM "&Both Files and Folders...", 3311
-    MENUITEM "&Only Files...", 3312
-    MENUITEM "Only &Folders...", 3313
+    MENUITEM "文件和文件夹(&B)...", 3311
+    MENUITEM "仅文件(&O)...", 3312
+    MENUITEM "仅文件夹(&F)...", 3313
   END_POPUP
-  POPUP "S&hrink Selection...\tNum  -"
-    MENUITEM "S&hrink Selection (as Configured)...", 3316
+  POPUP "缩小选择(&H)...\tNum  -"
+    MENUITEM "缩小选择（根据配置）(&H)...", 3316
     MENUITEM SEPARATOR
-    MENUITEM "&Both Files and Folders...\tNum  -", 522
-    MENUITEM "Both Files and Folders, Same Ex&tension...", 547
-    MENUITEM "&Only Files...\tShift+Num  -", 3314
-    MENUITEM "Only &Folders...", 3315
+    MENUITEM "文件和文件夹(&B)...\tNum  -", 522
+    MENUITEM "文件和文件夹，相同扩展名(&T)...", 547
+    MENUITEM "仅文件(&O)...\tShift+Num  -", 3314
+    MENUITEM "仅文件夹(&F)...", 3315
   END_POPUP
-  POPUP "&Invert Selection\tNum  *"
-    MENUITEM "&Invert Selection (as Configured)\tNum  *", 525
+  POPUP "反转选择(&I)\tNum  *"
+    MENUITEM "反转选择（根据配置）(&I)\tNum  *", 525
     MENUITEM SEPARATOR
-    MENUITEM "&Both Files and Folders", 3321
-    MENUITEM "&Only Files", 3322
-    MENUITEM "Only &Folders", 3323
+    MENUITEM "文件和文件夹(&B)", 3321
+    MENUITEM "仅文件(&O)", 3322
+    MENUITEM "仅文件夹(&F)", 3323
   END_POPUP
-  MENUITEM "&Restore Selection\tNum  /", 529
-  POPUP "&Select All\tCtrl+Num +"
-    MENUITEM "&Select All (as Configured)\tCtrl+Num + / Ctrl+A", 523
+  MENUITEM "恢复选择(&R)\tNum  /", 529
+  POPUP "全选(&S)\tCtrl+Num +"
+    MENUITEM "全选（根据配置）(&S)\tCtrl+Num + / Ctrl+A", 523
     MENUITEM SEPARATOR
-    MENUITEM "&Both Files and Folders", 3301
-    MENUITEM "&Only Files", 3302
-    MENUITEM "Only &Folders", 3303
+    MENUITEM "文件和文件夹(&B)", 3301
+    MENUITEM "仅文件(&O)", 3302
+    MENUITEM "仅文件夹(&F)", 3303
     MENUITEM SEPARATOR
-    MENUITEM "Select All with Same &Extension (as Configured)\tAlt+Num +", 527
-    MENUITEM "Select All with Same &Name (as Configured)", 541
-    MENUITEM "Select All &with Same Name + Extension (as Configured)", 543
-    MENUITEM "Select All in Same &Path (Branch View)", 537
+    MENUITEM "选择所有扩展名相同的（根据配置）(&E)\tAlt+Num +", 527
+    MENUITEM "选择所有名称相同的（根据配置）(&N)", 541
+    MENUITEM "选择所有名称 + 扩展名相同的（根据配置）(&W)", 543
+    MENUITEM "选择同一路径中的全部（展开视图）(&P)", 537
   END_POPUP
-  POPUP "&Deselect All\tCtrl+Num  -"
-    MENUITEM "&Deselect All (as Configured)", 3306
+  POPUP "取消全选(&C)\tCtrl+Num  -"
+    MENUITEM "取消全选（根据配置）(&C)", 3306
     MENUITEM SEPARATOR
-    MENUITEM "&Both Files and Folders\tCtrl+Num  -", 524
-    MENUITEM "&Only Files\tShift+Ctrl+Num  -", 3304
-    MENUITEM "Only &Folders", 3305
+        MENUITEM "文件和文件夹(&B)\tCtrl+Num  -", 524
+        MENUITEM "仅文件(&O)\tShift+Ctrl+Num  -", 3304
+        MENUITEM "仅文件夹(&F)", 3305
     MENUITEM SEPARATOR
-    MENUITEM "Deselect All with Same &Extension\tAlt+Num  -", 528
-    MENUITEM "Deselect All with Same &Name", 542
-    MENUITEM "Deselect All &with Same Name + Extension", 544
-    MENUITEM "Deselect All in Same &Path (Branch View)", 538
-  END_POPUP
-  MENUITEM SEPARATOR
-  POPUP "Save/&Get File Selection"
-    MENUITEM "Save Selection to &Memory", 530
-    MENUITEM "Get Selection from Mem&ory\tNum  /", 529
-    MENUITEM SEPARATOR
-    MENUITEM "&Save Selection to Clipboard", 2018
-    MENUITEM "&Get Selection from Clipboard", 2033
-    MENUITEM SEPARATOR
-    MENUITEM "Save Selection &to File...", 2031
-    MENUITEM "Get Selection &from File...", 2032
-    MENUITEM "Save Selection to File (Force &ANSI)...", 2041
-    MENUITEM "Save Selection to File (Force &Unicode)...", 2042
-    MENUITEM SEPARATOR
-    MENUITEM "Sav&e Selection to the File SELECTEDFILES.txt", em_ext_saveselection
-    MENUITEM "Get Selectio&n from the File SELECTEDFILES.txt", em_ext_loadselection
-    MENUITEM "Save Selection to the File SELECTE&DFILES.txt (Force ANSI)", em_ext_saveselectiona
-    MENUITEM "Save Selection to the File SELECTEDFILES.t&xt (Force Unicode)", em_ext_saveselectionw
-    MENUITEM "Save Selection to the File SELECTEDFILES.txt (Force UTF-&8)", em_ext_copynamestofile
-  END_POPUP
-  POPUP "Source/T&arget Selection"
-    MENUITEM "&Select Elements in Target Side, if Selected in Source Side *", em_ext_select_source
-    MENUITEM "&Deselect Elements in Target Side, if Selected in Source Side *", em_ext_deselect_source
-    MENUITEM "Deselect Elements in &Both Sides, if Selected in Source Side *", em_ext_deselect2_source
-    MENUITEM SEPARATOR
-    MENUITEM "Select &Elements in Source Side, if Selected in Target Side *", em_ext_select_target
-    MENUITEM "Deselect E&lements in Source Side, if Selected in Target Side *", em_ext_deselect_target
-    MENUITEM "Deselect Elements in B&oth Sides, if Selected in Target Side *", em_ext_deselect2_target
-    MENUITEM SEPARATOR
-    MENUITEM "Select All in Both Sides with Same E&xtension as Element Under Cursor", em_ext_select_type
-    MENUITEM "Deselect All in Both Sides with Same Ex&tension as Element Under Cursor", em_ext_deselect_type
-    MENUITEM SEPARATOR
-    MENUITEM "Select All in Both Sides with Same &Name as Element Under Cursor", em_ext_select_name
-    MENUITEM "Deselect All in Both Sides with Same N&ame as Element Under Cursor", em_ext_deselect_name
-    MENUITEM SEPARATOR
-    MENUITEM "Select All in Both Sides &with Same Name + Extension as Element Under Cursor", em_ext_select_nameext
-    MENUITEM "Deselect All in Both Sides wit&h Same Name + Extension as Element Under Cursor", em_ext_deselect_nameext
-    MENUITEM SEPARATOR
-    MENUITEM "Deselect All Ele&ments in Both Sides", em_ext_deselectboth
-    MENUITEM SEPARATOR
-    MENUITEM "NOTE - Hold Shift Down to Exclude Folders From the Operation", em_ext_dummy
-    MENUITEM "* = At Least 1 Element Must be Chosen in Advance", em_ext_dummy
+    MENUITEM "取消选择所有具有相同扩展名的(&E)\tAlt+Num  -", 528
+    MENUITEM "取消选择所有同名的(&N)", 542
+    MENUITEM "取消选择所有同名+扩展名(&C)", 544
+    MENUITEM "取消选择相同路径中的全部（展开视图）(&P)", 538
   END_POPUP
   MENUITEM SEPARATOR
-  MENUITEM "Select File/Folder U&nder Cursor", em_ext_select
-  MENUITEM "Dese&lect File/Folder Under Cursor", em_ext_unselect
-  MENUITEM "In&vert Selection of File/Folder Under Cursor\tSpace", em_ext_reverse
-  MENUITEM "Invert Selection of File/Folder Under Cursor, Go to Next Item\tInsert", 2938
-  MENUITEM "Selec&t a Number of Files/Folders From Current Position...", em_ext_SelectNumber
+  POPUP "保存/获取文件选择(&G)"
+    MENUITEM "将选择保存到内存(&M)", 530
+    MENUITEM "从内存中获取选择(&O)\tNum  /", 529
+    MENUITEM SEPARATOR
+    MENUITEM "将选择保存到剪贴板(&S)", 2018
+    MENUITEM "从剪贴板获取选择(&R)", 2033
+    MENUITEM SEPARATOR
+    MENUITEM "将选择保存到文件(&T)...", 2031
+    MENUITEM "从文件中获取选择(&F)...", 2032
+    MENUITEM "将选择保存到文件（强制 ANSI）(&A)...", 2041
+    MENUITEM "将选择保存到文件（强制 Unicode）(&U)...", 2042
+    MENUITEM SEPARATOR
+    MENUITEM "将选择保存到文件SELECTEDFILES.txt(&E)", em_ext_saveselection
+    MENUITEM "从文件SELECTEDFILES.txt中获取选择(&N)", em_ext_loadselection
+    MENUITEM "将选择保存到文件SELECTEDFILES.txt(强制 ANSI)(&D)", em_ext_saveselectiona
+    MENUITEM "将选择保存到文件SELECTEDFILES.txt(强制 Unicode)(&X)", em_ext_saveselectionw
+    MENUITEM "将选择保存到文件SELECTEDFILES.txt(强制 UTF-8)(&8)", em_ext_copynamestofile
+  END_POPUP
+  POPUP "源/目标选择(&A)"
+    MENUITEM "如果在源面板中被选中，则选中目标面板中的元素(&S) *", em_ext_select_source
+    MENUITEM "如果在源面板中被选中，则取消选择目标面板中的元素(&D) *", em_ext_deselect_source
+    MENUITEM "如果在源面板中被选中，则取消选择两侧面板中的元素(&B) *", em_ext_deselect2_source
+    MENUITEM SEPARATOR
+    MENUITEM "如果在目标面板中被选中，则选中源面板中的元素(&E) *", em_ext_select_target
+    MENUITEM "如果在目标面板中被选中，则取消选择源面板中的元素(&L) *", em_ext_deselect_target
+    MENUITEM "如果在目标面板中被选中，则取消选择两侧面板中的元素(&O) *", em_ext_deselect2_target
+    MENUITEM SEPARATOR
+    MENUITEM "选择两侧面板中所有具有相同扩展名的元素(&X)", em_ext_select_type
+    MENUITEM "取消选择两侧面板中所有具有相同扩展名的元素(&T)", em_ext_deselect_type
+    MENUITEM SEPARATOR
+    MENUITEM "选择两侧面板中所有相同名称的元素(&N)", em_ext_select_name
+    MENUITEM "取消选择两侧面板中所有相同名称的元素(&A)", em_ext_deselect_name
+    MENUITEM SEPARATOR
+    MENUITEM "选择两侧面板中所有相同名称+扩展名的元素(&W)", em_ext_select_nameext
+    MENUITEM "取消选择两侧面板中所有相同名称+扩展名的元素(&H)", em_ext_deselect_nameext
+    MENUITEM SEPARATOR
+    MENUITEM "取消选择两侧面板中的所有元素(&M)", em_ext_deselectboth
+    MENUITEM SEPARATOR
+    MENUITEM "注意 - 按住 Shift 键可以将文件夹从操作中排除", em_ext_dummy
+    MENUITEM "* = 必须提前选择至少1个元素", em_ext_dummy
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "选择光标下的文件/文件夹(&N)", em_ext_select
+  MENUITEM "取消选择光标下的文件/文件夹(&L)", em_ext_unselect
+  MENUITEM "反转光标下文件/文件夹的选择(&T)", em_ext_reverse
+  MENUITEM "反转光标下文件/文件夹的选择，转到下一项\tInsert", 2938
+  MENUITEM "从当前位置选择多个文件/文件夹(&T)...", em_ext_SelectNumber
 END_POPUP
 
-POPUP "Navigat&e"
-  MENUITEM "Go to F&irst File", 2050
-  MENUITEM "Go to Newest File", em_ext_gotonewestfile
-  MENUITEM "Go to Oldest File", em_ext_gotooldestfile
-  MENUITEM "Go to Sm&allest File", em_ext_gotosmallestfile
-  MENUITEM "Go to Largest File", em_ext_gotolargestfile
-  MENUITEM "Go to First Folder or File\tHome", em_ext_GoToFirstEntry
-  MENUITEM "Go to Last Folder or File\tEnd", 2057
-  MENUITEM "Go to Previous Folder or File\tUp", 2056
-  MENUITEM "Go to Next Folder or File\tDown", 2055
-  MENUITEM "Go to Folder or File &With Stated Number...", em_ext_GotoNumber
-  MENUITEM "Go to Pr&evious Selected Folder or File", 2054
-  MENUITEM "Go to &Next Selected Folder or File", 2053
-  MENUITEM "Go to Folder or File with Same Name in Opposite Panel", em_ext_goto_item_opositepanel
-  MENUITEM "Quic&k Search\tCtrl+S", 2915
+POPUP "导航(&E)"
+    MENUITEM "转到第一个文件(F&)", 2050
+    MENUITEM "转到最新的文件", em_ext_gotonewestfile
+    MENUITEM "转到最老的文件", em_ext_gotooldestfile
+    MENUITEM "转到最小的文件(&A)", em_ext_gotosmallestfile
+    MENUITEM "转到最大的文件", em_ext_gotolargestfile
+  MENUITEM "转到第一个文件或文件夹\tHome", em_ext_GoToFirstEntry
+  MENUITEM "转到最后一个文件夹或文件\tEnd", 2057
+  MENUITEM "转到上一个文件夹或文件\tUp", 2056
+  MENUITEM "转到下一个文件夹或文件\tDown", 2055
+  MENUITEM "转到带有指定编号的文件夹或文件(&C)...", em_ext_GotoNumber
+    MENUITEM "转到上一个选定的文件夹或文件(&E)", 2054
+    MENUITEM "转到下一个选定的文件夹或文件(&N)", 2053
+  MENUITEM "转到对面面板中同名的文件夹或文件", em_ext_goto_item_opositepanel
+    MENUITEM "快速搜索(&K)\tCtrl+S", 2915
   MENUITEM SEPARATOR
-  MENUITEM "Directory &Hotlist [ * ] ...\tCtrl+D", 526
-  MENUITEM "Hi&story [ v ] ...\tAlt+Down", 572
-  MENUITEM "History [ v ] - unfiltered...\tShift+Alt+Down", 575
-  MENUITEM "&Go to Previous Directory in History\tAlt+Left", 570
-  MENUITEM "Go to Ne&xt Directory in History\tAlt+Right", 571
-  MENUITEM "Go &to Previous Directory in History, Skip FTP", 573
-  MENUITEM "Go t&o Next Directory in History, Skip FTP", 574
-  MENUITEM "Go to &Parent Directory [ .. ]\tCtrl+PgUp / Backspace", 2002
-  MENUITEM "Go to Root Director&y [ \ ]\tCtrl+ \", 2001
-  MENUITEM "Open Fo&lder/Archive Under Cursor\tCtrl+PgDn", 2003
-  MENUITEM "Go to Newest Folder", em_ext_gotonewestdir
-  MENUITEM "Go to Oldest Folder", em_ext_gotooldestdir
-  MENUITEM "Go to &File Under Cursor (Listbox, Branch View)", em_ext_gotofileundercursor
-  MENUITEM "Go to TC's Progra&m Folder", em_ext_commanderpath
-  MENUITEM "Edit &Current Path", 2912
+    MENUITEM "常用文件夹列表[ * ](&H) ...\tCtrl+D", 526
+    MENUITEM "历史 [ v ] ...(&S)\tAlt+Down", 572
+    MENUITEM "历史 [ v ] - 未过滤...\tShift+Alt+Down", 575
+  MENUITEM "转到历史记录中的上一个目录(&G)\tAlt+Left", 570
+    MENUITEM "转到历史记录中的下一个目录(&X)\tAlt+Right", 571
+  MENUITEM "转到历史记录中的上一个目录，跳过 FTP(&T)", 573
+  MENUITEM "转到历史记录中的下一个目录，跳过 FTP(&O)", 574
+    MENUITEM "转到父目录[ .. ](&P)\tCtrl+PgUp / Backspace", 2002
+    MENUITEM "转到根目录 [ \ ](&Y)\tCtrl+ \", 2001
+    MENUITEM "打开光标下的文件夹/压缩包(&L)\tCtrl+PgDn", 2003
+  MENUITEM "转到最新的文件夹", em_ext_gotonewestdir
+  MENUITEM "转到最老的文件夹", em_ext_gotooldestdir
+    MENUITEM "转到光标下的文件(列表框，展开视图)(&F)", em_ext_gotofileundercursor
+    MENUITEM "转到TC程序目录(&M)", em_ext_commanderpath
+    MENUITEM "编辑当前路径(&C)", 2912
   MENUITEM SEPARATOR
-  MENUITEM "Select &Drive\tAlt+F1 / Alt+F2", 331
-  MENUITEM "Go to Previo&us Drive", 2052
-  MENUITEM "Go to Next Dri&ve", 2051
-  MENUITEM "Go to First Drive", em_ext_drive1
-  MENUITEM "Go to Last Drive", em_ext_lastdrive
-  POPUP "Go to Drive Letter:"
+    MENUITEM "选择驱动器(&D)\tAlt+F1", 331
+    MENUITEM "转到上一个驱动器(&U)", 2052
+    MENUITEM "转到下一个驱动(&V)", 2051
+  MENUITEM "转到第一个驱动器", em_ext_drive1
+  MENUITEM "转到最后一个驱动器", em_ext_lastdrive
+  POPUP "转到驱动器盘符："
     MENUITEM "&A:", 2061
     MENUITEM "&B:", 2062
     MENUITEM "&C:", 2063
@@ -367,7 +367,7 @@ POPUP "Navigat&e"
     MENUITEM "&H:", 2068
     MENUITEM "&Z:", 2086
   END_POPUP
-  POPUP "Go to Drive Number:"
+  POPUP "转到驱动器号："
     MENUITEM "&1", em_ext_drive1
     MENUITEM "&2", em_ext_drive2
     MENUITEM "&3", em_ext_drive3
@@ -378,112 +378,112 @@ POPUP "Navigat&e"
     MENUITEM "&8", em_ext_drive8
     MENUITEM "&9", em_ext_drive9
   END_POPUP
-  MENUITEM "Go to TC's Program D&rive", em_ext_commanderdrive
+  MENUITEM "转到TC程序所在驱动器(&R)", em_ext_commanderdrive
 END_POPUP
 
-POPUP "Foc&us"
-  MENUITEM "&Menu Line\tAlt / F10", 4011
+POPUP "焦点(&U)"
+  MENUITEM "菜单栏(&M)\tAlt / F10", 4011
   MENUITEM SEPARATOR
-  MENUITEM "&Button Bar\tShift+Alt+F11", 4004
-  MENUITEM "Button Bar &2 (Vertical)\tShift+Alt+F12", 4012
+    MENUITEM "工具栏(&B)\tShift+Alt+F11", 4004
+  MENUITEM "工具栏 &2 (垂直)\tShift+Alt+F12", 4012
   MENUITEM SEPARATOR
-  MENUITEM "&Drive Selection Box - Active Side", 331
-  MENUITEM "Drive Selection B&ox - Left Side\tAlt+F1", 131
-  MENUITEM "Drive Selection Bo&x - Right Side\tAlt+F2", 231
+  MENUITEM "驱动器列表框 - 活动侧(&D)", 331
+  MENUITEM "驱动器列表框 - 左侧(&O)\tAlt+F1", 131
+  MENUITEM "驱动器列表框 - 右侧(&X)\tAlt+F2", 231
   MENUITEM SEPARATOR
-  MENUITEM "Path Field (Breadcrumb Bar) - &Active side", 332
-  MENUITEM "&Path Field - Left/Top\tAlt+F11", 132
-  MENUITEM "Path &Field - Right/Bottom\tAlt+F12", 232
+    MENUITEM "路径栏(路径导航栏)(&A)", 332
+    MENUITEM "路径栏 - 左/上(&P)\tAlt+F11", 132
+    MENUITEM "路径栏 - 右/下(&F)\tAlt+F12", 232
   MENUITEM SEPARATOR
-  MENUITEM "File Panel - &Left/Top", 4001
-  MENUITEM "File Panel - &Right/Bottom", 4002
-  MENUITEM "Fil&e Panel - Source Side", 4005
-  MENUITEM "File Panel - &Target Side\tTab / Ctrl+I", 4006
+    MENUITEM "文件面板 - 左/上(&L)", 4001
+    MENUITEM "文件面板 - 右/下(&R)", 4002
+  MENUITEM "文件面板 - 来源侧(&E)", 4005
+  MENUITEM "文件面板 - 目标侧(&T)\tTab / Ctrl+I", 4006
   MENUITEM SEPARATOR
-  MENUITEM "Separate Tree &View - Left/Top", 4007
-  MENUITEM "Separate Tree Vie&w - Right/Bottom", 4008
-  MENUITEM "Separate Tree View - &Source side\tShift+Tab", 4009
-  MENUITEM "Separate Tree View - Target S&ide", 4010
+  MENUITEM "独立树视图 - 左/上(&V)", 4007
+  MENUITEM "独立树视图 - 右/下(&W)", 4008
+  MENUITEM "独立树视图 - 来源侧(&S)\tShift+Tab", 4009
+  MENUITEM "独立树视图 - 目标侧(&I)", 4010
   MENUITEM SEPARATOR
-  MENUITEM "&Command Line\tShift+Right", 4003
+  MENUITEM "命令行(&C)\tShift+Right", 4003
 END_POPUP
 
-POPUP "&View"
-  MENUITEM "&Brief View\tCtrl+F1", 301
-  MENUITEM "&Full View\tCtrl+F2", 302
-  MENUITEM "T&humbnail View\tShift+Ctrl+F1", 269
-  MENUITEM "F&ile Comments\tShift+Ctrl+F2", 300
+POPUP "视图(&V)"
+  MENUITEM "列表视图(&B)\tCtrl+F1", 301
+  MENUITEM "详细资料(&F)\tCtrl+F2", 302
+  MENUITEM "缩略图(&H)\tShift+Ctrl+F1", 269
+  MENUITEM "文件备注(&I)\tShift+Ctrl+F2", 300
   MENUITEM SEPARATOR
-  MENUITEM "Cust&om Columns\tShift+F1", 270
-  MENUITEM "    Previous", 5502
-  MENUITEM "    Next", 5501
-  MENUITEM "Custom View Modes", 333
-  MENUITEM "    Auto Switch Mode", 2947
+  MENUITEM "自定义列(&O)\tShift+F1", 270
+  MENUITEM "    上一个", 5502
+  MENUITEM "    下一个", 5501
+  MENUITEM "自定义视图模式", 333
+  MENUITEM "    自动切换模式", 2947
   MENUITEM SEPARATOR
-  MENUITEM "&Tree View\tCtrl+F8", 303
-  POPUP "S&eparate Tree View"
-    MENUITEM "&0 (None)", 3200
-    MENUITEM "&1 (One for Both Panels)", 3201
-    MENUITEM "&2 (One for Each Panel)", 3202
-    MENUITEM "&Next\tShift+Ctrl+F8", 3203
+  MENUITEM "树视图(&T)\tCtrl+F8", 303
+  POPUP "独立树视图(&E)\"
+    MENUITEM "&0 (无)", 3200
+    MENUITEM "&1 (一个树用于两个面板)", 3201
+    MENUITEM "&2 (每个面板单独的树)", 3202
+    MENUITEM "下一个(&N)\tShift+Ctrl+F8", 3203
     MENUITEM SEPARATOR
-    MENUITEM "&One Tree View On/Off", 3204
-    MENUITEM "&Two Tree Views On/Off", 3205
+    MENUITEM "单个树视图 开/关(&O)", 3204
+    MENUITEM "两个树视图 开/关(&T)", 3205
   END_POPUP
-  MENUITEM "    Next\tShift+Ctrl+F8", 3203
+  MENUITEM "    下一个\tShift+Ctrl+F8", 3203
   MENUITEM SEPARATOR
-  MENUITEM "&Quick View\tCtrl+Q", 304
-  MENUITEM "Quick View (Without Plu&gins)", 306
-  MENUITEM "Quick View in Separate Window\tShift+Ctrl+Q", 2941
-  MENUITEM "Quick View in Separate Window (Without Plugins)", 2942
+    MENUITEM "快速查看(&Q)\tCtrl+Q", 304
+    MENUITEM "快速查看(不使用插件)(&G)", 306
+  MENUITEM "在独立窗口中显示快速查看\tShift+Ctrl+Q", 2941
+  MENUITEM "在独立窗口中显示快速查看 (不使用插件)", 2942
   MENUITEM SEPARATOR
-  MENUITEM "Branch Vie&w\tCtrl+B", 2026
-  MENUITEM "Branch View (Only Selected)\tShift+Ctrl+B", 2046
+    MENUITEM "展开所有文件夹(&W)\tCtrl+B", 2026
+    MENUITEM "只展开选定的文件夹\tShift+Ctrl+B", 2046
   MENUITEM SEPARATOR
-  MENUITEM "&Vertical Alignment", 305
+    MENUITEM "垂直对齐(&V)", 305
   MENUITEM SEPARATOR
-  MENUITEM "Sort by &Name\tCtrl+F3", 321
-  MENUITEM "Sort by E&xtension\tCtrl+F4", 322
-  MENUITEM "Sort by Ti&me\tCtrl+F5", 324
-  MENUITEM "Sort by &Size\tCtrl+F6", 323
-  MENUITEM "&Unsorted\tCtrl+F7", 325
-  MENUITEM "&Reverse Order", 330
-  POPUP "Sort b&y Column"
-    MENUITEM "Sort by &3rd Column", 6003
-    MENUITEM "Sort by &4th Column", 6004
-    MENUITEM "Sort by &5th Column", 6005
-    MENUITEM "Sort by &6th Column", 6006
-    MENUITEM "Sort by &7th Column", 6007
-    MENUITEM "Sort by &8th Column", 6008
-    MENUITEM "Sort by &9th Column", 6009
+    MENUITEM "按文件名排序(&N)\tCtrl+F3", 321
+    MENUITEM "按扩展名排序(&X)\tCtrl+F4", 322
+    MENUITEM "按日期时间排序(&M)\tCtrl+F5", 324
+    MENUITEM "按大小排序(&S)\tCtrl+F6", 323
+    MENUITEM "不排序(&U)\tCtrl+F7", 325
+    MENUITEM "反向排序(&R)", 330
+    POPUP "按列排序(&Y)"
+        MENUITEM "按第 &3 列排序", 6003
+        MENUITEM "按第 &4 列排序", 6004
+        MENUITEM "按第 &5 列排序", 6005
+        MENUITEM "按第 &6 列排序", 6006
+        MENUITEM "按第 &7 列排序", 6007
+        MENUITEM "按第 &8 列排序", 6008
+        MENUITEM "按第 &9 列排序", 6009
   END_POPUP
   MENUITEM SEPARATOR
-  MENUITEM "&All Files\tCtrl+F10", 312
-  MENUITEM "&Programs\tCtrl+F11", 311
-  MENUITEM "&Custom...\tCtrl+F12", 314
+    MENUITEM "所有文件(&A)\tCtrl+F10", 312
+    MENUITEM "程序(&P)\tCtrl+F11", 311
+    MENUITEM "自定义(&C)...\tCtrl+F12", 314
   MENUITEM "*.*", 313
-  MENUITEM "Only Se&lected Files", 2023
+    MENUITEM "仅选定的文件(&l)", 2023
   MENUITEM SEPARATOR
-  MENUITEM "Select &Drive\tAlt+F1 / F2", 331
+    MENUITEM "选择驱动器(&D)\tAlt+F1 / F2", 331
 END_POPUP
 
-POPUP "&Commands"
-  MENUITEM "Directory &Tree...\tAlt+F10", 500
-  MENUITEM "Set &Volume Label...", 505
-  MENUITEM "System &Information...", 506
-  MENUITEM "Background Transfer &Manager...", 559
-  MENUITEM "&Choose Internal Command...", 2924
-  POPUP "&Unload Plugins From Memory"
-    MENUITEM "&All Plugins", 2913
-    MENUITEM "&Lister Plugins", em_ext_UnloadPlugins4
-    MENUITEM "&Content Plugins", em_ext_UnloadPlugins8
-    MENUITEM "&File System Plugins", em_ext_UnloadPlugins2
-    MENUITEM "&Packer Plugins", em_ext_UnloadPlugins1
-    MENUITEM "&External Quick Search", em_ext_UnloadPlugins16
+POPUP "命令(&C)"
+    MENUITEM "目录树(&T)...\tAlt+F10", 500
+  MENUITEM "设置卷标(&V)...", 505
+  MENUITEM "系统信息(&I)...", 506
+  MENUITEM "后台传输管理器(&M)...", 559
+  MENUITEM "选择内部命令(&C)...", 2924
+  POPUP "卸载内存中的插件(&U)"
+    MENUITEM "所有插件(&A)", 2913
+    MENUITEM "查看器插件(&L)", em_ext_UnloadPlugins4
+    MENUITEM "内容插件(&C)", em_ext_UnloadPlugins8
+    MENUITEM "文件系统插件(&F)", em_ext_UnloadPlugins2
+    MENUITEM "压缩插件(&P)", em_ext_UnloadPlugins1
+    MENUITEM "外部快速搜索(&E)", em_ext_UnloadPlugins16
   END_POPUP
-  MENUITEM "&Watch Directory Changes", 2921
-  MENUITEM "Ignore &Files on List", 2922
-;  MENUITEM "Don't Redirect system&32 Folder", 2925
+  MENUITEM "监视目录变动(&W)", 2921
+  MENUITEM "忽略列表中的文件(&F)", 2922
+;  MENUITEM "不要重定向 system&32 文件夹", 2925
   MENUITEM SEPARATOR
   MENUITEM "Source &<-> Target\tCtrl+U", 531
   MENUITEM "Source <-&> Target (Including Tabs)\tShift+Ctrl+U", 535
