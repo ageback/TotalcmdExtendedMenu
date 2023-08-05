@@ -591,58 +591,58 @@ POPUP "查看器"
   MENUITEM "配置查看器(&G)...", 3036
 END_POPUP
 
-POPUP "T&abs"
-  MENUITEM "New &Folder Tab\tCtrl+T", 3001
-  MENUITEM "New Folder Tab in &Background\tShift+Ctrl+T", 3002
+POPUP "标签(&A)"
+  MENUITEM "新建文件夹标签(&F)\tCtrl+T", 3001
+  MENUITEM "在后台新建文件夹标签(&B)\tShift+Ctrl+T", 3002
   MENUITEM SEPARATOR
-  MENUITEM "Copy Folder Tab to Oppos&ite Panel", 3027
-  MENUITEM "Cop&y Folder Tab to Opposite Panel in Background", 3028
+  MENUITEM "复制文件夹标签到对面面板(&I)", 3027
+  MENUITEM "在后台复制文件夹标签到对面面板(&Y)", 3028
   MENUITEM SEPARATOR
-  MENUITEM "&Directory Under Cursor in New Tab\tCtrl+Up", 3003
-  MENUITEM "Dir&ectory Under Cursor in New Tab in Opposite Panel\tShift+Ctrl+Up", 3004
+  MENUITEM "新建标签打开光标下的目录(&D)\tCtrl+Up", 3003
+  MENUITEM "在对面面板新建标签打开光标下的目录(&E)\tShift+Ctrl+Up", 3004
   MENUITEM SEPARATOR
-  MENUITEM "Mo&ve Current Folder Tab to Opposite Panel", em_ext_movetab
-  MENUITEM "Move Current Folder Tab One Position to the Left", 3015
-  MENUITEM "Move Current Folder Tab One Position to the Right", 3016
+  MENUITEM "移动当前文件夹标签到对面面板(&V)", em_ext_movetab
+  MENUITEM "将当前文件夹标签向左移动一个位置", 3015
+  MENUITEM "将当前文件夹标签向右移动一个位置", 3016
   MENUITEM SEPARATOR
-  POPUP "Load Folder Tabs from File (Under Cursor), &Keep Current\tEnter"
-    MENUITEM "Open Active Tabs in &Active side\tEnter", em_ext_appendtabs
-    MENUITEM "Open Active Tabs in &Left Side", em_ext_appendtabsl
-    MENUITEM "Open Active Tabs in &Right Side", em_ext_appendtabsr
+  POPUP "从光标下的文件加载文件夹标签，保留当前的(&K)\tEnter"
+    MENUITEM "在活动侧打开活动标签(&A)\tEnter", em_ext_appendtabs
+    MENUITEM "在左侧打开活动标签(&L)", em_ext_appendtabsl
+    MENUITEM "在右侧打开活动标签(&R)", em_ext_appendtabsr
   END_POPUP
-  POPUP "Load Folder Tabs from File (&Under Cursor), Replace Tabs\tShift+Enter"
-    MENUITEM "Open Active Tabs in &Active side\tShift+Enter", em_ext_opentabs
-    MENUITEM "Open Active Tabs in &Left side", em_ext_opentabsl
-    MENUITEM "Open Active Tabs in &Right Side", em_ext_opentabsr
+  POPUP "从光标下的文件加载文件夹标签，替换当前的(&U)\tShift+Enter"
+    MENUITEM "在活动侧打开活动标签(&A)\tShift+Enter", em_ext_opentabs
+    MENUITEM "在左侧打开活动标签(&L)", em_ext_opentabsl
+    MENUITEM "在右侧打开活动标签(&R)", em_ext_opentabsr
   END_POPUP
-  POPUP "&Save Folder Tabs in File"
-    MENUITEM "From &Active Side...", em_ext_savetabs
-    MENUITEM "From &Left Side...", em_ext_savetabsl
-    MENUITEM "From &Right Side...", em_ext_savetabsr
+  POPUP "将文件夹标签保存在文件中(&S)
+    MENUITEM "从活动侧(&A)...", em_ext_savetabs
+    MENUITEM "从左侧(&L)...", em_ext_savetabsl
+    MENUITEM "从右侧(&R)...", em_ext_savetabsr
     MENUITEM SEPARATOR
-    MENUITEM "From Both Sides (A&ctive First)...", em_ext_savetabs2
-    MENUITEM "From Both Sides (L&eft First)...", em_ext_savetabs2l
-    MENUITEM "From Both Sides (R&ight First)...", em_ext_savetabs2r
+    MENUITEM "从两侧 (先活动侧&C)...", em_ext_savetabs2
+    MENUITEM "从两侧 (先左侧&E)...", em_ext_savetabs2l
+    MENUITEM "从两侧 (先右侧&I)...", em_ext_savetabs2r
   END_POPUP
   MENUITEM SEPARATOR
-  MENUITEM "&Close Folder Tab\tCtrl+W", 3007
-  MENUITEM "Close &All Folder Tabs\tShift+Ctrl+W", 3008
-  MENUITEM "Close Duplicate Folder Tabs", 3017
-  MENUITEM "Close All Folder Tabs - Without Confirmation", em_ext_closeAllTabs
+    MENUITEM "关闭文件夹标签(&C)\tCtrl+W", 3007
+    MENUITEM "关闭所有文件夹标签(&A)\tShift+Ctrl+W", 3008
+  MENUITEM "关闭重复的文件夹标签", 3017
+  MENUITEM "关闭所有文件夹标签" - 不确认, em_ext_closeAllTabs
   MENUITEM SEPARATOR
-  MENUITEM "Rename/Lock Active Folder Tab", 3024
-  MENUITEM "&Lock Active Folder Tab", 3010
-  MENUITEM "Lock Active Folder Tab, but Allow Directory C&hanges", 3012
-  MENUITEM "&Return to Base Directory for Locked Folder Tab", 3011
-  MENUITEM "Lock All Folder Tabs", 3033
-  MENUITEM "Lock All Folder Tabs, but Allow Directory Chan&ges", 3034
-  MENUITEM "Unlock All Folder Tabs", 3032
+  MENUITEM "重命名/锁定活动的文件夹标签", 3024
+    MENUITEM "锁定活动的文件夹标签(&L)", 3010
+    MENUITEM "锁定活动的文件夹标签，但是允许改变目录(&H)", 73012
+    MENUITEM "转到锁定文件夹标签的根目录(&R)", 3011
+  MENUITEM "锁定所有文件夹标签", 3033
+  MENUITEM "锁定所有文件夹标签，但是允许改变目录(&G)", 3034
+  MENUITEM "解锁所有文件夹标签", 3032
   MENUITEM SEPARATOR
-  MENUITEM "Source <-&> Target (Including Tabs)\tShift+Ctrl+U", 535
+    MENUITEM "交换左右窗口及其标签(&>)\tShift+Ctrl+U", 535
   MENUITEM SEPARATOR
-  MENUITEM "Switch to &Next Folder Tab\tCtrl+Tab", 3005
-  MENUITEM "Switch to &Previous Folder Tab\tShift+Ctrl+Tab", 3006
-  POPUP "Switch to Folder Tab Number:"
+  MENUITEM "切换到下一个文件夹标签(&N)\tCtrl+Tab", 3005
+  MENUITEM "切换到上一个文件夹标签(&P)\tShift+Ctrl+Tab", 3006
+  POPUP "切换到文件夹标签编号："
     MENUITEM "&1", 5001
     MENUITEM "&2", 5002
     MENUITEM "&3", 5003
@@ -653,52 +653,52 @@ POPUP "T&abs"
     MENUITEM "&8", 5008
     MENUITEM "&9", 5009
   END_POPUP
-  MENUITEM "S&witch to Last Folder Tab", em_ext_goToLastTab
+  MENUITEM "切换到最后一个文件夹标签(&W)", em_ext_goToLastTab
   MENUITEM SEPARATOR
-  MENUITEM "Show List With All Active Folder Tabs\tCtrl+Shift+A", 5515
-  MENUITEM "Folder Tab &Menu...", 3009
-  MENUITEM "Show Folder &Tabs", 2916
-  MENUITEM "C&onfigure Folder Tabs...", 488
+  MENUITEM "在列表中显示所有活动的文件夹标签\tCtrl+Shift+A", 5515
+    MENUITEM "文件夹标签菜单(&M)...", 3009
+    MENUITEM "显示文件夹标签(&T)", 2916
+    MENUITEM "配置文件夹标签(&O)...", 488
 END_POPUP
 
 POPUP "F&TP"
-  MENUITEM "&Connect to Server...\tCtrl+F", 550
-  MENUITEM "&Disconnect from Server\tShift+Ctrl+F", 552
-  MENUITEM "&New Connection...\tCtrl+N", 551
-  MENUITEM "&Abort FTP Command", 554
+    MENUITEM "连接到服务器(&C)...\tCtrl+F", 550
+    MENUITEM "断开连接(&D)\tShift+Ctrl+F", 552
+    MENUITEM "新建连接(&N)...\tCtrl+N", 551
+    MENUITEM "中止当前 FTP 命令(&A)", 554
   MENUITEM SEPARATOR
-  MENUITEM "&Resume Download...", 555
-  MENUITEM "Add to Download &List...", 557
-  MENUITEM "Download &From List", 558
-  MENUITEM "&Background transfer manager...", 559
+    MENUITEM "续传下载(&R)...", 555
+    MENUITEM "添加到下载列表(&L)...", 557
+    MENUITEM "按列表下载(&F)", 558
+    MENUITEM "后台传输管理器(&B)...", 559
   MENUITEM SEPARATOR
-  MENUITEM "&Show Hidden Files", 553
-  MENUITEM "Select &Transfer Mode\tShift+Ctrl+M", 556
+    MENUITEM "显示隐藏文件(&S)", 553
+    MENUITEM "选择传输模式(&T)\tShift+Ctrl+M", 556
   MENUITEM SEPARATOR
-  MENUITEM "&PORT Connection to Other PC...", 2300
-  MENUITEM "&USB Cable Connection - Server (Separate)...", em_ext_USBcable
-  MENUITEM "LPT1 Cabl&e Connection - Server (Separate)...", em_ext_LPTcable
-  MENUITEM "&Install PORT Driver (Windows NT)...", 2301
-  MENUITEM "Re&move PORT Driver (Windows NT)...", 2302
+  MENUITEM "&PORT 连接至其他 PC...", 2300
+    MENUITEM "USB 电缆连接 - 服务器(单独)(&U)...", em_ext_USBcable
+    MENUITEM "LPT1 电缆连接 - 服务器(单独)(&E)...", em_ext_LPTcable
+  MENUITEM "安装PORT驱动程序 (Windows NT)(&I)...", 2301
+  MENUITEM "卸载PORT驱动程序 (Windows NT)(&M)...", 2302
   MENUITEM SEPARATOR
-  MENUITEM "C&onfigure FTP...", 489
+    MENUITEM "配置 FTP(&O)...", 489
 END_POPUP
 
-POPUP "&Net"
-  MENUITEM "Show Network &Connections", 2125
-  MENUITEM "Map &Network Drive...", 512
-  MENUITEM "&Disconnect Network Drives...", 513
-  MENUITEM "&Share Current Directory...", 514
-  MENUITEM "&Unshare Directory...", 515
+POPUP "网络(&N)"
+    MENUITEM "显示网络连接(&C)", 2125
+    MENUITEM "映射网络驱动器(&N)...", 512
+    MENUITEM "断开网络驱动器(&D)...", 513
+    MENUITEM "共享当前文件夹(&S)...", 514
+    MENUITEM "取消文件夹共享(&U)...", 515
   MENUITEM SEPARATOR
-  MENUITEM "Show &Admin Shares on Network", 2204
-  MENUITEM "&Which Network User has Opened Local File...", 2203
-  MENUITEM "&Open Program as Different Active Local User...", 2800
+  MENUITEM "在网络上显示管理共享(&A)", 2204
+  MENUITEM "哪个网络用户打开了本地文件(&W)...", 2203
+  MENUITEM "用不同的活动本地用户打开程序(&O)...", 2800
   MENUITEM SEPARATOR
-  POPUP "N&TFS  (Only Windows XP and Earlier)"
-    MENUITEM "&Permissions...", 2200
-    MENUITEM "&File Auditing...", 2201
-    MENUITEM "&Take Ownership...", 2202
+  POPUP "N&TFS  (仅 Windows XP 和更早版本)"
+    MENUITEM "权限(&P)...", 2200
+    MENUITEM "审核文件(&F)...", 2201
+    MENUITEM "获取所有权(&T)...", 2202
   END_POPUP
 END_POPUP
 
@@ -809,366 +809,366 @@ POPUP "首选项(&P)"
     MENUITEM "* = if installed", em_ext_dummy
   END_POPUP
   MENUITEM SEPARATOR
-  MENUITEM "Layout...", 476
-  MENUITEM "Display...", 486
-  MENUITEM "    Icons...", 477
-  MENUITEM "    Fo&nt...", 492
-  MENUITEM "    Colo&r...", 494
-  MENUITEM "    T&abstops/Data Formats...", 497
-  MENUITEM "    &Folder Tabs...", 488
-  MENUITEM "    C&ustom Columns...", 483
-  MENUITEM "        Configure current...", 2920
-  MENUITEM "    View Modes...", 2939
-  MENUITEM "        Auto Switch Mode...", 2940
-  MENUITEM "    Lan&guage...", 499
-  MENUITEM "Op&eration...", 516
-  MENUITEM "    Edit/Vie&w...", 496
-  MENUITEM "    Cop&y/Delete...", 487
-  MENUITEM "    Refresh...", 478
-  MENUITEM "    &Quick Search...", 479
-  MENUITEM "    F&TP...", 489
-  MENUITEM "    &Plugins...", 484
-  MENUITEM "    T&humbnails...", 482
-  MENUITEM "    Log File...", 481
-  MENUITEM "    &Ignore List...", 480
-  MENUITEM "    History...", 475
-  MENUITEM "Pac&ker...", 491
-  MENUITEM "    &Zip Packer...", 485
-  MENUITEM "&Misc...", 495
+  MENUITEM "布局...", 476
+    MENUITEM "显示...", 486
+    MENUITEM "    图标...", 477
+    MENUITEM "    字体(&N)...", 492
+    MENUITEM "    颜色(&R)...", 494
+    MENUITEM "    制表符(&A)...", 497
+    MENUITEM "    文件夹标签(&F)...", 488
+    MENUITEM "    自定义列(&U)...", 483
+    MENUITEM "        设置当前自定义列...", 2920
+    MENUITEM "    视图模式...", 2939
+    MENUITEM "        自动切换模式...", 2940
+    MENUITEM "    语言(&g)...", 499
+    MENUITEM "操作(&E)...", 516
+    MENUITEM "    编辑/查看(&W)...", 496
+    MENUITEM "    复制/删除(&Y)...", 487
+    MENUITEM "    刷新...", 478
+    MENUITEM "    快速搜索(&Q)...", 479
+    MENUITEM "    FTP(&T)...", 489
+    MENUITEM "    插件(&P)...", 484
+    MENUITEM "    缩略图(&H)...", 482
+    MENUITEM "    日志文件...", 481
+  MENUITEM "    忽略列表(&I)...", 480
+  MENUITEM "    历史...", 475
+    MENUITEM "压缩程序(&K)...", 491
+    MENUITEM "    Zip 压缩程序(&Z)...", 485
+    MENUITEM "其他(&M)...", 495
 END_POPUP
 
-POPUP "F&olders"
-  POPUP "&Virtual"
-    MENUITEM "&Quick Access", em_ext_quickaccess
-    MENUITEM "&Desktop", 2121
-    MENUITEM "&Libraries", em_ext_libraries
-    MENUITEM "&HomeGroup", em_ext_otherusers
-    MENUITEM "U&ser Files", em_ext_userfiles
-    MENUITEM "Public Files", em_ext_publicfiles
-    MENUITEM "My Doc&uments", em_ext_documents
-    MENUITEM "Downloads", em_ext_downloads
-    MENUITEM "This P&C", 2122
-    MENUITEM "&Network", 2125
-    MENUITEM "Networ&k (Workgroup)", em_ext_network_workgroup
+POPUP "文件夹(&O)"
+  POPUP "虚拟文件夹(&V)"
+    MENUITEM "快速访问(&Q)", em_ext_quickaccess
+    MENUITEM "桌面(&D)", 2121
+    MENUITEM "库(&L)", em_ext_libraries
+    MENUITEM "家庭组(&H)", em_ext_otherusers
+    MENUITEM "用户文件(&S)", em_ext_userfiles
+    MENUITEM "公共文件", em_ext_publicfiles
+    MENUITEM "我的文档(&U)", em_ext_documents
+    MENUITEM "下载", em_ext_downloads
+    MENUITEM "此电脑(&C)", 2122
+    MENUITEM "网络(&N)", 2125
+    MENUITEM "网络 (工作组)(&K)", em_ext_network_workgroup
     MENUITEM "OneDrive", em_ext_onedrivefolder
-    MENUITEM "Con&trol Panel (Categories)", em_ext_controlpanelhome
-    MENUITEM "Recycle &Bin", 2127
+    MENUITEM "控制面板(类别)(&t)", em_ext_controlpanelhome
+    MENUITEM "回收站(&B)", 2127
     MENUITEM SEPARATOR
-    MENUITEM "Control Pan&el", 2123
-    MENUITEM "&Administrative Tools", em_ext_administration
-    MENUITEM "De&vices and Printers", em_ext_devicesandprinters
-    MENUITEM "&Fonts", 2124
-    MENUITEM "Net&work Connections", em_ext_network_connections
-    MENUITEM "&Printers", 2126
-    MENUITEM "Progra&ms and Features", em_ext_programsandfeatures
-    MENUITEM "All Tasks (God Mode)", em_ext_allsettings
+    MENUITEM "控制面板(&e)", 2123
+    MENUITEM "管理工具(&A)", em_ext_administration
+    MENUITEM "设备和打印机(&v)", em_ext_devicesandprinters
+    MENUITEM "字体(&F)", 2124
+    MENUITEM "网络连接(&k)", em_ext_network_connections
+    MENUITEM "打印机(&P)", 2126
+    MENUITEM "程序和功能(&M)", em_ext_programsandfeatures
+    MENUITEM "所有任务(上帝模式)", em_ext_allsettings
     MENUITEM SEPARATOR
-    MENUITEM "&Offline Files", em_ext_cscfolder
-    MENUITEM "Sea&rches", em_ext_searches
-    MENUITEM "L&inks", em_ext_links
-    MENUITEM "&Games", em_ext_gamefolder
+    MENUITEM "离线文件(&O)", em_ext_cscfolder
+    MENUITEM "搜索(&R)", em_ext_searches
+    MENUITEM "链接(&I)", em_ext_links
+    MENUITEM "游戏(G)", em_ext_gamefolder
   END_POPUP
-  POPUP "&System"
-    MENUITEM "T&emporary Files (TEMP)", em_ext_temp
+  POPUP "系统(&S)"
+    MENUITEM "临时文件夹(TEMP)(&E)", em_ext_temp
     MENUITEM "&Windows", em_ext_systemroot
     MENUITEM SEPARATOR
-    MENUITEM "P&rogram Files (64bit)", em_ext_programfiles
-    MENUITEM "Common Pr&ogram Files (64bit)", em_ext_commonprogramfiles
-    MENUITEM "&System32 (64bit)", em_ext_system32
+        MENUITEM "P&rogram Files (64位)", em_ext_programfiles
+        MENUITEM "通用 Pr&ogram Files (64位)", em_ext_commonprogramfiles
+    MENUITEM "&System32 (64位)", em_ext_system32
     MENUITEM SEPARATOR
-    MENUITEM "Pro&gram Files (32bit)", em_ext_programfilesx86
-    MENUITEM "Common Progr&am Files (32bit)", em_ext_commonprogramfilesx86
-    MENUITEM "S&ystem32 (32bit)", em_ext_system32x86
+    MENUITEM "Pro&gram Files (32位)", em_ext_programfilesx86
+    MENUITEM "通用 Progr&am Files (32bit)", em_ext_commonprogramfilesx86
+    MENUITEM "S&ystem32 (32位)", em_ext_system32x86
     MENUITEM SEPARATOR
-    MENUITEM "&Fonts (Physical)", em_ext_fontfiles
+    MENUITEM "字体 (物理)(&F)", em_ext_fontfiles
   END_POPUP
-  POPUP "&Personal"
-    MENUITEM "User Pr&ofile", em_ext_userprofile
-    MENUITEM "&Desktop", em_ext_mydesktop
-    MENUITEM "Doc&uments", em_ext_mydocuments
-    MENUITEM "Li&braries", em_ext_mylibraries
-    MENUITEM "&Pictures", em_ext_mypictures
-    MENUITEM "&Music", em_ext_mymusic
-    MENUITEM "&Videos", em_ext_myvideo
-    MENUITEM "Do&wnloads", em_ext_mydownloads
-    MENUITEM "&Contacts", em_ext_mycontacts
-    MENUITEM "L&inks", em_ext_mylinks
-    MENUITEM "&Favorites", em_ext_myfavorites
-    MENUITEM "R&ecent", em_ext_myrecent
-    MENUITEM "Searc&hes", em_ext_mysavedsearches
+  POPUP "个人(&P)"
+    MENUITEM "用户配置文件夹(&O)", em_ext_userprofile
+    MENUITEM "桌面(&D)", em_ext_mydesktop
+    MENUITEM "文档(&U)", em_ext_mydocuments
+    MENUITEM "库(&b)", em_ext_mylibraries
+    MENUITEM "照片(&P)", em_ext_mypictures
+    MENUITEM "音乐(XP)(&M)", em_ext_mymusic
+    MENUITEM "视频(XP)(&V)", em_ext_myvideo
+    MENUITEM "下载(&W)", em_ext_mydownloads
+    MENUITEM "联系人(&C)", em_ext_mycontacts
+    MENUITEM "链接(&I)", em_ext_mylinks
+    MENUITEM "收藏夹(&F)", em_ext_myfavorites
+    MENUITEM "最近访问(&E)", em_ext_myrecent
+    MENUITEM "搜索(&H)", em_ext_mysavedsearches
     MENUITEM "O&neDrive", em_ext_myonedrive
-    MENUITEM "&Application Data", em_ext_appdata
-    MENUITEM "Application Data (&Local)", em_ext_local_appdata
+        MENUITEM "应用程序数据(&A)", em_ext_appdata
+        MENUITEM "应用程序数据（本地）(&L)", em_ext_local_appdata
     MENUITEM SEPARATOR
-    MENUITEM "&Start Menu", em_ext_startmenu
-    MENUITEM "    P&rograms", em_ext_programs
-    MENUITEM "        S&tartup", em_ext_startup
-    MENUITEM "&Quick Launch", em_ext_quicklaunch
+    MENUITEM "开始菜单(&S)", em_ext_startmenu
+    MENUITEM "    程序(&R)", em_ext_programs
+    MENUITEM "        启动(&T)", em_ext_startup
+    MENUITEM "快速启动(&Q)", em_ext_quicklaunch
   END_POPUP
-  POPUP "&Common"
-    MENUITEM "User Pr&ofile", em_ext_public
-    MENUITEM "&Desktop", em_ext_common_desktopdirectory
-    MENUITEM "Shared Doc&uments", em_ext_common_documents
-    MENUITEM "Shared &Pictures", em_ext_common_pictures
-    MENUITEM "&Application Data", em_ext_common_appdata
+  POPUP "通用(&C)"
+    MENUITEM "用户配置文件夹(&o)", em_ext_public
+    MENUITEM "桌面(&D)", em_ext_common_desktopdirectory
+    MENUITEM "共享文档(&U)", em_ext_common_documents
+    MENUITEM "共享照片(&P)", em_ext_common_pictures
+    MENUITEM "应用程序数据(&A)", em_ext_common_appdata
     MENUITEM SEPARATOR
-    MENUITEM "&Start Menu", em_ext_common_startmenu
-    MENUITEM "    P&rograms", em_ext_common_programs
-    MENUITEM "        S&tartup", em_ext_common_startup
+    MENUITEM "开始菜单(&S)", em_ext_common_startmenu
+    MENUITEM "    程序(&R)", em_ext_common_programs
+    MENUITEM "        启动(&T)", em_ext_common_startup
   END_POPUP
   POPUP "&Total Commander"
-    MENUITEM "&Program", em_ext_commanderpath
-    MENUITEM "&Configuration", em_ext_commandercfg
-    MENUITEM "&Data", em_ext_commanderdata
-    MENUITEM "Data (&Local)", em_ext_commanderlocaldata
+    MENUITEM "程序(&P)", em_ext_commanderpath
+    MENUITEM "配置(&C)", em_ext_commandercfg
+    MENUITEM "数据(&D)", em_ext_commanderdata
+    MENUITEM "数据(本地)(&L)", em_ext_commanderlocaldata
   END_POPUP
 END_POPUP
 
 STARTMENU
 
 POPUP "Windows &10"
-  POPUP "Windows &Administrative Tools"
-    MENUITEM "Component Services", em_ext_comexp
-    MENUITEM "Computer Management", em_ext_compmgmt
-    MENUITEM "Defragment and Optimize Drives", em_ext_dfrgui
-    MENUITEM "Disk Cleanup", em_ext_cleanmgr
-    MENUITEM "Event Viewer", em_ext_eventvwrb
+  POPUP "管理工具(&A)"
+    MENUITEM "组件服务", em_ext_comexp
+    MENUITEM "计算机管理", em_ext_compmgmt
+    MENUITEM "碎片整理和优化驱动器", em_ext_dfrgui
+    MENUITEM "磁盘清理", em_ext_cleanmgr
+    MENUITEM "事件查看器", em_ext_eventvwrb
     MENUITEM "iSCSI Initiator", em_ext_iscsiinitiator
-    MENUITEM "ODBC Data sources (32-bit)", em_ext_odbcad32b
-    MENUITEM "ODBC Data sources (64-bit)", em_ext_odbcad32b64
-    MENUITEM "Performance Monitor", em_ext_perfmonb
-    MENUITEM "Resource Monitor", em_ext_perfmon
-    MENUITEM "Services", em_ext_services
-    MENUITEM "System Configuration", em_ext_msconfig
-    MENUITEM "System Information", em_ext_msinfo32
-    MENUITEM "Task Scheduler", em_ext_schedtasks
-    MENUITEM "Windows Firewall with Advanced Security", em_ext_wf
-    MENUITEM "Windows Memory Diagnostic", em_ext_mdsched
+    MENUITEM "ODBC 数据源 (32位)", em_ext_odbcad32b
+    MENUITEM "ODBC 数据源 (64位)", em_ext_odbcad32b64
+    MENUITEM "性能监视器", em_ext_perfmonb
+    MENUITEM "资源监视器", em_ext_perfmon
+    MENUITEM "服务", em_ext_services
+    MENUITEM "系统配置", em_ext_msconfig
+    MENUITEM "系统信息", em_ext_msinfo32
+    MENUITEM "任务计划程序", em_ext_schedtasks
+    MENUITEM "带高级安全的Windows防火墙", em_ext_wf
+    MENUITEM "Windows 内存诊断", em_ext_mdsched
     MENUITEM SEPARATOR
-    MENUITEM "Certificates", em_ext_certmgr
-    MENUITEM "Device Manager", em_ext_devmgmt
-    MENUITEM "Disk Management", em_ext_diskmgmt
-    MENUITEM "Driver Verifier Manager", em_ext_verifier
-    MENUITEM "Registry Editor", em_ext_regedit
-    MENUITEM "Shared Folders", em_ext_fsmgmt
-    MENUITEM "SQL Server Client Network Utility", em_ext_cliconfg
+    MENUITEM "证书", em_ext_certmgr
+    MENUITEM "设备管理器", em_ext_devmgmt
+    MENUITEM "磁盘管理", em_ext_diskmgmt
+    MENUITEM "驱动程序验证程序管理器", em_ext_verifier
+    MENUITEM "注册表编辑器", em_ext_regedit
+    MENUITEM "共享目录", em_ext_fsmgmt
+    MENUITEM "SQL Server 客户端网络实用工具", em_ext_cliconfg
   END_POPUP
-  POPUP "&Control Panel"
+  POPUP "控制面板(&C)"
     POPUP "A - &M"
-      MENUITEM "Administrative Tools", em_ext_admintools
-      MENUITEM "AutoPlay", em_ext_autoplay
-      MENUITEM "Backup and Restore", em_ext_backupandrestorecenter
-      MENUITEM "Biometric Devices", em_ext_biometricdevices
-      MENUITEM "BitLocker Drive Encryption", em_ext_bitlockerdriveencryption
-      MENUITEM "Bluetooth Devices", em_ext_bluetoothdevices
-      MENUITEM "Bluetooth Settings", em_ext_bluetooth
-      MENUITEM "Color Management", em_ext_colormanagement
-      MENUITEM "Create a Restore Point", em_ext_createrestore
-      MENUITEM "Credential Manager", em_ext_credentialmanager
-      MENUITEM "Date and Time", em_ext_datetime
-      MENUITEM "Default Programs", em_ext_defaultprograms
-      MENUITEM "Desktop Gadgets", em_ext_desktopgadgets
-      MENUITEM "Device Manager", em_ext_devmgmt
-      MENUITEM "Devices and Printers", em_ext_printers
-      MENUITEM "Display", em_ext_display
-      MENUITEM "Ease of Access Center", em_ext_access
-      MENUITEM "Family Safety", em_ext_parentalcontrols
-      MENUITEM "File Explorer Options", em_ext_folders
-      MENUITEM "File History", em_ext_filehistory
-      MENUITEM "Fonts", em_ext_fonts
-      MENUITEM "Game Controllers", em_ext_joy
-      MENUITEM "Get Programs", em_ext_getprograms
-      MENUITEM "HomeGroup", em_ext_homegroup
-      MENUITEM "Indexing Options", em_ext_indexingoptions
-      MENUITEM "Infrared", em_ext_infrared
-      MENUITEM "Internet Options", em_ext_inetcpl
-      MENUITEM "Keyboard", em_ext_keyboard
-      MENUITEM "Language", em_ext_language
-      MENUITEM "Location Settings", em_ext_locationandothersensors
-      MENUITEM "Mouse", em_ext_mouse
+      MENUITEM "管理工具", em_ext_admintools
+      MENUITEM "自动播放", em_ext_autoplay
+      MENUITEM "备份和还原", em_ext_backupandrestorecenter
+      MENUITEM "生物特征设备", em_ext_biometricdevices
+      MENUITEM "BitLocker 驱动器加密", em_ext_bitlockerdriveencryption
+      MENUITEM "蓝牙设备", em_ext_bluetoothdevices
+      MENUITEM "蓝牙设置", em_ext_bluetooth
+      MENUITEM "颜色管理", em_ext_colormanagement
+      MENUITEM "创建还原点", em_ext_createrestore
+      MENUITEM "凭据管理器", em_ext_credentialmanager
+      MENUITEM "日期和时间", em_ext_datetime
+      MENUITEM "默认程序", em_ext_defaultprograms
+      MENUITEM "桌面小工具", em_ext_desktopgadgets
+      MENUITEM "设备管理器", em_ext_devmgmt
+      MENUITEM "设备和打印机", em_ext_printers
+      MENUITEM "显示", em_ext_display
+      MENUITEM "轻松使用设置中心", em_ext_access
+      MENUITEM "家庭安全", em_ext_parentalcontrols
+      MENUITEM "文件资源管理器选项", em_ext_folders
+      MENUITEM "文件历史", em_ext_filehistory
+      MENUITEM "字体", em_ext_fonts
+      MENUITEM "游戏控制器", em_ext_joy
+      MENUITEM "获得程序", em_ext_getprograms
+      MENUITEM "家庭组", em_ext_homegroup
+      MENUITEM "索引选项", em_ext_indexingoptions
+      MENUITEM "红外线", em_ext_infrared
+      MENUITEM "Internet 选项", em_ext_inetcpl
+      MENUITEM "键盘", em_ext_keyboard
+      MENUITEM "语言", em_ext_language
+      MENUITEM "位置设置", em_ext_locationandothersensors
+      MENUITEM "鼠标", em_ext_mouse
     END_POPUP
     POPUP "&N - Z"
-      MENUITEM "Network and Sharing Center", em_ext_networkandsharingcenter
-      MENUITEM "Network Connections", em_ext_netconnections
-      MENUITEM "Network Setup Wizard", em_ext_netsetup
-      MENUITEM "Notification Area Icons", em_ext_notificationareaicons
-      MENUITEM "Pen and Touch", em_ext_tabletpc
-      MENUITEM "Performance Options", em_ext_performance
-      MENUITEM "Personalization", em_ext_desktop
-      MENUITEM "Phone and Modem", em_ext_telephony
-      MENUITEM "Power Options", em_ext_powercfg
-      MENUITEM "Programs and Features", em_ext_appwiz
-      MENUITEM "Recovery", em_ext_recovery
-      MENUITEM "Region", em_ext_international
-      MENUITEM "RemoteApp and Desktop Connections", em_ext_remoteappanddesktopconnections
-      MENUITEM "Scanners and Cameras", em_ext_scannercamera
-      MENUITEM "Screen Resolution", em_ext_displaysettings
-      MENUITEM "Screen Saver Settings", em_ext_screensaversettings
-      MENUITEM "Security and Maintenance", em_ext_wscui
-      MENUITEM "Sound", em_ext_mmsys
-      MENUITEM "Speech Properties", em_ext_texttospeech
-      MENUITEM "Speech Recognition", em_ext_speechrecognitionoptions
-      MENUITEM "Storage Spaces", em_ext_storagespaces
-      MENUITEM "Sync Center", em_ext_synccenter
-      MENUITEM "System", em_ext_sysdm
+      MENUITEM "网络和共享中心", em_ext_networkandsharingcenter
+      MENUITEM "网络连接", em_ext_netconnections
+      MENUITEM "网络连接向导", em_ext_netsetup
+      MENUITEM "通知区域图标", em_ext_notificationareaicons
+      MENUITEM "笔和触摸", em_ext_tabletpc
+      MENUITEM "性能选项", em_ext_performance
+      MENUITEM "个性化", em_ext_desktop
+      MENUITEM "电话和调制解调器", em_ext_telephony
+      MENUITEM "电源选项", em_ext_powercfg
+      MENUITEM "程序和功能", em_ext_appwiz
+      MENUITEM "恢复", em_ext_recovery
+      MENUITEM "区域", em_ext_international
+      MENUITEM "RemoteApp 和桌面连接", em_ext_remoteappanddesktopconnections
+      MENUITEM "扫描仪和照相机", em_ext_scannercamera
+      MENUITEM "屏幕分辨率", em_ext_displaysettings
+      MENUITEM "屏幕保护程序设置", em_ext_screensaversettings
+      MENUITEM "安全和维护", em_ext_wscui
+      MENUITEM "声音", em_ext_mmsys
+      MENUITEM "语音属性", em_ext_texttospeech
+      MENUITEM "语音识别", em_ext_speechrecognitionoptions
+      MENUITEM "存储空间", em_ext_storagespaces
+      MENUITEM "同步中心", em_ext_synccenter
+      MENUITEM "系统", em_ext_sysdm
       MENUITEM "System Properties", em_ext_sysdm2
-      MENUITEM "Tablet PC Settings", em_ext_tabletpcsettings
-      MENUITEM "Taskbar and Navigation", em_ext_taskbar
-      MENUITEM "Troubleshooting", em_ext_troubleshooting
-      MENUITEM "User Accounts", em_ext_userpasswords
-      MENUITEM "Windows Defender Security Center", em_ext_windowsdefender
-      MENUITEM "Windows Firewall", em_ext_firewall
-      MENUITEM "Windows Mobility Center", em_ext_mobilitycenter
-      MENUITEM "Windows Update", em_ext_wuaucpl
-      MENUITEM "Work Folders", em_ext_workfolders
+      MENUITEM "Tablet PC 设置", em_ext_tabletpcsettings
+      MENUITEM "任务栏和导航", em_ext_taskbar
+      MENUITEM "疑难解答", em_ext_troubleshooting
+      MENUITEM "用户账户", em_ext_userpasswords
+      MENUITEM "Windows Defender 安全中心", em_ext_windowsdefender
+      MENUITEM "Windows 防火墙", em_ext_firewall
+      MENUITEM "Windows 移动中心", em_ext_mobilitycenter
+      MENUITEM "Windows 更新", em_ext_wuaucpl
+      MENUITEM "工作文件夹", em_ext_workfolders
     END_POPUP
     MENUITEM SEPARATOR
-    POPUP "&Third Party Controls"
-      MENUITEM "DivX Control Panel", em_ext_divxplayer
-      MENUITEM "Flash Player Settings Manager", em_ext_flashplayer
-      MENUITEM "Java Control Panel", em_ext_javacpl
-      MENUITEM "Quicktime Settings", em_ext_quicktime
+    POPUP "第三方控件(&T)"
+      MENUITEM "DivX 控制面板", em_ext_divxplayer
+      MENUITEM "Flash 播放器设置管理器", em_ext_flashplayer
+      MENUITEM "Java 控制面板", em_ext_javacpl
+      MENUITEM "Quicktime 设置", em_ext_quicktime
     END_POPUP
   END_POPUP
-  POPUP "&Settings"
-      MENUITEM "Settings", em_ext_ms-settings
+  POPUP "设置(&S)"
+      MENUITEM "设置", em_ext_ms-settings
       MENUITEM SEPARATOR
-      MENUITEM "System", em_ext_ms-settings-display
-      MENUITEM "Devices", em_ext_ms-settings-connecteddevices
-      MENUITEM "Phone", em_ext_ms-settings-mobile-devices
-      MENUITEM "Network && Internet", em_ext_ms-settings-network-wifi
-      MENUITEM "Personalization", em_ext_ms-settings-personalization-background
-      MENUITEM "Apps", em_ext_ms-settings-appsfeatures
-      MENUITEM "Accounts", em_ext_ms-settings-emailandaccounts
-      MENUITEM "Time && Language", em_ext_ms-settings-dateandtime
-      MENUITEM "Gaming", em_ext_ms-settings-gaming-gamebar
-      MENUITEM "Ease of Access", em_ext_ms-settings-easeofaccess-narrator
-      MENUITEM "Search", em_ext_ms-settings-search
-      MENUITEM "Privacy", em_ext_ms-settings-privacy
-      MENUITEM "Update && Security", em_ext_ms-settings-windowsupdate
-      MENUITEM "Mixed reality", em_ext_ms-settings-holographic
+      MENUITEM "系统", em_ext_ms-settings-display
+      MENUITEM "设备", em_ext_ms-settings-connecteddevices
+      MENUITEM "电话", em_ext_ms-settings-mobile-devices
+      MENUITEM "网络和Internet", em_ext_ms-settings-network-wifi
+      MENUITEM "个性化", em_ext_ms-settings-personalization-background
+      MENUITEM "应用程序", em_ext_ms-settings-appsfeatures
+      MENUITEM "帐户", em_ext_ms-settings-emailandaccounts
+      MENUITEM "时间和语言", em_ext_ms-settings-dateandtime
+      MENUITEM "游戏", em_ext_ms-settings-gaming-gamebar
+      MENUITEM "轻松使用", em_ext_ms-settings-easeofaccess-narrator
+      MENUITEM "搜索", em_ext_ms-settings-search
+      MENUITEM "隐私", em_ext_ms-settings-privacy
+      MENUITEM "安全和更新", em_ext_ms-settings-windowsupdate
+      MENUITEM "混合现实", em_ext_ms-settings-holographic
   END_POPUP
-  POPUP "Windows S&ystem"
-    MENUITEM "Command Prompt", em_ext_cmd
-    POPUP "Control Panel"
-      MENUITEM "All Elements", em_ext_control-allelements
-      MENUITEM "Categories", em_ext_control_categories
-      MENUITEM "Appearance and Personalization", em_ext_control-personal
-      MENUITEM "Clock, Language and Region", em_ext_control-international
-      MENUITEM "Ease of Access", em_ext_control-accessability
-      MENUITEM "Hardware and Sound", em_ext_control-hardware
-      MENUITEM "Network and Internet", em_ext_control-network
-      MENUITEM "Programs", em_ext_control-programs
-      MENUITEM "System and Security", em_ext_control-system
-      MENUITEM "User Accounts and Family Safety", em_ext_control-useraccounts
+  POPUP "Windows 系统(&Y)"
+    MENUITEM "命令提示符", em_ext_cmd
+    POPUP "控制面板"
+      MENUITEM "所有元素", em_ext_control-allelements
+      MENUITEM "类别", em_ext_control_categories
+      MENUITEM "外观和个性化", em_ext_control-personal
+      MENUITEM "时钟、语言和区域", em_ext_control-international
+      MENUITEM "轻松访问", em_ext_control-accessability
+      MENUITEM "硬件和声音", em_ext_control-hardware
+      MENUITEM "网络和 Internet", em_ext_control-network
+      MENUITEM "程序", em_ext_control-programs
+      MENUITEM "系统和安全", em_ext_control-system
+      MENUITEM "用户账户和家庭安全", em_ext_control-useraccounts
       MENUITEM SEPARATOR
-      MENUITEM "All Tasks (God Mode)", em_ext_godmode
+      MENUITEM "所有任务 (上帝模式)", em_ext_godmode
     END_POPUP
-    MENUITEM "File Explorer", em_ext_explorer
-    MENUITEM "Run", em_ext_run
-    MENUITEM "Task Manager", em_ext_taskmgr
-    MENUITEM "This PC", em_ext_computer
+    MENUITEM "文件资源管理器", em_ext_explorer
+    MENUITEM "运行", em_ext_run
+    MENUITEM "任务管理器", em_ext_taskmgr
+    MENUITEM "此电脑", em_ext_computer
     MENUITEM SEPARATOR
-    MENUITEM "About Windows", em_ext_winver
-    MENUITEM "Create A Shared Folder Wizard", em_ext_shrpubw
-    MENUITEM "Default Programs", em_ext_defaultprograms
-    MENUITEM "Devices", em_ext_devices
-    MENUITEM "Dial-up Connection", em_ext_rasphone
-    MENUITEM "DirectX Diagnostic Tool", em_ext_dxdiag
-    MENUITEM "Help and Support", em_ext_helppane
-    MENUITEM "IExpress Wizard", em_ext_iexpress
-    MENUITEM "Recovery Drive", em_ext_recdrive
-    MENUITEM "Scanner and Camera Wizard", em_ext_wiaacmgr
-    MENUITEM "System Image Backup", em_ext_systemimage
-    MENUITEM "System Restore", em_ext_rstrui
-    MENUITEM "Windows Remote Assistance", em_ext_msra
+    MENUITEM "关于 Windows", em_ext_winver
+    MENUITEM "创建共享文件夹向导", em_ext_shrpubw
+    MENUITEM "默认程序", em_ext_defaultprograms
+    MENUITEM "设备", em_ext_devices
+    MENUITEM "拨号连接", em_ext_rasphone
+    MENUITEM "DirectX 诊断工具", em_ext_dxdiag
+    MENUITEM "帮助与支持", em_ext_helppane
+    MENUITEM "IExpress 向导", em_ext_iexpress
+    MENUITEM "恢复驱动器（仅升高）", em_ext_recdrive
+    MENUITEM "扫描仪和照相机向导", em_ext_wiaacmgr
+    MENUITEM "系统镜像备份（仅升高）", em_ext_systemimage
+    MENUITEM "系统还原（仅升高）", em_ext_rstrui
+    MENUITEM "Windows 远程协助", em_ext_msra
   END_POPUP
-  POPUP "Win&dows Accessories"
+  POPUP "Win&dows 附件"
     MENUITEM "3D Builder", em_ext_com.microsoft.builder3d
-    MENUITEM "Character Map", em_ext_charmap
+    MENUITEM "字符映射表", em_ext_charmap
     POPUP "Internet Explorer"
       MENUITEM "Internet Explorer", em_ext_iexplore
-      MENUITEM "Internet Explorer (64-bit)", em_ext_iexplorex64
-      MENUITEM "Internet Explorer (No Add-ons)", em_ext_iexplorer
+      MENUITEM "Internet Explorer (64位)", em_ext_iexplorex64
+      MENUITEM "Internet Explorer (无加载项)", em_ext_iexplorer
     END_POPUP
-    MENUITEM "Math Input Panel", em_ext_mip
-    MENUITEM "Notepad", em_ext_notepad
-    MENUITEM "Paint", em_ext_mspaint
-    MENUITEM "Print 3D", em_ext_print3d
-    MENUITEM "Quick Assist", em_ext_quickassist
-    MENUITEM "Remote Desktop Connection", em_ext_mstsc
-    MENUITEM "Snipping Tool", em_ext_snippingtool
-    MENUITEM "Steps Recorder", em_ext_stepsrecorder
-    MENUITEM "Sticky Notes", em_ext_stikynot
-    MENUITEM "Windows Fax and Scan", em_ext_wfs
-    MENUITEM "WordPad", em_ext_write
-    MENUITEM "XPS Viewer", em_ext_xpsrchvw
+    MENUITEM "数学输入面板", em_ext_mip
+    MENUITEM "记事本", em_ext_notepad
+    MENUITEM "画图", em_ext_mspaint
+    MENUITEM "画图 3D", em_ext_print3d
+    MENUITEM "快速助手", em_ext_quickassist
+    MENUITEM "远程桌面连接", em_ext_mstsc
+    MENUITEM "截图工具", em_ext_snippingtool
+    MENUITEM "步骤记录器", em_ext_stepsrecorder
+    MENUITEM "便利贴", em_ext_stikynot
+    MENUITEM "Windows 传真和扫描", em_ext_wfs
+    MENUITEM "写字板", em_ext_write
+    MENUITEM "XPS 查看器", em_ext_xpsrchvw
     MENUITEM SEPARATOR
-    MENUITEM "Bluetooth File Transfer Wizard", em_ext_bluetoothtransfer
-    MENUITEM "Calculator", em_ext_calc
-    MENUITEM "Connect to a Projector", em_ext_displayswitch
-    MENUITEM "Master Volume", em_ext_sndvol
+    MENUITEM "蓝牙文件传送", em_ext_bluetoothtransfer
+    MENUITEM "计算器", em_ext_calc
+    MENUITEM "连接到投影机", em_ext_displayswitch
+    MENUITEM "主音量", em_ext_sndvol
     MENUITEM "Movie Maker", em_ext_livemmoviemaker
-    MENUITEM "Photo Gallery", em_ext_livephotogallery
-    MENUITEM "Private Character Editor", em_ext_eudcedit
+    MENUITEM "照片库", em_ext_livephotogallery
+    MENUITEM "专用字符编辑程序", em_ext_eudcedit
     POPUP "Tablet PC"
-      MENUITEM "Personalize Handwriting Recognition", em_ext_shapecollector
-      MENUITEM "Tablet PC Input Panel", em_ext_tabtip
-      MENUITEM "Tablet PC Settings", em_ext_tabletpcsettings
+      MENUITEM "手写个性化", em_ext_shapecollector
+      MENUITEM "平板电脑输入面板", em_ext_tabtip
+      MENUITEM "平板电脑设置", em_ext_tabletpcsettings
     END_POPUP
-    MENUITEM "Windows Media Player", em_ext_wmplayer
-    MENUITEM "Windows Photo Viewer", em_ext_photoviewer
+    MENUITEM "Windows 媒体播放器", em_ext_wmplayer
+    MENUITEM "Windows 照片查看器", em_ext_photoviewer
   END_POPUP
-  POPUP "&Metro Apps"
-    MENUITEM "Weather", em_ext_msnweather
-    MENUITEM "Calendar", em_ext_outlookcal
-    MENUITEM "Alarms && Clock", em_ext_ms-clock
-    MENUITEM "Mail", em_ext_ms-unistore-email
-    MENUITEM "People", em_ext_ms-people
+  POPUP "&Metro应用程序"
+    MENUITEM "天气", em_ext_msnweather
+    MENUITEM "日历", em_ext_outlookcal
+    MENUITEM "闹钟和时钟", em_ext_ms-clock
+    MENUITEM "邮件", em_ext_ms-unistore-email
+    MENUITEM "人脉", em_ext_ms-people
     MENUITEM "Skype", em_ext_skypeuwp
-    MENUITEM "Maps", em_ext_bingmaps
-    MENUITEM "Cortana / Search", em_ext_cortana
+    MENUITEM "地图", em_ext_bingmaps
+    MENUITEM "Cortana / 搜索", em_ext_cortana
     MENUITEM SEPARATOR
-    MENUITEM "Photos", em_ext_ms-photos
-    MENUITEM "Movies && TV", em_ext_mswindowsvideo
-    MENUITEM "Media Player", em_ext_mswindowsmusic
-    MENUITEM "Voice Recorder", em_ext_windowssoundrecorder
-    MENUITEM "Camera", em_ext_microsoft.windows.camera
-    MENUITEM "Connect", em_ext_ms-projection
+    MENUITEM "照片", em_ext_ms-photos
+    MENUITEM "电影和电视", em_ext_mswindowsvideo
+    MENUITEM "媒体播放器", em_ext_mswindowsmusic
+    MENUITEM "录音机", em_ext_windowssoundrecorder
+    MENUITEM "相机", em_ext_microsoft.windows.camera
+    MENUITEM "连接", em_ext_ms-projection
     MENUITEM SEPARATOR
-    MENUITEM "Calculator", em_ext_calculator
-    MENUITEM "Scan", em_ext_windowsscan
+    MENUITEM "计算器", em_ext_calculator
+    MENUITEM "扫描", em_ext_windowsscan
     MENUITEM "OneNote", em_ext_onenote
     MENUITEM "Sway", em_ext_ms-sway
-    MENUITEM "Snip && Sketch", em_ext_screensketch
+    MENUITEM "截图和素描", em_ext_screensketch
     MENUITEM SEPARATOR
-    MENUITEM "Paint 3D", em_ext_ms-paint
-    MENUITEM "3D Builder", em_ext_com.microsoft.builder3d
-    MENUITEM "3D Viewer", em_ext_com.microsoft.3dviewer
-    MENUITEM "Print 3D", em_ext_print3d
-    MENUITEM "Mixed Reality Portal", em_ext_ms-holographicfirstrun
+    MENUITEM "画图 3D", em_ext_ms-paint
+    MENUITEM "3D 生成器", em_ext_com.microsoft.builder3d
+    MENUITEM "3D 查看器", em_ext_com.microsoft.3dviewer
+    MENUITEM "打印 3D", em_ext_print3d
+    MENUITEM "混合现实门户", em_ext_ms-holographicfirstrun
     MENUITEM SEPARATOR
-    MENUITEM "Microsoft Edge", em_ext_microsoft-edge
+    MENUITEM "微软 Edge", em_ext_microsoft-edge
     MENUITEM "Reader", em_ext_reader
     MENUITEM SEPARATOR
-    MENUITEM "News", em_ext_msnnews
-    MENUITEM "Sports", em_ext_msnsports
-    MENUITEM "Money", em_ext_msnfinance
-    MENUITEM "Food && Drink", em_ext_bingfoodanddrink
-    MENUITEM "Health && Fitness", em_ext_binghealthnfitness
+    MENUITEM "新闻", em_ext_msnnews
+    MENUITEM "体育", em_ext_msnsports
+    MENUITEM "财经", em_ext_msnfinance
+    MENUITEM "食物和饮料", em_ext_bingfoodanddrink
+    MENUITEM "健康和运动", em_ext_binghealthnfitness
     MENUITEM SEPARATOR
-    MENUITEM "Your Phone", em_ext_yourphone
-    MENUITEM "Microsoft Wi-Fi", em_ext_connectivitystore
+    MENUITEM "你的电话", em_ext_yourphone
+    MENUITEM "微软 Wi-Fi", em_ext_connectivitystore
     MENUITEM SEPARATOR
-    MENUITEM "Store", em_ext_ms-windows-store
-    MENUITEM "Xbox Console Companion", em_ext_xbox
-    MENUITEM "Xbox Game Bar", em_ext_gamingoverlay
-    MENUITEM "Microsoft Solitaire Collection", em_ext_xboxliveapp
-    MENUITEM "Candy Crush Saga", em_ext_candycrushsaga
+    MENUITEM "应用商店", em_ext_ms-windows-store
+    MENUITEM "Xbox游戏机伴侣", em_ext_xbox
+    MENUITEM "Xbox游戏栏", em_ext_gamingoverlay
+    MENUITEM "微软纸牌系列", em_ext_xboxliveapp
+    MENUITEM "糖果大爆险", em_ext_candycrushsaga
     MENUITEM SEPARATOR
-    MENUITEM "Tips", em_ext_ms-get-started
-    MENUITEM "Get Help", em_ext_ms-contact-support
-    MENUITEM "Feedback Hub", em_ext_windows-feedback
+    MENUITEM "使用技巧", em_ext_ms-get-started
+    MENUITEM "获取帮助", em_ext_ms-contact-support
+    MENUITEM "反馈中心", em_ext_windows-feedback
   END_POPUP
   POPUP "Windows PowerShell"
     MENUITEM "Windows PowerShell", em_ext_powershellx64
