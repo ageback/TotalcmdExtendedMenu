@@ -1,362 +1,362 @@
-POPUP "文件(&F)"
-    MENUITEM "改变属性(&C)...", 502
-    MENUITEM "显示属性(&i)...\tAlt+Enter", 510
-    MENUITEM "文件关联(Windows全局)(&v)...", 507
-    MENUITEM "内部文件关联(&A)(仅用于Total Commander)...", 519
+POPUP "�ļ�(&F)"
+    MENUITEM "�ı�����(&C)...", 502
+    MENUITEM "��ʾ����(&i)...\tAlt+Enter", 510
+    MENUITEM "�ļ�����(Windowsȫ��)(&v)...", 507
+    MENUITEM "�ڲ��ļ�����(&A)(������Total Commander)...", 519
   MENUITEM SEPARATOR
-    MENUITEM "计算占用空间(&O)...\tCtrl+L", 503
-    MENUITEM "显示占用空间(&w)\tShift+Alt+Enter", 2014
+    MENUITEM "����ռ�ÿռ�(&O)...\tCtrl+L", 503
+    MENUITEM "��ʾռ�ÿռ�(&w)\tShift+Alt+Enter", 2014
   MENUITEM SEPARATOR
-    MENUITEM "查找文件(&F)...\tAlt+F7", 501
-    MENUITEM "查找文件 &- 独立进程...\tShift+Alt+F7", 545
-    MENUITEM "在光标下的文件夹中查找文件...", 517
-    MENUITEM "比较文件内容(&n)...", 2022
-    MENUITEM "比较文件内容(内部)...", 2040
-    MENUITEM "同步文件夹(&z)...", 2020
-    MENUITEM "批量重命名工具(&R)...\tCtrl+M", 2400
-  POPUP "已保存的"
-    MENUITEM "更改属性 - 使用默认/保存的设置(&C)...", em_ext_attrib_user
-    MENUITEM "更改属性 - 以默认/保存的设置自动开始(&H)...", em_ext_attrib_user_auto
+    MENUITEM "�����ļ�(&F)...\tAlt+F7", 501
+    MENUITEM "�����ļ� &- ��������...\tShift+Alt+F7", 545
+    MENUITEM "�ڹ���µ��ļ����в����ļ�...", 517
+    MENUITEM "�Ƚ��ļ�����(&n)...", 2022
+    MENUITEM "�Ƚ��ļ�����(�ڲ�)...", 2040
+    MENUITEM "ͬ���ļ���(&z)...", 2020
+    MENUITEM "��������������(&R)...\tCtrl+M", 2400
+  POPUP "�ѱ����"
+    MENUITEM "�������� - ʹ��Ĭ��/���������(&C)...", em_ext_attrib_user
+    MENUITEM "�������� - ��Ĭ��/����������Զ���ʼ(&H)...", em_ext_attrib_user_auto
     MENUITEM SEPARATOR
-    MENUITEM "查找文件 - 使用默认/保存的设置(&F)...", em_ext_search_user
-    MENUITEM "查找文件 - 以默认/保存的设置自动开始(&U)...", em_ext_search_user_auto
-    MENUITEM "查找文件 - 以默认/保存的设置自动开始 - 复制到列表框(&O)...", em_ext_search_user_auto2
-    MENUITEM "保存搜索结果(&S)", em_ext_savelist
-    MENUITEM "加载搜索结果(&L)", em_ext_loadlist
-    MENUITEM "从光标下的文件中加载搜索结果(&M)", em_ext_loadlist2
+    MENUITEM "�����ļ� - ʹ��Ĭ��/���������(&F)...", em_ext_search_user
+    MENUITEM "�����ļ� - ��Ĭ��/����������Զ���ʼ(&U)...", em_ext_search_user_auto
+    MENUITEM "�����ļ� - ��Ĭ��/����������Զ���ʼ - ���Ƶ��б���(&O)...", em_ext_search_user_auto2
+    MENUITEM "�����������(&S)", em_ext_savelist
+    MENUITEM "�����������(&L)", em_ext_loadlist
+    MENUITEM "�ӹ���µ��ļ��м����������(&M)", em_ext_loadlist2
     MENUITEM SEPARATOR
-    MENUITEM "同步目录 - 使用默认/保存的设置(&Z)...", em_ext_sync_user
-    MENUITEM "同步目录 - 以默认/保存的设置自动启动(&A)...", em_ext_sync_user_auto
+    MENUITEM "ͬ��Ŀ¼ - ʹ��Ĭ��/���������(&Z)...", em_ext_sync_user
+    MENUITEM "ͬ��Ŀ¼ - ��Ĭ��/����������Զ�����(&A)...", em_ext_sync_user_auto
     MENUITEM SEPARATOR
-    MENUITEM "批量重命名工具 - 使用默认/保存的设置(&R)...", em_ext_multirename_user
-    MENUITEM "批量重命名工具 - 以保存的设置自动启动(&E)...", em_ext_multirename_user_auto
-    MENUITEM "批量重命名工具 - 以保存的设置自动启动 - 然后关闭(&N)...", em_ext_multirename_user_auto2
-  END_POPUP
-  MENUITEM SEPARATOR
-    POPUP "压缩(&P)"
-        MENUITEM "压缩文件(&P)...\tAlt+F5", 508
-    MENUITEM "压缩文件(&M)(打包并删除)...\tSkift+Alt+F5", 2956
-    MENUITEM "解压缩文件(&U)...\tAlt+F9", 509
-    MENUITEM "测试压缩包(&T)\tShift+Alt+F9", 518
-    MENUITEM "压缩选中的元素，并以光标下的文件名命名 - 在同文件夹中(&A)", em_ext_zipfromlist1
-    MENUITEM "将选中的元素移动到以光标下的文件名命名的压缩包中 - 在同文件夹中(&S)", em_ext_zipfromlist3
-    MENUITEM "压缩选中的元素，并以光标下的文件名命名 - 使用加密(&K)", em_ext_zipfromlist2
-        MENUITEM "打开自释放压缩包(&O)\tCtrl+PgDn", 2003
-    MENUITEM "更改已打开的 ZIP 文件中的文件名的编码(&E)", 2948
-    MENUITEM SEPARATOR
-        MENUITEM "配置ZIP压缩程序(&C)...", 485
-        MENUITEM "配置其它压缩程序(&n)...", 491
-  END_POPUP
-    POPUP "分割(&S)"
-        MENUITEM "分割文件(&S)...", 560
-        MENUITEM "合并文件(&C)...", 561
-  END_POPUP
-    POPUP "编码(&D)"
-        MENUITEM "编码文件(MIME, UUE, XXE)(&E)...", 562
-        MENUITEM "解码文件(MIME, UUE, XXE, BinHex)(&D)...", 563
-  END_POPUP
-  POPUP "校验和(&U)"
-    MENUITEM "创建校验和文件(&C) (SFV, MD5, SHA1 等)...", 564
-    MENUITEM "验证校验和文件(&V) (SFV, MD5, SHA1 等)...", 565
-  END_POPUP
-    POPUP "打印(&t)"
-        MENUITEM "打印目录(&D)...", 2027
-        MENUITEM "打印目录及其子目录(&S)...", 2028
-        MENUITEM "打印文件内容(&C)\tCtrl+F9", 504
-  END_POPUP
-    POPUP "复制(名称）(&Y)"
-        MENUITEM "复制文件名到剪贴板(&F)", 2017
-        MENUITEM "复制路径+文件名到剪贴板(&P)", 2018
-        MENUITEM "复制网络路径+文件名到剪贴板(&N)", 2021
-        MENUITEM "复制路径名称到剪贴板", 3035
-    MENUITEM SEPARATOR
-        MENUITEM "复制文件名+所有列到剪贴板(&C)", 2036
-    MENUITEM "复制文件名 + 所有列 + 头部 到剪贴板(&H)", 2090
-    MENUITEM "复制路径 + 文件名 + 所有列到剪贴板(&A)", 2037
-    MENUITEM "复制路径 + 文件名 + 所有列 + 头部到剪贴板(&R)", 2091
-    MENUITEM "复制网络路径 + 文件名 + 所有列到剪贴板(&O)", 2038
-    MENUITEM "复制网络路径 + 文件名 + 所有列 + 头部到剪贴板(&W)", 2092
-    MENUITEM SEPARATOR
-        MENUITEM "复制源路径到剪贴板(&S)", 2029
-        MENUITEM "复制目标路径到剪贴板(&T)", 2030
-    MENUITEM SEPARATOR
-    MENUITEM "复制文件名到文件(&M)...", 2031
-    MENUITEM "复制文件名到文件(强制 ANSI)(&L)...", 2041
-    MENUITEM "复制文件名到文件(强制 Unicode)(&U)...", 2042
-    MENUITEM SEPARATOR
-    MENUITEM "复制文件名 + 所有列到文件(&E)...", 2039
-    MENUITEM "复制文件名 + 所有列 + 头部到文件...", 2093
-    MENUITEM "复制文件名 + 所有列到文件(强制ANSI)(&I)...", 2043
-    MENUITEM "复制文件名 + 所有列 + 头部到文件(强制ANSI)...", 2094
-    MENUITEM "复制文件名+所有列到文件(强制Unicode)(&D)...", 2044
-    MENUITEM "复制文件名+所有列 + 头部到文件(强制Unicode)...", 2095
-    MENUITEM SEPARATOR
-    MENUITEM "将文件名复制到文件 SELECTEDFILES.txt", em_ext_saveselection
-    MENUITEM "将文件名复制到文件 SELECTEDFILES.txt (强制 ANSI)", em_ext_saveselectiona
-    MENUITEM "将文件名复制到文件 SELECTEDFILES.txt (强制 Unicode)", em_ext_saveselectionw
-    MENUITEM "将文件名复制到文件 SELECTEDFILES.txt (强制 UTF-&8) *", em_ext_copynamestofile1
-    MENUITEM "将短文件名复制到文件 SELECTEDFILES.txt (ANSI) *", em_ext_copynamestofile1a
-    MENUITEM "将短文件名复制到文件 SELECTEDFILES.txt (ASCII) *", em_ext_copynamestofile1b
-    MENUITEM SEPARATOR
-    MENUITEM "将文件名 + 所有列复制到文件 SELECTEDFILES.txt", em_ext_savedetails
-    MENUITEM "将文件名 + 所有列复制到文件 SELECTEDFILES.txt (强制 ANSI)", em_ext_savedetailsa
-    MENUITEM "将文件名 + 所有列复制到文件 SELECTEDFILES.txt (强制 Unicode)", em_ext_savedetailsw
-    MENUITEM SEPARATOR
-    MENUITEM "将路径 + 文件名复制到文件SELECTEDFILES.txt (强制 ANSI) *", em_ext_copynamestofile2a
-    MENUITEM "将路径 + 文件名复制到文件SELECTEDFILES.txt (强制 Unicode) *", em_ext_copynamestofile2b
-    MENUITEM "将路径 + 文件名复制到文件SELECTEDFILES.txt (强制 UTF-8) *", em_ext_copynamestofile2c
-    MENUITEM "将短路径 + 文件名复制到文件SELECTEDFILES.txt (ANSI) *", em_ext_copynamestofile2d
-    MENUITEM "将短路径 + 文件名复制到文件SELECTEDFILES.txt (ASCII) *", em_ext_copynamestofile2e
-    MENUITEM SEPARATOR
-    MENUITEM "将没有文件类型的文件名复制到文件 SELECTEDFILES.txt (UTF-8)(&Y) *", em_ext_copynamestofile3
-  END_POPUP
-    POPUP "基本文件处理(&B)"
-        MENUITEM "查看 (按配置)(&S)...\tF3", 903
-        MENUITEM "查看 (不使用插件),光标下的文件(&l)...\tShift+Alt+F3", 1006
-        MENUITEM "查看 (不使用插件), 标记的文件(&g)...", 2933
-        MENUITEM "查看 (使用插件), 光标下的文件...", 2934
-        MENUITEM "查看 (使用插件), 标记的文件...", 2935
-    MENUITEM "使用外部查看器显示, 光标下的文件(&V)...", 3026
-        MENUITEM "编辑(&E)...\tF4", 904
-        MENUITEM "创建并编辑新的文本文件(&X)...\tShift+F4", 2931
-    MENUITEM "新建文本文件(&W)", em_ext_createNewFile
-        MENUITEM "复制(&C)...\tF5", 905
-        MENUITEM "复制(当前面板)(&a)...\tShift+F5", 3100
-        MENUITEM "重命名/移动(&R)...\tF6", 906
-        MENUITEM "重命名(就地)(&n)\tShift+F6", 1002
-        MENUITEM "重命名 (仅光标下的文件)(&m)", 1007
-        MENUITEM "新建文件夹(&F)...\tF7", 907
-    MENUITEM "新建文件夹 (目标面板)(&T)...\tShift+F7", 907
-        MENUITEM "删除(&D)...\tF8 / Delete", 908
-    MENUITEM SEPARATOR
-        MENUITEM "复制到剪贴板(&P)\tCtrl+C", 2008
-        MENUITEM "剪切到剪贴板(&U)\tCtrl+X", 2007
-        MENUITEM "从剪贴板粘贴(&I)\tCtrl+V", 2009
+    MENUITEM "�������������� - ʹ��Ĭ��/���������(&R)...", em_ext_multirename_user
+    MENUITEM "�������������� - �Ա���������Զ�����(&E)...", em_ext_multirename_user_auto
+    MENUITEM "�������������� - �Ա���������Զ����� - Ȼ��ر�(&N)...", em_ext_multirename_user_auto2
   END_POPUP
   MENUITEM SEPARATOR
-    MENUITEM "创建快捷方式(&H)...\tShift+Ctrl+F5", 1004
-    MENUITEM "编辑文件注释(&M)...\tCtrl+Z", 2700
-    MENUITEM "显示文件提示(&E)", 2914
-    MENUITEM "快速搜索(&K)\tCtrl+S", 2915
-    MENUITEM "使用过滤器快速搜索(&W)\tCtrl+S", 3019
-    MENUITEM "使用上次使用的过滤器快速搜索(&L)\tShift+Ctrl+S", em_ext_lastquickfilter
-    MENUITEM "不使用过滤器快速搜索(&O)", 3018
-    MENUITEM "已保存的快速搜索(&S)", 2915
+    POPUP "ѹ��(&P)"
+        MENUITEM "ѹ���ļ�(&P)...\tAlt+F5", 508
+    MENUITEM "ѹ���ļ�(&M)(�����ɾ��)...\tSkift+Alt+F5", 2956
+    MENUITEM "��ѹ���ļ�(&U)...\tAlt+F9", 509
+    MENUITEM "����ѹ����(&T)\tShift+Alt+F9", 518
+    MENUITEM "ѹ��ѡ�е�Ԫ�أ����Թ���µ��ļ������� - ��ͬ�ļ�����(&A)", em_ext_zipfromlist1
+    MENUITEM "��ѡ�е�Ԫ���ƶ����Թ���µ��ļ���������ѹ������ - ��ͬ�ļ�����(&S)", em_ext_zipfromlist3
+    MENUITEM "ѹ��ѡ�е�Ԫ�أ����Թ���µ��ļ������� - ʹ�ü���(&K)", em_ext_zipfromlist2
+        MENUITEM "�����ͷ�ѹ����(&O)\tCtrl+PgDn", 2003
+    MENUITEM "�����Ѵ򿪵� ZIP �ļ��е��ļ����ı���(&E)", 2948
+    MENUITEM SEPARATOR
+        MENUITEM "����ZIPѹ������(&C)...", 485
+        MENUITEM "��������ѹ������(&n)...", 491
+  END_POPUP
+    POPUP "�ָ�(&S)"
+        MENUITEM "�ָ��ļ�(&S)...", 560
+        MENUITEM "�ϲ��ļ�(&C)...", 561
+  END_POPUP
+    POPUP "����(&D)"
+        MENUITEM "�����ļ�(MIME, UUE, XXE)(&E)...", 562
+        MENUITEM "�����ļ�(MIME, UUE, XXE, BinHex)(&D)...", 563
+  END_POPUP
+  POPUP "У���(&U)"
+    MENUITEM "����У����ļ�(&C) (SFV, MD5, SHA1 ��)...", 564
+    MENUITEM "��֤У����ļ�(&V) (SFV, MD5, SHA1 ��)...", 565
+  END_POPUP
+    POPUP "��ӡ(&t)"
+        MENUITEM "��ӡĿ¼(&D)...", 2027
+        MENUITEM "��ӡĿ¼������Ŀ¼(&S)...", 2028
+        MENUITEM "��ӡ�ļ�����(&C)\tCtrl+F9", 504
+  END_POPUP
+    POPUP "����(���ƣ�(&Y)"
+        MENUITEM "�����ļ�����������(&F)", 2017
+        MENUITEM "����·��+�ļ�����������(&P)", 2018
+        MENUITEM "��������·��+�ļ�����������(&N)", 2021
+        MENUITEM "����·�����Ƶ�������", 3035
+    MENUITEM SEPARATOR
+        MENUITEM "�����ļ���+�����е�������(&C)", 2036
+    MENUITEM "�����ļ��� + ������ + ͷ�� ��������(&H)", 2090
+    MENUITEM "����·�� + �ļ��� + �����е�������(&A)", 2037
+    MENUITEM "����·�� + �ļ��� + ������ + ͷ����������(&R)", 2091
+    MENUITEM "��������·�� + �ļ��� + �����е�������(&O)", 2038
+    MENUITEM "��������·�� + �ļ��� + ������ + ͷ����������(&W)", 2092
+    MENUITEM SEPARATOR
+        MENUITEM "����Դ·����������(&S)", 2029
+        MENUITEM "����Ŀ��·����������(&T)", 2030
+    MENUITEM SEPARATOR
+    MENUITEM "�����ļ������ļ�(&M)...", 2031
+    MENUITEM "�����ļ������ļ�(ǿ�� ANSI)(&L)...", 2041
+    MENUITEM "�����ļ������ļ�(ǿ�� Unicode)(&U)...", 2042
+    MENUITEM SEPARATOR
+    MENUITEM "�����ļ��� + �����е��ļ�(&E)...", 2039
+    MENUITEM "�����ļ��� + ������ + ͷ�����ļ�...", 2093
+    MENUITEM "�����ļ��� + �����е��ļ�(ǿ��ANSI)(&I)...", 2043
+    MENUITEM "�����ļ��� + ������ + ͷ�����ļ�(ǿ��ANSI)...", 2094
+    MENUITEM "�����ļ���+�����е��ļ�(ǿ��Unicode)(&D)...", 2044
+    MENUITEM "�����ļ���+������ + ͷ�����ļ�(ǿ��Unicode)...", 2095
+    MENUITEM SEPARATOR
+    MENUITEM "���ļ������Ƶ��ļ� SELECTEDFILES.txt", em_ext_saveselection
+    MENUITEM "���ļ������Ƶ��ļ� SELECTEDFILES.txt (ǿ�� ANSI)", em_ext_saveselectiona
+    MENUITEM "���ļ������Ƶ��ļ� SELECTEDFILES.txt (ǿ�� Unicode)", em_ext_saveselectionw
+    MENUITEM "���ļ������Ƶ��ļ� SELECTEDFILES.txt (ǿ�� UTF-&8) *", em_ext_copynamestofile1
+    MENUITEM "�����ļ������Ƶ��ļ� SELECTEDFILES.txt (ANSI) *", em_ext_copynamestofile1a
+    MENUITEM "�����ļ������Ƶ��ļ� SELECTEDFILES.txt (ASCII) *", em_ext_copynamestofile1b
+    MENUITEM SEPARATOR
+    MENUITEM "���ļ��� + �����и��Ƶ��ļ� SELECTEDFILES.txt", em_ext_savedetails
+    MENUITEM "���ļ��� + �����и��Ƶ��ļ� SELECTEDFILES.txt (ǿ�� ANSI)", em_ext_savedetailsa
+    MENUITEM "���ļ��� + �����и��Ƶ��ļ� SELECTEDFILES.txt (ǿ�� Unicode)", em_ext_savedetailsw
+    MENUITEM SEPARATOR
+    MENUITEM "��·�� + �ļ������Ƶ��ļ�SELECTEDFILES.txt (ǿ�� ANSI) *", em_ext_copynamestofile2a
+    MENUITEM "��·�� + �ļ������Ƶ��ļ�SELECTEDFILES.txt (ǿ�� Unicode) *", em_ext_copynamestofile2b
+    MENUITEM "��·�� + �ļ������Ƶ��ļ�SELECTEDFILES.txt (ǿ�� UTF-8) *", em_ext_copynamestofile2c
+    MENUITEM "����·�� + �ļ������Ƶ��ļ�SELECTEDFILES.txt (ANSI) *", em_ext_copynamestofile2d
+    MENUITEM "����·�� + �ļ������Ƶ��ļ�SELECTEDFILES.txt (ASCII) *", em_ext_copynamestofile2e
+    MENUITEM SEPARATOR
+    MENUITEM "��û���ļ����͵��ļ������Ƶ��ļ� SELECTEDFILES.txt (UTF-8)(&Y) *", em_ext_copynamestofile3
+  END_POPUP
+    POPUP "�����ļ�����(&B)"
+        MENUITEM "�鿴 (������)(&S)...\tF3", 903
+        MENUITEM "�鿴 (��ʹ�ò��),����µ��ļ�(&l)...\tShift+Alt+F3", 1006
+        MENUITEM "�鿴 (��ʹ�ò��), ��ǵ��ļ�(&g)...", 2933
+        MENUITEM "�鿴 (ʹ�ò��), ����µ��ļ�...", 2934
+        MENUITEM "�鿴 (ʹ�ò��), ��ǵ��ļ�...", 2935
+    MENUITEM "ʹ���ⲿ�鿴����ʾ, ����µ��ļ�(&V)...", 3026
+        MENUITEM "�༭(&E)...\tF4", 904
+        MENUITEM "�������༭�µ��ı��ļ�(&X)...\tShift+F4", 2931
+    MENUITEM "�½��ı��ļ�(&W)", em_ext_createNewFile
+        MENUITEM "����(&C)...\tF5", 905
+        MENUITEM "����(��ǰ���)(&a)...\tShift+F5", 3100
+        MENUITEM "������/�ƶ�(&R)...\tF6", 906
+        MENUITEM "������(�͵�)(&n)\tShift+F6", 1002
+        MENUITEM "������ (������µ��ļ�)(&m)", 1007
+        MENUITEM "�½��ļ���(&F)...\tF7", 907
+    MENUITEM "�½��ļ��� (Ŀ�����)(&T)...\tShift+F7", 907
+        MENUITEM "ɾ��(&D)...\tF8 / Delete", 908
+    MENUITEM SEPARATOR
+        MENUITEM "���Ƶ�������(&P)\tCtrl+C", 2008
+        MENUITEM "���е�������(&U)\tCtrl+X", 2007
+        MENUITEM "�Ӽ�����ճ��(&I)\tCtrl+V", 2009
   END_POPUP
   MENUITEM SEPARATOR
-  MENUITEM "光标下文件的内部关联菜单(&L)...", 2928
-  MENUITEM "标记的文件的内部关联菜单(&K)...", 2927
-    MENUITEM "Windows的关联菜单...\tShift+F10", 2500
-  MENUITEM "活动驱动器的 Windows的关联菜单...", 3020
-    MENUITEM "Windows的打开方式...", em_ext_openas
-    MENUITEM "Windows的新建...", 2943
-    MENUITEM "Windows 共享...", 1008
-    MENUITEM "媒体中心远程控制菜单...\tFn+ >||", 2930
+    MENUITEM "������ݷ�ʽ(&H)...\tShift+Ctrl+F5", 1004
+    MENUITEM "�༭�ļ�ע��(&M)...\tCtrl+Z", 2700
+    MENUITEM "��ʾ�ļ���ʾ(&E)", 2914
+    POPUP "��������(&K)\tCtrl+S", 2915
+    MENUITEM "ʹ�ù�������������(&W)\tCtrl+S", 3019
+    MENUITEM "ʹ���ϴ�ʹ�õĹ�������������(&L)\tShift+Ctrl+S", em_ext_lastquickfilter
+    MENUITEM "��ʹ�ù�������������(&O)", 3018
+    MENUITEM "�ѱ���Ŀ�������(&S)", 2915
+  END_POPUP
   MENUITEM SEPARATOR
-    MENUITEM "退出(&X)\tAlt+F4", 24340
+  MENUITEM "������ļ����ڲ������˵�(&L)...", 2928
+  MENUITEM "��ǵ��ļ����ڲ������˵�(&K)...", 2927
+    MENUITEM "Windows�Ĺ����˵�...\tShift+F10", 2500
+  MENUITEM "��������� Windows�Ĺ����˵�...", 3020
+    MENUITEM "Windows�Ĵ򿪷�ʽ...", em_ext_openas
+    MENUITEM "Windows���½�...", 2943
+    MENUITEM "Windows ����...", 1008
+    MENUITEM "ý������Զ�̿��Ʋ˵�...\tFn+ >||", 2930
+  MENUITEM SEPARATOR
+    MENUITEM "�˳�(&X)\tAlt+F4", 24340
 END_POPUP
 
-POPUP "过滤器(&i)"
-    MENUITEM "显示所有文件和文件夹(&A)", em_ext_show_all
-    MENUITEM "隐藏所有文件(只显示文件夹)(&F)", em_ext_hide_all
-  MENUITEM "隐藏所有文件夹 (只显示文件)(&Y)", em_ext_hide_folders
-  MENUITEM "隐藏所有文件和文件夹", em_ext_hide_everything
+POPUP "������(&i)"
+    MENUITEM "��ʾ�����ļ����ļ���(&A)", em_ext_show_all
+    MENUITEM "���������ļ�(ֻ��ʾ�ļ���)(&F)", em_ext_hide_all
+  MENUITEM "���������ļ��� (ֻ��ʾ�ļ�)(&Y)", em_ext_hide_folders
+  MENUITEM "���������ļ����ļ���", em_ext_hide_everything
   MENUITEM SEPARATOR
-    MENUITEM "只显示相同扩展名的文件(&E)", em_ext_show_ext
-    MENUITEM "隐藏相同扩展名的文件(&X)", em_ext_hide_ext
-  MENUITEM "只显示相同扩展名的文件夹", em_ext_show_folder_ext
-  MENUITEM "隐藏相同扩展名的文件夹", em_ext_hide_folder_ext
+    MENUITEM "ֻ��ʾ��ͬ��չ�����ļ�(&E)", em_ext_show_ext
+    MENUITEM "������ͬ��չ�����ļ�(&X)", em_ext_hide_ext
+  MENUITEM "ֻ��ʾ��ͬ��չ�����ļ���", em_ext_show_folder_ext
+  MENUITEM "������ͬ��չ�����ļ���", em_ext_hide_folder_ext
   MENUITEM SEPARATOR
-    MENUITEM "只显示相同名字的文件(&N) *", em_ext_show_name
-    MENUITEM "隐藏相同名字的文件(&H) *", em_ext_hide_name
-  MENUITEM "只显示相同名字的文件夹 *", em_ext_show_folder_name
-  MENUITEM "隐藏相同名字的文件夹 *", em_ext_hide_folder_name
+    MENUITEM "ֻ��ʾ��ͬ���ֵ��ļ�(&N) *", em_ext_show_name
+    MENUITEM "������ͬ���ֵ��ļ�(&H) *", em_ext_hide_name
+  MENUITEM "ֻ��ʾ��ͬ���ֵ��ļ��� *", em_ext_show_folder_name
+  MENUITEM "������ͬ���ֵ��ļ��� *", em_ext_hide_folder_name
   MENUITEM SEPARATOR
-    MENUITEM "只显示相同文件名 + 扩展名的文件(&T) *", em_ext_show_name_ext
-    MENUITEM "隐藏相同文件名 + 扩展名的文件(&L) *", em_ext_hide_name_ext
-  MENUITEM "只显示相同文件名 + 扩展名的文件夹 *", em_ext_show_folder_name_ext
-  MENUITEM "隐藏相同文件名 + 扩展名的文件夹 *", em_ext_hide_folder_name_ext
+    MENUITEM "ֻ��ʾ��ͬ�ļ��� + ��չ�����ļ�(&T) *", em_ext_show_name_ext
+    MENUITEM "������ͬ�ļ��� + ��չ�����ļ�(&L) *", em_ext_hide_name_ext
+  MENUITEM "ֻ��ʾ��ͬ�ļ��� + ��չ�����ļ��� *", em_ext_show_folder_name_ext
+  MENUITEM "������ͬ�ļ��� + ��չ�����ļ��� *", em_ext_hide_folder_name_ext
   MENUITEM SEPARATOR
-    MENUITEM "只显示选中的文件(过滤器最大1018 字节)(&S) *", em_ext_show_selected
-    MENUITEM "隐藏选中的文件(过滤器最大1018 字节)(&C) *", em_ext_hide_selected
+    MENUITEM "ֻ��ʾѡ�е��ļ�(���������1018 �ֽ�)(&S) *", em_ext_show_selected
+    MENUITEM "����ѡ�е��ļ�(���������1018 �ֽ�)(&C) *", em_ext_hide_selected
   MENUITEM SEPARATOR
-  MENUITEM "* = 仅在展开文件夹(Ctrl+B)时从根目录", em_ext_dummy
+  MENUITEM "* = ����չ���ļ���(Ctrl+B)ʱ�Ӹ�Ŀ¼", em_ext_dummy
   MENUITEM SEPARATOR
-    POPUP "显示图像文件(&M)"
-        MENUITEM "网络格式(&W)", em_ext_show_images_web
-        MENUITEM "文件类型 &1 - G", em_ext_show_images1
-        MENUITEM "文件类型 &H - O", em_ext_show_images2
-        MENUITEM "文件类型 &P - X", em_ext_show_images3
+    POPUP "��ʾͼ���ļ�(&M)"
+        MENUITEM "�����ʽ(&W)", em_ext_show_images_web
+        MENUITEM "�ļ����� &1 - G", em_ext_show_images1
+        MENUITEM "�ļ����� &H - O", em_ext_show_images2
+        MENUITEM "�ļ����� &P - X", em_ext_show_images3
   END_POPUP
-    MENUITEM "显示音乐文件(&U)", em_ext_show_music
-    MENUITEM "显示声音文件(&D)", em_ext_show_sounds
-    MENUITEM "显示视频文件(&V)", em_ext_show_videos
-    MENUITEM "显示压缩文件(&R)", em_ext_show_archives
-    MENUITEM "显示&Internet 文件", em_ext_show_webfiles
-    MENUITEM "显示文档文件(&O)", em_ext_show_documents
-    MENUITEM "显示电子表格文件", em_ext_show_spreadsheets
-    MENUITEM "显示演示文件(&P)", em_ext_show_presentations
-    MENUITEM "显示数据库文件(&B)", em_ext_show_datafiles
+    MENUITEM "��ʾ�����ļ�(&U)", em_ext_show_music
+    MENUITEM "��ʾ�����ļ�(&D)", em_ext_show_sounds
+    MENUITEM "��ʾ��Ƶ�ļ�(&V)", em_ext_show_videos
+    MENUITEM "��ʾѹ���ļ�(&R)", em_ext_show_archives
+    MENUITEM "��ʾ&Internet �ļ�", em_ext_show_webfiles
+    MENUITEM "��ʾ�ĵ��ļ�(&O)", em_ext_show_documents
+    MENUITEM "��ʾ���ӱ����ļ�", em_ext_show_spreadsheets
+    MENUITEM "��ʾ��ʾ�ļ�(&P)", em_ext_show_presentations
+    MENUITEM "��ʾ���ݿ��ļ�(&B)", em_ext_show_datafiles
   MENUITEM SEPARATOR
-    MENUITEM "显示程序文件(&W)", em_ext_show_programfiles
-    MENUITEM "隐藏程序文件(&G)", em_ext_hide_programfiles
+    MENUITEM "��ʾ�����ļ�(&W)", em_ext_show_programfiles
+    MENUITEM "���س����ļ�(&G)", em_ext_hide_programfiles
 END_POPUP
 
-POPUP "标记(&M)"
-  MENUITEM "比较两边面板(&C)\tShift+F2", 533
-  MENUITEM "比较两边面板，包括文件夹(&F)", 536
-    MENUITEM "标记新文件, 隐藏相同文件(&M)", 534
-  MENUITEM "标记两边面板都存在的文件和文件夹(&K)", em_ext_select_duplicates
-  MENUITEM "标记两个面板中都不存在的文件和文件夹", em_ext_select_non_duplicates
-  MENUITEM "清除两个面板中的所有选择(&B)", em_ext_clearallselected
-  MENUITEM "转到上一个选定的文件夹或文件(&E)", 2054
-  MENUITEM "转到下一个选定的文件夹或文件", 2053
+POPUP "���(&M)"
+  MENUITEM "�Ƚ��������(&C)\tShift+F2", 533
+  MENUITEM "�Ƚ�������壬�����ļ���(&F)", 536
+    MENUITEM "������ļ�, ������ͬ�ļ�(&M)", 534
+  MENUITEM "���������嶼���ڵ��ļ����ļ���(&K)", em_ext_select_duplicates
+  MENUITEM "�����������ж������ڵ��ļ����ļ���", em_ext_select_non_duplicates
+  MENUITEM "�����������е�����ѡ��(&B)", em_ext_clearallselected
+  MENUITEM "ת����һ��ѡ�����ļ��л��ļ�(&E)", 2054
+  MENUITEM "ת����һ��ѡ�����ļ��л��ļ�", 2053
   MENUITEM SEPARATOR
-  MENUITEM "仅显示选中的文件和文件夹(&O)", 2023
-  MENUITEM "隐藏选中的文件和文件夹", em_ext_hideallselected
-  MENUITEM "刷新来源窗口(&U)\tF2 / Ctrl+R", 540
-  MENUITEM "仅显示两个面板中都存在的文件和文件夹(&W)*", em_ext_show_duplicates
-  MENUITEM "隐藏两个面板中都存在的文件和文件夹*", em_ext_show_non_duplicates
-  MENUITEM "刷新两边面板", em_ext_UpdateBothPanels
+  MENUITEM "����ʾѡ�е��ļ����ļ���(&O)", 2023
+  MENUITEM "����ѡ�е��ļ����ļ���", em_ext_hideallselected
+  MENUITEM "ˢ����Դ����(&U)\tF2 / Ctrl+R", 540
+  MENUITEM "����ʾ��������ж����ڵ��ļ����ļ���(&W)*", em_ext_show_duplicates
+  MENUITEM "������������ж����ڵ��ļ����ļ���*", em_ext_show_non_duplicates
+  MENUITEM "ˢ���������", em_ext_UpdateBothPanels
   MENUITEM SEPARATOR
-  MENUITEM "* = 仅当 Total Commander 处于焦点状态时", em_ext_dummy
+  MENUITEM "* = ���� Total Commander ���ڽ���״̬ʱ", em_ext_dummy
   MENUITEM SEPARATOR
-  POPUP "扩展选择(&X)...\tNum +"
-    MENUITEM "扩展选择（根据配置）(&X)...\tNum +", 521
-    MENUITEM "扩展选择，相同扩展名（根据配置）(&T)...", 546
+  POPUP "��չѡ��(&X)...\tNum +"
+    MENUITEM "��չѡ�񣨸������ã�(&X)...\tNum +", 521
+    MENUITEM "��չѡ����ͬ��չ�����������ã�(&T)...", 546
     MENUITEM SEPARATOR
-    MENUITEM "文件和文件夹(&B)...", 3311
-    MENUITEM "仅文件(&O)...", 3312
-    MENUITEM "仅文件夹(&F)...", 3313
+    MENUITEM "�ļ����ļ���(&B)...", 3311
+    MENUITEM "���ļ�(&O)...", 3312
+    MENUITEM "���ļ���(&F)...", 3313
   END_POPUP
-  POPUP "缩小选择(&H)...\tNum  -"
-    MENUITEM "缩小选择（根据配置）(&H)...", 3316
+  POPUP "��Сѡ��(&H)...\tNum  -"
+    MENUITEM "��Сѡ�񣨸������ã�(&H)...", 3316
     MENUITEM SEPARATOR
-    MENUITEM "文件和文件夹(&B)...\tNum  -", 522
-    MENUITEM "文件和文件夹，相同扩展名(&T)...", 547
-    MENUITEM "仅文件(&O)...\tShift+Num  -", 3314
-    MENUITEM "仅文件夹(&F)...", 3315
+    MENUITEM "�ļ����ļ���(&B)...\tNum  -", 522
+    MENUITEM "�ļ����ļ��У���ͬ��չ��(&T)...", 547
+    MENUITEM "���ļ�(&O)...\tShift+Num  -", 3314
+    MENUITEM "���ļ���(&F)...", 3315
   END_POPUP
-  POPUP "反转选择(&I)\tNum  *"
-    MENUITEM "反转选择（根据配置）(&I)\tNum  *", 525
+  POPUP "��תѡ��(&I)\tNum  *"
+    MENUITEM "��תѡ�񣨸������ã�(&I)\tNum  *", 525
     MENUITEM SEPARATOR
-    MENUITEM "文件和文件夹(&B)", 3321
-    MENUITEM "仅文件(&O)", 3322
-    MENUITEM "仅文件夹(&F)", 3323
+    MENUITEM "�ļ����ļ���(&B)", 3321
+    MENUITEM "���ļ�(&O)", 3322
+    MENUITEM "���ļ���(&F)", 3323
   END_POPUP
-  MENUITEM "恢复选择(&R)\tNum  /", 529
-  POPUP "全选(&S)\tCtrl+Num +"
-    MENUITEM "全选（根据配置）(&S)\tCtrl+Num + / Ctrl+A", 523
+  MENUITEM "�ָ�ѡ��(&R)\tNum  /", 529
+  POPUP "ȫѡ(&S)\tCtrl+Num +"
+    MENUITEM "ȫѡ���������ã�(&S)\tCtrl+Num + / Ctrl+A", 523
     MENUITEM SEPARATOR
-    MENUITEM "文件和文件夹(&B)", 3301
-    MENUITEM "仅文件(&O)", 3302
-    MENUITEM "仅文件夹(&F)", 3303
+    MENUITEM "�ļ����ļ���(&B)", 3301
+    MENUITEM "���ļ�(&O)", 3302
+    MENUITEM "���ļ���(&F)", 3303
     MENUITEM SEPARATOR
-    MENUITEM "选择所有扩展名相同的（根据配置）(&E)\tAlt+Num +", 527
-    MENUITEM "选择所有名称相同的（根据配置）(&N)", 541
-    MENUITEM "选择所有名称 + 扩展名相同的（根据配置）(&W)", 543
-    MENUITEM "选择同一路径中的全部（展开视图）(&P)", 537
+    MENUITEM "ѡ��������չ����ͬ�ģ��������ã�(&E)\tAlt+Num +", 527
+    MENUITEM "ѡ������������ͬ�ģ��������ã�(&N)", 541
+    MENUITEM "ѡ���������� + ��չ����ͬ�ģ��������ã�(&W)", 543
+    MENUITEM "ѡ��ͬһ·���е�ȫ����չ����ͼ��(&P)", 537
   END_POPUP
-  POPUP "取消全选(&C)\tCtrl+Num  -"
-    MENUITEM "取消全选（根据配置）(&C)", 3306
+  POPUP "ȡ��ȫѡ(&C)\tCtrl+Num  -"
+    MENUITEM "ȡ��ȫѡ���������ã�(&C)", 3306
     MENUITEM SEPARATOR
-        MENUITEM "文件和文件夹(&B)\tCtrl+Num  -", 524
-        MENUITEM "仅文件(&O)\tShift+Ctrl+Num  -", 3304
-        MENUITEM "仅文件夹(&F)", 3305
+        MENUITEM "�ļ����ļ���(&B)\tCtrl+Num  -", 524
+        MENUITEM "���ļ�(&O)\tShift+Ctrl+Num  -", 3304
+        MENUITEM "���ļ���(&F)", 3305
     MENUITEM SEPARATOR
-    MENUITEM "取消选择所有具有相同扩展名的(&E)\tAlt+Num  -", 528
-    MENUITEM "取消选择所有同名的(&N)", 542
-    MENUITEM "取消选择所有同名+扩展名(&C)", 544
-    MENUITEM "取消选择相同路径中的全部（展开视图）(&P)", 538
-  END_POPUP
-  MENUITEM SEPARATOR
-  POPUP "保存/获取文件选择(&G)"
-    MENUITEM "将选择保存到内存(&M)", 530
-    MENUITEM "从内存中获取选择(&O)\tNum  /", 529
-    MENUITEM SEPARATOR
-    MENUITEM "将选择保存到剪贴板(&S)", 2018
-    MENUITEM "从剪贴板获取选择(&R)", 2033
-    MENUITEM SEPARATOR
-    MENUITEM "将选择保存到文件(&T)...", 2031
-    MENUITEM "从文件中获取选择(&F)...", 2032
-    MENUITEM "将选择保存到文件（强制 ANSI）(&A)...", 2041
-    MENUITEM "将选择保存到文件（强制 Unicode）(&U)...", 2042
-    MENUITEM SEPARATOR
-    MENUITEM "将选择保存到文件SELECTEDFILES.txt(&E)", em_ext_saveselection
-    MENUITEM "从文件SELECTEDFILES.txt中获取选择(&N)", em_ext_loadselection
-    MENUITEM "将选择保存到文件SELECTEDFILES.txt(强制 ANSI)(&D)", em_ext_saveselectiona
-    MENUITEM "将选择保存到文件SELECTEDFILES.txt(强制 Unicode)(&X)", em_ext_saveselectionw
-    MENUITEM "将选择保存到文件SELECTEDFILES.txt(强制 UTF-8)(&8)", em_ext_copynamestofile
-  END_POPUP
-  POPUP "源/目标选择(&A)"
-    MENUITEM "如果在源面板中被选中，则选中目标面板中的元素(&S) *", em_ext_select_source
-    MENUITEM "如果在源面板中被选中，则取消选择目标面板中的元素(&D) *", em_ext_deselect_source
-    MENUITEM "如果在源面板中被选中，则取消选择两侧面板中的元素(&B) *", em_ext_deselect2_source
-    MENUITEM SEPARATOR
-    MENUITEM "如果在目标面板中被选中，则选中源面板中的元素(&E) *", em_ext_select_target
-    MENUITEM "如果在目标面板中被选中，则取消选择源面板中的元素(&L) *", em_ext_deselect_target
-    MENUITEM "如果在目标面板中被选中，则取消选择两侧面板中的元素(&O) *", em_ext_deselect2_target
-    MENUITEM SEPARATOR
-    MENUITEM "选择两侧面板中所有具有相同扩展名的元素(&X)", em_ext_select_type
-    MENUITEM "取消选择两侧面板中所有具有相同扩展名的元素(&T)", em_ext_deselect_type
-    MENUITEM SEPARATOR
-    MENUITEM "选择两侧面板中所有相同名称的元素(&N)", em_ext_select_name
-    MENUITEM "取消选择两侧面板中所有相同名称的元素(&A)", em_ext_deselect_name
-    MENUITEM SEPARATOR
-    MENUITEM "选择两侧面板中所有相同名称+扩展名的元素(&W)", em_ext_select_nameext
-    MENUITEM "取消选择两侧面板中所有相同名称+扩展名的元素(&H)", em_ext_deselect_nameext
-    MENUITEM SEPARATOR
-    MENUITEM "取消选择两侧面板中的所有元素(&M)", em_ext_deselectboth
-    MENUITEM SEPARATOR
-    MENUITEM "注意 - 按住 Shift 键可以将文件夹从操作中排除", em_ext_dummy
-    MENUITEM "* = 必须提前选择至少1个元素", em_ext_dummy
+    MENUITEM "ȡ��ѡ�����о�����ͬ��չ����(&E)\tAlt+Num  -", 528
+    MENUITEM "ȡ��ѡ������ͬ����(&N)", 542
+    MENUITEM "ȡ��ѡ������ͬ��+��չ��(&C)", 544
+    MENUITEM "ȡ��ѡ����ͬ·���е�ȫ����չ����ͼ��(&P)", 538
   END_POPUP
   MENUITEM SEPARATOR
-  MENUITEM "选择光标下的文件/文件夹(&N)", em_ext_select
-  MENUITEM "取消选择光标下的文件/文件夹(&L)", em_ext_unselect
-  MENUITEM "反转光标下文件/文件夹的选择(&T)", em_ext_reverse
-  MENUITEM "反转光标下文件/文件夹的选择，转到下一项\tInsert", 2938
-  MENUITEM "从当前位置选择多个文件/文件夹(&T)...", em_ext_SelectNumber
+  POPUP "����/��ȡ�ļ�ѡ��(&G)"
+    MENUITEM "��ѡ�񱣴浽�ڴ�(&M)", 530
+    MENUITEM "���ڴ��л�ȡѡ��(&O)\tNum  /", 529
+    MENUITEM SEPARATOR
+    MENUITEM "��ѡ�񱣴浽������(&S)", 2018
+    MENUITEM "�Ӽ������ȡѡ��(&R)", 2033
+    MENUITEM SEPARATOR
+    MENUITEM "��ѡ�񱣴浽�ļ�(&T)...", 2031
+    MENUITEM "���ļ��л�ȡѡ��(&F)...", 2032
+    MENUITEM "��ѡ�񱣴浽�ļ���ǿ�� ANSI��(&A)...", 2041
+    MENUITEM "��ѡ�񱣴浽�ļ���ǿ�� Unicode��(&U)...", 2042
+    MENUITEM SEPARATOR
+    MENUITEM "��ѡ�񱣴浽�ļ�SELECTEDFILES.txt(&E)", em_ext_saveselection
+    MENUITEM "���ļ�SELECTEDFILES.txt�л�ȡѡ��(&N)", em_ext_loadselection
+    MENUITEM "��ѡ�񱣴浽�ļ�SELECTEDFILES.txt(ǿ�� ANSI)(&D)", em_ext_saveselectiona
+    MENUITEM "��ѡ�񱣴浽�ļ�SELECTEDFILES.txt(ǿ�� Unicode)(&X)", em_ext_saveselectionw
+    MENUITEM "��ѡ�񱣴浽�ļ�SELECTEDFILES.txt(ǿ�� UTF-8)(&8)", em_ext_copynamestofile
+  END_POPUP
+  POPUP "Դ/Ŀ��ѡ��(&A)"
+    MENUITEM "�����Դ����б�ѡ�У���ѡ��Ŀ������е�Ԫ��(&S) *", em_ext_select_source
+    MENUITEM "�����Դ����б�ѡ�У���ȡ��ѡ��Ŀ������е�Ԫ��(&D) *", em_ext_deselect_source
+    MENUITEM "�����Դ����б�ѡ�У���ȡ��ѡ����������е�Ԫ��(&B) *", em_ext_deselect2_source
+    MENUITEM SEPARATOR
+    MENUITEM "�����Ŀ������б�ѡ�У���ѡ��Դ����е�Ԫ��(&E) *", em_ext_select_target
+    MENUITEM "�����Ŀ������б�ѡ�У���ȡ��ѡ��Դ����е�Ԫ��(&L) *", em_ext_deselect_target
+    MENUITEM "�����Ŀ������б�ѡ�У���ȡ��ѡ����������е�Ԫ��(&O) *", em_ext_deselect2_target
+    MENUITEM SEPARATOR
+    MENUITEM "ѡ��������������о�����ͬ��չ����Ԫ��(&X)", em_ext_select_type
+    MENUITEM "ȡ��ѡ��������������о�����ͬ��չ����Ԫ��(&T)", em_ext_deselect_type
+    MENUITEM SEPARATOR
+    MENUITEM "ѡ�����������������ͬ���Ƶ�Ԫ��(&N)", em_ext_select_name
+    MENUITEM "ȡ��ѡ�����������������ͬ���Ƶ�Ԫ��(&A)", em_ext_deselect_name
+    MENUITEM SEPARATOR
+    MENUITEM "ѡ�����������������ͬ����+��չ����Ԫ��(&W)", em_ext_select_nameext
+    MENUITEM "ȡ��ѡ�����������������ͬ����+��չ����Ԫ��(&H)", em_ext_deselect_nameext
+    MENUITEM SEPARATOR
+    MENUITEM "ȡ��ѡ����������е�����Ԫ��(&M)", em_ext_deselectboth
+    MENUITEM SEPARATOR
+    MENUITEM "ע�� - ��ס Shift �����Խ��ļ��дӲ������ų�", em_ext_dummy
+    MENUITEM "* = ������ǰѡ������1��Ԫ��", em_ext_dummy
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "ѡ�����µ��ļ�/�ļ���(&N)", em_ext_select
+  MENUITEM "ȡ��ѡ�����µ��ļ�/�ļ���(&L)", em_ext_unselect
+  MENUITEM "��ת������ļ�/�ļ��е�ѡ��(&T)", em_ext_reverse
+  MENUITEM "��ת������ļ�/�ļ��е�ѡ��ת����һ��\tInsert", 2938
+  MENUITEM "�ӵ�ǰλ��ѡ�����ļ�/�ļ���(&T)...", em_ext_SelectNumber
 END_POPUP
 
-POPUP "导航(&E)"
-    MENUITEM "转到第一个文件(F&)", 2050
-    MENUITEM "转到最新的文件", em_ext_gotonewestfile
-    MENUITEM "转到最老的文件", em_ext_gotooldestfile
-    MENUITEM "转到最小的文件(&A)", em_ext_gotosmallestfile
-    MENUITEM "转到最大的文件", em_ext_gotolargestfile
-  MENUITEM "转到第一个文件或文件夹\tHome", em_ext_GoToFirstEntry
-  MENUITEM "转到最后一个文件夹或文件\tEnd", 2057
-  MENUITEM "转到上一个文件夹或文件\tUp", 2056
-  MENUITEM "转到下一个文件夹或文件\tDown", 2055
-  MENUITEM "转到带有指定编号的文件夹或文件(&C)...", em_ext_GotoNumber
-    MENUITEM "转到上一个选定的文件夹或文件(&E)", 2054
-    MENUITEM "转到下一个选定的文件夹或文件(&N)", 2053
-  MENUITEM "转到对面面板中同名的文件夹或文件", em_ext_goto_item_opositepanel
-    MENUITEM "快速搜索(&K)\tCtrl+S", 2915
+POPUP "����(&E)"
+    MENUITEM "ת����һ���ļ�(F&)", 2050
+    MENUITEM "ת�����µ��ļ�", em_ext_gotonewestfile
+    MENUITEM "ת�����ϵ��ļ�", em_ext_gotooldestfile
+    MENUITEM "ת����С���ļ�(&A)", em_ext_gotosmallestfile
+    MENUITEM "ת�������ļ�", em_ext_gotolargestfile
+  MENUITEM "ת����һ���ļ����ļ���\tHome", em_ext_GoToFirstEntry
+  MENUITEM "ת�����һ���ļ��л��ļ�\tEnd", 2057
+  MENUITEM "ת����һ���ļ��л��ļ�\tUp", 2056
+  MENUITEM "ת����һ���ļ��л��ļ�\tDown", 2055
+  MENUITEM "ת������ָ����ŵ��ļ��л��ļ�(&C)...", em_ext_GotoNumber
+    MENUITEM "ת����һ��ѡ�����ļ��л��ļ�(&E)", 2054
+    MENUITEM "ת����һ��ѡ�����ļ��л��ļ�(&N)", 2053
+  MENUITEM "ת�����������ͬ�����ļ��л��ļ�", em_ext_goto_item_opositepanel
+    MENUITEM "��������(&K)\tCtrl+S", 2915
   MENUITEM SEPARATOR
-    MENUITEM "常用文件夹列表[ * ](&H) ...\tCtrl+D", 526
-    MENUITEM "历史 [ v ] ...(&S)\tAlt+Down", 572
-    MENUITEM "历史 [ v ] - 未过滤...\tShift+Alt+Down", 575
-  MENUITEM "转到历史记录中的上一个目录(&G)\tAlt+Left", 570
-    MENUITEM "转到历史记录中的下一个目录(&X)\tAlt+Right", 571
-  MENUITEM "转到历史记录中的上一个目录，跳过 FTP(&T)", 573
-  MENUITEM "转到历史记录中的下一个目录，跳过 FTP(&O)", 574
-    MENUITEM "转到父目录[ .. ](&P)\tCtrl+PgUp / Backspace", 2002
-    MENUITEM "转到根目录 [ \ ](&Y)\tCtrl+ \", 2001
-    MENUITEM "打开光标下的文件夹/压缩包(&L)\tCtrl+PgDn", 2003
-  MENUITEM "转到最新的文件夹", em_ext_gotonewestdir
-  MENUITEM "转到最老的文件夹", em_ext_gotooldestdir
-    MENUITEM "转到光标下的文件(列表框，展开视图)(&F)", em_ext_gotofileundercursor
-    MENUITEM "转到TC程序目录(&M)", em_ext_commanderpath
-    MENUITEM "编辑当前路径(&C)", 2912
+    MENUITEM "�����ļ����б�[ * ](&H) ...\tCtrl+D", 526
+    MENUITEM "��ʷ [ v ] ...(&S)\tAlt+Down", 572
+    MENUITEM "��ʷ [ v ] - δ����...\tShift+Alt+Down", 575
+  MENUITEM "ת����ʷ��¼�е���һ��Ŀ¼(&G)\tAlt+Left", 570
+    MENUITEM "ת����ʷ��¼�е���һ��Ŀ¼(&X)\tAlt+Right", 571
+  MENUITEM "ת����ʷ��¼�е���һ��Ŀ¼������ FTP(&T)", 573
+  MENUITEM "ת����ʷ��¼�е���һ��Ŀ¼������ FTP(&O)", 574
+    MENUITEM "ת����Ŀ¼[ .. ](&P)\tCtrl+PgUp / Backspace", 2002
+    MENUITEM "ת����Ŀ¼ [ \ ](&Y)\tCtrl+ \", 2001
+    MENUITEM "�򿪹���µ��ļ���/ѹ����(&L)\tCtrl+PgDn", 2003
+  MENUITEM "ת�����µ��ļ���", em_ext_gotonewestdir
+  MENUITEM "ת�����ϵ��ļ���", em_ext_gotooldestdir
+    MENUITEM "ת������µ��ļ�(�б���չ����ͼ)(&F)", em_ext_gotofileundercursor
+    MENUITEM "ת��TC����Ŀ¼(&M)", em_ext_commanderpath
+    MENUITEM "�༭��ǰ·��(&C)", 2912
   MENUITEM SEPARATOR
-    MENUITEM "选择驱动器(&D)\tAlt+F1", 331
-    MENUITEM "转到上一个驱动器(&U)", 2052
-    MENUITEM "转到下一个驱动(&V)", 2051
-  MENUITEM "转到第一个驱动器", em_ext_drive1
-  MENUITEM "转到最后一个驱动器", em_ext_lastdrive
-  POPUP "转到驱动器盘符："
+    MENUITEM "ѡ��������(&D)\tAlt+F1", 331
+    MENUITEM "ת����һ��������(&U)", 2052
+    MENUITEM "ת����һ������(&V)", 2051
+  MENUITEM "ת����һ��������", em_ext_drive1
+  MENUITEM "ת�����һ��������", em_ext_lastdrive
+  POPUP "ת���������̷���"
     MENUITEM "&A:", 2061
     MENUITEM "&B:", 2062
     MENUITEM "&C:", 2063
@@ -367,7 +367,7 @@ POPUP "导航(&E)"
     MENUITEM "&H:", 2068
     MENUITEM "&Z:", 2086
   END_POPUP
-  POPUP "转到驱动器号："
+  POPUP "ת���������ţ�"
     MENUITEM "&1", em_ext_drive1
     MENUITEM "&2", em_ext_drive2
     MENUITEM "&3", em_ext_drive3
@@ -378,271 +378,271 @@ POPUP "导航(&E)"
     MENUITEM "&8", em_ext_drive8
     MENUITEM "&9", em_ext_drive9
   END_POPUP
-  MENUITEM "转到TC程序所在驱动器(&R)", em_ext_commanderdrive
+  MENUITEM "ת��TC��������������(&R)", em_ext_commanderdrive
 END_POPUP
 
-POPUP "焦点(&U)"
-  MENUITEM "菜单栏(&M)\tAlt / F10", 4011
+POPUP "����(&U)"
+  MENUITEM "�˵���(&M)\tAlt / F10", 4011
   MENUITEM SEPARATOR
-    MENUITEM "工具栏(&B)\tShift+Alt+F11", 4004
-  MENUITEM "工具栏 &2 (垂直)\tShift+Alt+F12", 4012
+    MENUITEM "������(&B)\tShift+Alt+F11", 4004
+  MENUITEM "������ &2 (��ֱ)\tShift+Alt+F12", 4012
   MENUITEM SEPARATOR
-  MENUITEM "驱动器列表框 - 活动侧(&D)", 331
-  MENUITEM "驱动器列表框 - 左侧(&O)\tAlt+F1", 131
-  MENUITEM "驱动器列表框 - 右侧(&X)\tAlt+F2", 231
+  MENUITEM "�������б��� - ���(&D)", 331
+  MENUITEM "�������б��� - ���(&O)\tAlt+F1", 131
+  MENUITEM "�������б��� - �Ҳ�(&X)\tAlt+F2", 231
   MENUITEM SEPARATOR
-    MENUITEM "路径栏(路径导航栏)(&A)", 332
-    MENUITEM "路径栏 - 左/上(&P)\tAlt+F11", 132
-    MENUITEM "路径栏 - 右/下(&F)\tAlt+F12", 232
+    MENUITEM "·����(·��������)(&A)", 332
+    MENUITEM "·���� - ��/��(&P)\tAlt+F11", 132
+    MENUITEM "·���� - ��/��(&F)\tAlt+F12", 232
   MENUITEM SEPARATOR
-    MENUITEM "文件面板 - 左/上(&L)", 4001
-    MENUITEM "文件面板 - 右/下(&R)", 4002
-  MENUITEM "文件面板 - 来源侧(&E)", 4005
-  MENUITEM "文件面板 - 目标侧(&T)\tTab / Ctrl+I", 4006
+    MENUITEM "�ļ���� - ��/��(&L)", 4001
+    MENUITEM "�ļ���� - ��/��(&R)", 4002
+  MENUITEM "�ļ���� - ��Դ��(&E)", 4005
+  MENUITEM "�ļ���� - Ŀ���(&T)\tTab / Ctrl+I", 4006
   MENUITEM SEPARATOR
-  MENUITEM "独立树视图 - 左/上(&V)", 4007
-  MENUITEM "独立树视图 - 右/下(&W)", 4008
-  MENUITEM "独立树视图 - 来源侧(&S)\tShift+Tab", 4009
-  MENUITEM "独立树视图 - 目标侧(&I)", 4010
+  MENUITEM "��������ͼ - ��/��(&V)", 4007
+  MENUITEM "��������ͼ - ��/��(&W)", 4008
+  MENUITEM "��������ͼ - ��Դ��(&S)\tShift+Tab", 4009
+  MENUITEM "��������ͼ - Ŀ���(&I)", 4010
   MENUITEM SEPARATOR
-  MENUITEM "命令行(&C)\tShift+Right", 4003
+  MENUITEM "������(&C)\tShift+Right", 4003
 END_POPUP
 
-POPUP "视图(&V)"
-  MENUITEM "列表视图(&B)\tCtrl+F1", 301
-  MENUITEM "详细资料(&F)\tCtrl+F2", 302
-  MENUITEM "缩略图(&H)\tShift+Ctrl+F1", 269
-  MENUITEM "文件备注(&I)\tShift+Ctrl+F2", 300
+POPUP "��ͼ(&V)"
+  MENUITEM "�б���ͼ(&B)\tCtrl+F1", 301
+  MENUITEM "��ϸ����(&F)\tCtrl+F2", 302
+  MENUITEM "����ͼ(&H)\tShift+Ctrl+F1", 269
+  MENUITEM "�ļ���ע(&I)\tShift+Ctrl+F2", 300
   MENUITEM SEPARATOR
-  MENUITEM "自定义列(&O)\tShift+F1", 270
-  MENUITEM "    上一个", 5502
-  MENUITEM "    下一个", 5501
-  MENUITEM "自定义视图模式", 333
-  MENUITEM "    自动切换模式", 2947
+  MENUITEM "�Զ�����(&O)\tShift+F1", 270
+  MENUITEM "    ��һ��", 5502
+  MENUITEM "    ��һ��", 5501
+  MENUITEM "�Զ�����ͼģʽ", 333
+  MENUITEM "    �Զ��л�ģʽ", 2947
   MENUITEM SEPARATOR
-  MENUITEM "树视图(&T)\tCtrl+F8", 303
-  POPUP "独立树视图(&E)\"
-    MENUITEM "&0 (无)", 3200
-    MENUITEM "&1 (一个树用于两个面板)", 3201
-    MENUITEM "&2 (每个面板单独的树)", 3202
-    MENUITEM "下一个(&N)\tShift+Ctrl+F8", 3203
+  MENUITEM "����ͼ(&T)\tCtrl+F8", 303
+  POPUP "��������ͼ(&E)\"
+    MENUITEM "&0 (��)", 3200
+    MENUITEM "&1 (һ���������������)", 3201
+    MENUITEM "&2 (ÿ����嵥������)", 3202
+    MENUITEM "��һ��(&N)\tShift+Ctrl+F8", 3203
     MENUITEM SEPARATOR
-    MENUITEM "单个树视图 开/关(&O)", 3204
-    MENUITEM "两个树视图 开/关(&T)", 3205
+    MENUITEM "��������ͼ ��/��(&O)", 3204
+    MENUITEM "��������ͼ ��/��(&T)", 3205
   END_POPUP
-  MENUITEM "    下一个\tShift+Ctrl+F8", 3203
+  MENUITEM "    ��һ��\tShift+Ctrl+F8", 3203
   MENUITEM SEPARATOR
-    MENUITEM "快速查看(&Q)\tCtrl+Q", 304
-    MENUITEM "快速查看(不使用插件)(&G)", 306
-  MENUITEM "在独立窗口中显示快速查看\tShift+Ctrl+Q", 2941
-  MENUITEM "在独立窗口中显示快速查看 (不使用插件)", 2942
+    MENUITEM "���ٲ鿴(&Q)\tCtrl+Q", 304
+    MENUITEM "���ٲ鿴(��ʹ�ò��)(&G)", 306
+  MENUITEM "�ڶ�����������ʾ���ٲ鿴\tShift+Ctrl+Q", 2941
+  MENUITEM "�ڶ�����������ʾ���ٲ鿴 (��ʹ�ò��)", 2942
   MENUITEM SEPARATOR
-    MENUITEM "展开所有文件夹(&W)\tCtrl+B", 2026
-    MENUITEM "只展开选定的文件夹\tShift+Ctrl+B", 2046
+    MENUITEM "չ�������ļ���(&W)\tCtrl+B", 2026
+    MENUITEM "ֻչ��ѡ�����ļ���\tShift+Ctrl+B", 2046
   MENUITEM SEPARATOR
-    MENUITEM "垂直对齐(&V)", 305
+    MENUITEM "��ֱ����(&V)", 305
   MENUITEM SEPARATOR
-    MENUITEM "按文件名排序(&N)\tCtrl+F3", 321
-    MENUITEM "按扩展名排序(&X)\tCtrl+F4", 322
-    MENUITEM "按日期时间排序(&M)\tCtrl+F5", 324
-    MENUITEM "按大小排序(&S)\tCtrl+F6", 323
-    MENUITEM "不排序(&U)\tCtrl+F7", 325
-    MENUITEM "反向排序(&R)", 330
-    POPUP "按列排序(&Y)"
-        MENUITEM "按第 &3 列排序", 6003
-        MENUITEM "按第 &4 列排序", 6004
-        MENUITEM "按第 &5 列排序", 6005
-        MENUITEM "按第 &6 列排序", 6006
-        MENUITEM "按第 &7 列排序", 6007
-        MENUITEM "按第 &8 列排序", 6008
-        MENUITEM "按第 &9 列排序", 6009
+    MENUITEM "���ļ�������(&N)\tCtrl+F3", 321
+    MENUITEM "����չ������(&X)\tCtrl+F4", 322
+    MENUITEM "������ʱ������(&M)\tCtrl+F5", 324
+    MENUITEM "����С����(&S)\tCtrl+F6", 323
+    MENUITEM "������(&U)\tCtrl+F7", 325
+    MENUITEM "��������(&R)", 330
+    POPUP "��������(&Y)"
+        MENUITEM "���� &3 ������", 6003
+        MENUITEM "���� &4 ������", 6004
+        MENUITEM "���� &5 ������", 6005
+        MENUITEM "���� &6 ������", 6006
+        MENUITEM "���� &7 ������", 6007
+        MENUITEM "���� &8 ������", 6008
+        MENUITEM "���� &9 ������", 6009
   END_POPUP
   MENUITEM SEPARATOR
-    MENUITEM "所有文件(&A)\tCtrl+F10", 312
-    MENUITEM "程序(&P)\tCtrl+F11", 311
-    MENUITEM "自定义(&C)...\tCtrl+F12", 314
+    MENUITEM "�����ļ�(&A)\tCtrl+F10", 312
+    MENUITEM "����(&P)\tCtrl+F11", 311
+    MENUITEM "�Զ���(&C)...\tCtrl+F12", 314
   MENUITEM "*.*", 313
-    MENUITEM "仅选定的文件(&l)", 2023
+    MENUITEM "��ѡ�����ļ�(&l)", 2023
   MENUITEM SEPARATOR
-    MENUITEM "选择驱动器(&D)\tAlt+F1 / F2", 331
+    MENUITEM "ѡ��������(&D)\tAlt+F1 / F2", 331
 END_POPUP
 
-POPUP "命令(&C)"
-    MENUITEM "目录树(&T)...\tAlt+F10", 500
-  MENUITEM "设置卷标(&V)...", 505
-  MENUITEM "系统信息(&I)...", 506
-  MENUITEM "后台传输管理器(&M)...", 559
-  MENUITEM "选择内部命令(&C)...", 2924
-  POPUP "卸载内存中的插件(&U)"
-    MENUITEM "所有插件(&A)", 2913
-    MENUITEM "查看器插件(&L)", em_ext_UnloadPlugins4
-    MENUITEM "内容插件(&C)", em_ext_UnloadPlugins8
-    MENUITEM "文件系统插件(&F)", em_ext_UnloadPlugins2
-    MENUITEM "压缩插件(&P)", em_ext_UnloadPlugins1
-    MENUITEM "外部快速搜索(&E)", em_ext_UnloadPlugins16
+POPUP "����(&C)"
+    MENUITEM "Ŀ¼��(&T)...\tAlt+F10", 500
+  MENUITEM "���þ���(&V)...", 505
+  MENUITEM "ϵͳ��Ϣ(&I)...", 506
+  MENUITEM "��̨���������(&M)...", 559
+  MENUITEM "ѡ���ڲ�����(&C)...", 2924
+  POPUP "ж���ڴ��еĲ��(&U)"
+    MENUITEM "���в��(&A)", 2913
+    MENUITEM "�鿴�����(&L)", em_ext_UnloadPlugins4
+    MENUITEM "���ݲ��(&C)", em_ext_UnloadPlugins8
+    MENUITEM "�ļ�ϵͳ���(&F)", em_ext_UnloadPlugins2
+    MENUITEM "ѹ�����(&P)", em_ext_UnloadPlugins1
+    MENUITEM "�ⲿ��������(&E)", em_ext_UnloadPlugins16
   END_POPUP
-  MENUITEM "监视目录变动(&W)", 2921
-  MENUITEM "忽略列表中的文件(&F)", 2922
-;  MENUITEM "不要重定向 system&32 文件夹", 2925
+  MENUITEM "����Ŀ¼�䶯(&W)", 2921
+  MENUITEM "�����б��е��ļ�(&F)", 2922
+;  MENUITEM "��Ҫ�ض��� system&32 �ļ���", 2925
   MENUITEM SEPARATOR
-  MENUITEM "源 &<-> 目标\tCtrl+U", 531
-  MENUITEM "源 <-&> 目标 (包括标签)\tShift+Ctrl+U", 535
-  MENUITEM "源 &= 目标", 532
-  MENUITEM "光标下的目录/链接 -> 左/上(&L)\tCtrl+Left", 2024
-  MENUITEM "光标下的目录/链接 -> 右/下(&R)\tCtrl+Right", 2025
-  MENUITEM "同步源和目标的目录变更(&H)", 2600
+  MENUITEM "Դ &<-> Ŀ��\tCtrl+U", 531
+  MENUITEM "Դ <-&> Ŀ�� (������ǩ)\tShift+Ctrl+U", 535
+  MENUITEM "Դ &= Ŀ��", 532
+  MENUITEM "����µ�Ŀ¼/���� -> ��/��(&L)\tCtrl+Left", 2024
+  MENUITEM "����µ�Ŀ¼/���� -> ��/��(&R)\tCtrl+Right", 2025
+  MENUITEM "ͬ��Դ��Ŀ���Ŀ¼���(&H)", 2600
   MENUITEM SEPARATOR
-  MENUITEM "刷新来源窗口\tF2 / Ctrl+R", 540
-  MENUITEM "刷新选中的缩略图(&B)", 2918
-  MENUITEM "刷新主菜单和工具栏中的图标", 2945
-  MENUITEM "刷新文件面板中的图标", 2958
-  MENUITEM "刷新快速查看中的文件(&K)", 2946
-  MENUITEM "减小缩略图大小（最小 10%）\tCtrl+Wheel", 2954
-  MENUITEM "增加缩略图大小（最大 200%）\tCtrl+Wheel", 2953
-  POPUP "自定义列(&N)"
-    MENUITEM "所有文件都按需加载字段(&A)", 5512
-    MENUITEM "仅选中的文件按需加载字段(&S)", 5513
-    MENUITEM "停止后台加载字段(&B)", 5514
+  MENUITEM "ˢ����Դ����\tF2 / Ctrl+R", 540
+  MENUITEM "ˢ��ѡ�е�����ͼ(&B)", 2918
+  MENUITEM "ˢ�����˵��͹������е�ͼ��", 2945
+  MENUITEM "ˢ���ļ�����е�ͼ��", 2958
+  MENUITEM "ˢ�¿��ٲ鿴�е��ļ�(&K)", 2946
+  MENUITEM "��С����ͼ��С����С 10%��\tCtrl+Wheel", 2954
+  MENUITEM "��������ͼ��С����� 200%��\tCtrl+Wheel", 2953
+  POPUP "�Զ�����(&N)"
+    MENUITEM "�����ļ�����������ֶ�(&A)", 5512
+    MENUITEM "��ѡ�е��ļ���������ֶ�(&S)", 5513
+    MENUITEM "ֹͣ��̨�����ֶ�(&B)", 5514
   END_POPUP
   MENUITEM SEPARATOR
-  MENUITEM "面板分隔栏居中(&P)", 909
-  MENUITEM "面板分隔栏向目标面板 &100%", 910
-    MENUITEM "垂直工具栏 开/关", 2944
-  MENUITEM "垂直对齐(&G)", 305
+  MENUITEM "���ָ�������(&P)", 909
+  MENUITEM "���ָ�����Ŀ����� &100%", 910
+    MENUITEM "��ֱ������ ��/��", 2944
+  MENUITEM "��ֱ����(&G)", 305
   MENUITEM SEPARATOR
-  MENUITEM "重新启动 Total Commander(&A)...", em_ext_restartcommander
-  MENUITEM "以管理员身份重新启动 Total Commander...", em_ext_restartcommander2
-  POPUP "运行单独的程序(&E)..."
+  MENUITEM "�������� Total Commander(&A)...", em_ext_restartcommander
+  MENUITEM "�Թ���Ա������������ Total Commander...", em_ext_restartcommander2
+  POPUP "���е����ĳ���(&E)..."
     MENUITEM "&Total Commander...", em_ext_newcommander
-    MENUITEM "Total Commander 作为管理员运行(&A)...", em_ext_newcommander1
-    MENUITEM "以出厂ini文件运行Total Commander(&F) *...", em_ext_newcommander2
-    MENUITEM "查看器(&L)...", em_ext_list
-    MENUITEM "查找文件(&N)...", em_ext_find
-    MENUITEM "比较内容(&C)...", em_ext_comp
-    MENUITEM "同步目录(&S)...", em_ext_sync
-    MENUITEM "同步目录(仅对选中的文件/文件夹)(&D)...", em_ext_sync2
-    MENUITEM "同步前两个选中的文件夹/压缩包(&z)...", em_ext_sync3
-    MENUITEM "同步目录 - 以当前设置自动开始(&W)...", em_ext_sync4
-    MENUITEM "同步目录 - 以默认设置自动开始(&H)...", em_ext_sync5
-    MENUITEM "&USB线连接 - 服务器...", em_ext_USBcable
-    MENUITEM "L&PT1线连接 - 服务器...", em_ext_LPTcable
+    MENUITEM "Total Commander ��Ϊ����Ա����(&A)...", em_ext_newcommander1
+    MENUITEM "�Գ���ini�ļ�����Total Commander(&F) *...", em_ext_newcommander2
+    MENUITEM "�鿴��(&L)...", em_ext_list
+    MENUITEM "�����ļ�(&N)...", em_ext_find
+    MENUITEM "�Ƚ�����(&C)...", em_ext_comp
+    MENUITEM "ͬ��Ŀ¼(&S)...", em_ext_sync
+    MENUITEM "ͬ��Ŀ¼(����ѡ�е��ļ�/�ļ���)(&D)...", em_ext_sync2
+    MENUITEM "ͬ��ǰ����ѡ�е��ļ���/ѹ����(&z)...", em_ext_sync3
+    MENUITEM "ͬ��Ŀ¼ - �Ե�ǰ�����Զ���ʼ(&W)...", em_ext_sync4
+    MENUITEM "ͬ��Ŀ¼ - ��Ĭ�������Զ���ʼ(&H)...", em_ext_sync5
+    MENUITEM "&USB������ - ������...", em_ext_USBcable
+    MENUITEM "L&PT1������ - ������...", em_ext_LPTcable
   END_POPUP
   MENUITEM SEPARATOR
-  POPUP "命令行(&O)"
-    MENUITEM "复制文件名到命令行(&O)\tCtrl+Enter", 3021
-    MENUITEM "复制路径 + 文件名到命令行(&A)\tSkift+Ctrl+Enter", 3022
-    MENUITEM "复制路径到命令行(&C)\tCtrl+P", 2019
-    MENUITEM "下一条命令(&N)", 2005
-    MENUITEM "上一条命令(&P)\tCtrl+E", 2006
-    MENUITEM "清除命令行(&D)\tCtrl+Y", 2004
-    MENUITEM "激活命令行(&F)\tShift+Right", 4003
-    MENUITEM "显示命令行历史(&H)\tAlt+F8", 3023
+  POPUP "������(&O)"
+    MENUITEM "�����ļ�����������(&O)\tCtrl+Enter", 3021
+    MENUITEM "����·�� + �ļ�����������(&A)\tSkift+Ctrl+Enter", 3022
+    MENUITEM "����·����������(&C)\tCtrl+P", 2019
+    MENUITEM "��һ������(&N)", 2005
+    MENUITEM "��һ������(&P)\tCtrl+E", 2006
+    MENUITEM "���������(&D)\tCtrl+Y", 2004
+    MENUITEM "����������(&F)\tShift+Right", 4003
+    MENUITEM "��ʾ��������ʷ(&H)\tAlt+F8", 3023
     MENUITEM SEPARATOR
-    MENUITEM "显示命令行(&S)", 2910
+    MENUITEM "��ʾ������(&S)", 2910
   END_POPUP
-  MENUITEM "命令提示符窗口(&D)...", 511
-  MENUITEM "命令提示符窗口 (管理员)...", em_ext_cmdelevated
+  MENUITEM "������ʾ������(&D)...", 511
+  MENUITEM "������ʾ������ (����Ա)...", em_ext_cmdelevated
   MENUITEM SEPARATOR
-  MENUITEM "最大化窗口(&X)", 2015
-  MENUITEM "最小化窗口(&Z)\tShift+Esc", 2000
-  MENUITEM "还原窗口(&S)", 2016
-  MENUITEM "关闭窗口（退出）(&Q)\tAlt+F4", 24340
+  MENUITEM "��󻯴���(&X)", 2015
+  MENUITEM "��С������(&Z)\tShift+Esc", 2000
+  MENUITEM "��ԭ����(&S)", 2016
+  MENUITEM "�رմ��ڣ��˳���(&Q)\tAlt+F4", 24340
 END_POPUP
 
-POPUP "查看器"
-  MENUITEM "单独的实例（自动检测）(&T)", em_ext_list
+POPUP "�鿴��"
+  MENUITEM "������ʵ�����Զ���⣩(&T)", em_ext_list
   MENUITEM SEPARATOR
-  MENUITEM "&0  自动（无插件或多媒体）", em_ext_listN
-    MENUITEM "&1  纯文本", em_ext_list1
-    MENUITEM "&2  二进制(固定行宽)", em_ext_list2
-    MENUITEM "&3  十六进制", em_ext_list3
-    MENUITEM "&4  图像/多媒体", em_ext_list4
-    MENUITEM "&5  HTML 文本(去除标记)", em_ext_list5
+  MENUITEM "&0  �Զ����޲�����ý�壩", em_ext_listN
+    MENUITEM "&1  ���ı�", em_ext_list1
+    MENUITEM "&2  ������(�̶��п�)", em_ext_list2
+    MENUITEM "&3  ʮ������", em_ext_list3
+    MENUITEM "&4  ͼ��/��ý��", em_ext_list4
+    MENUITEM "&5  HTML �ı�(ȥ�����)", em_ext_list5
   MENUITEM "&6  Unicode", em_ext_list6
   MENUITEM "&7  UTF-8", em_ext_list7
-  MENUITEM "&8  资源管理器预览", em_ext_list8
+  MENUITEM "&8  ��Դ������Ԥ��", em_ext_list8
   MENUITEM SEPARATOR
-    MENUITEM "ANSI(Windows 字符集)(&A)", em_ext_listA
-    MENUITEM "ASCII(DOS 字符集)(&S)", em_ext_listS
-    MENUITEM "可变字符宽度(&V)", em_ext_listV
-  MENUITEM "全屏(&F)", em_ext_listF
+    MENUITEM "ANSI(Windows �ַ���)(&A)", em_ext_listA
+    MENUITEM "ASCII(DOS �ַ���)(&S)", em_ext_listS
+    MENUITEM "�ɱ��ַ�����(&V)", em_ext_listV
+  MENUITEM "ȫ��(&F)", em_ext_listF
   MENUITEM SEPARATOR
   MENUITEM "GDI+ / DirectShow / MCI / I&rfanView / XnView", em_ext_list_irfanview
-    MENUITEM "Imagine 插件(&I)", em_ext_list_imagine
-    MENUITEM "PhotoViewer 插件(&O)", em_ext_list_photoviewer
-    MENUITEM "ICLView 插件(&C)", em_ext_list_iclview
+    MENUITEM "Imagine ���(&I)", em_ext_list_imagine
+    MENUITEM "PhotoViewer ���(&O)", em_ext_list_photoviewer
+    MENUITEM "ICLView ���(&C)", em_ext_list_iclview
   MENUITEM SEPARATOR
-  MENUITEM "HTMLView 插件(&H)", em_ext_list_htmlview
-  MENUITEM "sLister 插件", em_ext_list_slister
-  MENUITEM "Office2007 插件(&P)", em_ext_list_office2007
-  MENUITEM "RedCell 插件(&E)", em_ext_list_redcell
+  MENUITEM "HTMLView ���(&H)", em_ext_list_htmlview
+  MENUITEM "sLister ���", em_ext_list_slister
+  MENUITEM "Office2007 ���(&P)", em_ext_list_office2007
+  MENUITEM "RedCell ���(&E)", em_ext_list_redcell
   MENUITEM SEPARATOR
-    MENUITEM "Multimedia Player 插件(&D)", em_ext_list_mmedia
-    MENUITEM "SWFView 插件(&W)", em_ext_list_swfview
+    MENUITEM "Multimedia Player ���(&D)", em_ext_list_mmedia
+    MENUITEM "SWFView ���(&W)", em_ext_list_swfview
   MENUITEM SEPARATOR
-  MENUITEM "AKFont 查看器(&N)", em_ext_list_akfont
+  MENUITEM "AKFont �鿴��(&N)", em_ext_list_akfont
   MENUITEM SEPARATOR
-  MENUITEM "Cudalister 插件(&U)", em_ext_list_cudalister
-  MENUITEM "Syn2 插件(&Y)", em_ext_list_syn2
+  MENUITEM "Cudalister ���(&U)", em_ext_list_cudalister
+  MENUITEM "Syn2 ���(&Y)", em_ext_list_syn2
   MENUITEM SEPARATOR
-    MENUITEM "FileInfo 插件(&L)", em_ext_list_fileinfo
-  MENUITEM "DirSizeCalc Chart 插件 (仅文件夹)(&Z)", em_ext_list_dirsizecalccharts
+    MENUITEM "FileInfo ���(&L)", em_ext_list_fileinfo
+  MENUITEM "DirSizeCalc Chart ��� (���ļ���)(&Z)", em_ext_list_dirsizecalccharts
   MENUITEM SEPARATOR
-  MENUITEM "配置查看器(&G)...", 3036
+  MENUITEM "���ò鿴��(&G)...", 3036
 END_POPUP
 
-POPUP "标签(&A)"
-  MENUITEM "新建文件夹标签(&F)\tCtrl+T", 3001
-  MENUITEM "在后台新建文件夹标签(&B)\tShift+Ctrl+T", 3002
+POPUP "��ǩ(&A)"
+  MENUITEM "�½��ļ��б�ǩ(&F)\tCtrl+T", 3001
+  MENUITEM "�ں�̨�½��ļ��б�ǩ(&B)\tShift+Ctrl+T", 3002
   MENUITEM SEPARATOR
-  MENUITEM "复制文件夹标签到对面面板(&I)", 3027
-  MENUITEM "在后台复制文件夹标签到对面面板(&Y)", 3028
+  MENUITEM "�����ļ��б�ǩ���������(&I)", 3027
+  MENUITEM "�ں�̨�����ļ��б�ǩ���������(&Y)", 3028
   MENUITEM SEPARATOR
-  MENUITEM "新建标签打开光标下的目录(&D)\tCtrl+Up", 3003
-  MENUITEM "在对面面板新建标签打开光标下的目录(&E)\tShift+Ctrl+Up", 3004
+  MENUITEM "�½���ǩ�򿪹���µ�Ŀ¼(&D)\tCtrl+Up", 3003
+  MENUITEM "�ڶ�������½���ǩ�򿪹���µ�Ŀ¼(&E)\tShift+Ctrl+Up", 3004
   MENUITEM SEPARATOR
-  MENUITEM "移动当前文件夹标签到对面面板(&V)", em_ext_movetab
-  MENUITEM "将当前文件夹标签向左移动一个位置", 3015
-  MENUITEM "将当前文件夹标签向右移动一个位置", 3016
+  MENUITEM "�ƶ���ǰ�ļ��б�ǩ���������(&V)", em_ext_movetab
+  MENUITEM "����ǰ�ļ��б�ǩ�����ƶ�һ��λ��", 3015
+  MENUITEM "����ǰ�ļ��б�ǩ�����ƶ�һ��λ��", 3016
   MENUITEM SEPARATOR
-  POPUP "从光标下的文件加载文件夹标签，保留当前的(&K)\tEnter"
-    MENUITEM "在活动侧打开活动标签(&A)\tEnter", em_ext_appendtabs
-    MENUITEM "在左侧打开活动标签(&L)", em_ext_appendtabsl
-    MENUITEM "在右侧打开活动标签(&R)", em_ext_appendtabsr
+  POPUP "�ӹ���µ��ļ������ļ��б�ǩ��������ǰ��(&K)\tEnter"
+    MENUITEM "�ڻ��򿪻��ǩ(&A)\tEnter", em_ext_appendtabs
+    MENUITEM "�����򿪻��ǩ(&L)", em_ext_appendtabsl
+    MENUITEM "���Ҳ�򿪻��ǩ(&R)", em_ext_appendtabsr
   END_POPUP
-  POPUP "从光标下的文件加载文件夹标签，替换当前的(&U)\tShift+Enter"
-    MENUITEM "在活动侧打开活动标签(&A)\tShift+Enter", em_ext_opentabs
-    MENUITEM "在左侧打开活动标签(&L)", em_ext_opentabsl
-    MENUITEM "在右侧打开活动标签(&R)", em_ext_opentabsr
+  POPUP "�ӹ���µ��ļ������ļ��б�ǩ���滻��ǰ��(&U)\tShift+Enter"
+    MENUITEM "�ڻ��򿪻��ǩ(&A)\tShift+Enter", em_ext_opentabs
+    MENUITEM "�����򿪻��ǩ(&L)", em_ext_opentabsl
+    MENUITEM "���Ҳ�򿪻��ǩ(&R)", em_ext_opentabsr
   END_POPUP
-  POPUP "将文件夹标签保存在文件中(&S)
-    MENUITEM "从活动侧(&A)...", em_ext_savetabs
-    MENUITEM "从左侧(&L)...", em_ext_savetabsl
-    MENUITEM "从右侧(&R)...", em_ext_savetabsr
+  POPUP "���ļ��б�ǩ�������ļ���(&S)
+    MENUITEM "�ӻ��(&A)...", em_ext_savetabs
+    MENUITEM "�����(&L)...", em_ext_savetabsl
+    MENUITEM "���Ҳ�(&R)...", em_ext_savetabsr
     MENUITEM SEPARATOR
-    MENUITEM "从两侧 (先活动侧&C)...", em_ext_savetabs2
-    MENUITEM "从两侧 (先左侧&E)...", em_ext_savetabs2l
-    MENUITEM "从两侧 (先右侧&I)...", em_ext_savetabs2r
+    MENUITEM "������ (�Ȼ��&C)...", em_ext_savetabs2
+    MENUITEM "������ (�����&E)...", em_ext_savetabs2l
+    MENUITEM "������ (���Ҳ�&I)...", em_ext_savetabs2r
   END_POPUP
   MENUITEM SEPARATOR
-    MENUITEM "关闭文件夹标签(&C)\tCtrl+W", 3007
-    MENUITEM "关闭所有文件夹标签(&A)\tShift+Ctrl+W", 3008
-  MENUITEM "关闭重复的文件夹标签", 3017
-  MENUITEM "关闭所有文件夹标签" - 不确认, em_ext_closeAllTabs
+    MENUITEM "�ر��ļ��б�ǩ(&C)\tCtrl+W", 3007
+    MENUITEM "�ر������ļ��б�ǩ(&A)\tShift+Ctrl+W", 3008
+  MENUITEM "�ر��ظ����ļ��б�ǩ", 3017
+  MENUITEM "�ر������ļ��б�ǩ" - ��ȷ��", em_ext_closeAllTabs
   MENUITEM SEPARATOR
-  MENUITEM "重命名/锁定活动的文件夹标签", 3024
-    MENUITEM "锁定活动的文件夹标签(&L)", 3010
-    MENUITEM "锁定活动的文件夹标签，但是允许改变目录(&H)", 73012
-    MENUITEM "转到锁定文件夹标签的根目录(&R)", 3011
-  MENUITEM "锁定所有文件夹标签", 3033
-  MENUITEM "锁定所有文件夹标签，但是允许改变目录(&G)", 3034
-  MENUITEM "解锁所有文件夹标签", 3032
+  MENUITEM "������/��������ļ��б�ǩ", 3024
+    MENUITEM "��������ļ��б�ǩ(&L)", 3010
+    MENUITEM "��������ļ��б�ǩ�����������ı�Ŀ¼(&H)", 73012
+    MENUITEM "ת�������ļ��б�ǩ�ĸ�Ŀ¼(&R)", 3011
+  MENUITEM "���������ļ��б�ǩ", 3033
+  MENUITEM "���������ļ��б�ǩ�����������ı�Ŀ¼(&G)", 3034
+  MENUITEM "���������ļ��б�ǩ", 3032
   MENUITEM SEPARATOR
-    MENUITEM "交换左右窗口及其标签(&>)\tShift+Ctrl+U", 535
+    MENUITEM "�������Ҵ��ڼ����ǩ(&>)\tShift+Ctrl+U", 535
   MENUITEM SEPARATOR
-  MENUITEM "切换到下一个文件夹标签(&N)\tCtrl+Tab", 3005
-  MENUITEM "切换到上一个文件夹标签(&P)\tShift+Ctrl+Tab", 3006
-  POPUP "切换到文件夹标签编号："
+  MENUITEM "�л�����һ���ļ��б�ǩ(&N)\tCtrl+Tab", 3005
+  MENUITEM "�л�����һ���ļ��б�ǩ(&P)\tShift+Ctrl+Tab", 3006
+  POPUP "�л����ļ��б�ǩ��ţ�"
     MENUITEM "&1", 5001
     MENUITEM "&2", 5002
     MENUITEM "&3", 5003
@@ -653,127 +653,127 @@ POPUP "标签(&A)"
     MENUITEM "&8", 5008
     MENUITEM "&9", 5009
   END_POPUP
-  MENUITEM "切换到最后一个文件夹标签(&W)", em_ext_goToLastTab
+  MENUITEM "�л������һ���ļ��б�ǩ(&W)", em_ext_goToLastTab
   MENUITEM SEPARATOR
-  MENUITEM "在列表中显示所有活动的文件夹标签\tCtrl+Shift+A", 5515
-    MENUITEM "文件夹标签菜单(&M)...", 3009
-    MENUITEM "显示文件夹标签(&T)", 2916
-    MENUITEM "配置文件夹标签(&O)...", 488
+  MENUITEM "���б�����ʾ���л���ļ��б�ǩ\tCtrl+Shift+A", 5515
+    MENUITEM "�ļ��б�ǩ�˵�(&M)...", 3009
+    MENUITEM "��ʾ�ļ��б�ǩ(&T)", 2916
+    MENUITEM "�����ļ��б�ǩ(&O)...", 488
 END_POPUP
 
 POPUP "F&TP"
-    MENUITEM "连接到服务器(&C)...\tCtrl+F", 550
-    MENUITEM "断开连接(&D)\tShift+Ctrl+F", 552
-    MENUITEM "新建连接(&N)...\tCtrl+N", 551
-    MENUITEM "中止当前 FTP 命令(&A)", 554
+    MENUITEM "���ӵ�������(&C)...\tCtrl+F", 550
+    MENUITEM "�Ͽ�����(&D)\tShift+Ctrl+F", 552
+    MENUITEM "�½�����(&N)...\tCtrl+N", 551
+    MENUITEM "��ֹ��ǰ FTP ����(&A)", 554
   MENUITEM SEPARATOR
-    MENUITEM "续传下载(&R)...", 555
-    MENUITEM "添加到下载列表(&L)...", 557
-    MENUITEM "按列表下载(&F)", 558
-    MENUITEM "后台传输管理器(&B)...", 559
+    MENUITEM "��������(&R)...", 555
+    MENUITEM "���ӵ������б�(&L)...", 557
+    MENUITEM "���б�����(&F)", 558
+    MENUITEM "��̨���������(&B)...", 559
   MENUITEM SEPARATOR
-    MENUITEM "显示隐藏文件(&S)", 553
-    MENUITEM "选择传输模式(&T)\tShift+Ctrl+M", 556
+    MENUITEM "��ʾ�����ļ�(&S)", 553
+    MENUITEM "ѡ����ģʽ(&T)\tShift+Ctrl+M", 556
   MENUITEM SEPARATOR
-  MENUITEM "&PORT 连接至其他 PC...", 2300
-    MENUITEM "USB 电缆连接 - 服务器(单独)(&U)...", em_ext_USBcable
-    MENUITEM "LPT1 电缆连接 - 服务器(单独)(&E)...", em_ext_LPTcable
-  MENUITEM "安装PORT驱动程序 (Windows NT)(&I)...", 2301
-  MENUITEM "卸载PORT驱动程序 (Windows NT)(&M)...", 2302
+  MENUITEM "&PORT ���������� PC...", 2300
+    MENUITEM "USB �������� - ������(����)(&U)...", em_ext_USBcable
+    MENUITEM "LPT1 �������� - ������(����)(&E)...", em_ext_LPTcable
+  MENUITEM "��װPORT�������� (Windows NT)(&I)...", 2301
+  MENUITEM "ж��PORT�������� (Windows NT)(&M)...", 2302
   MENUITEM SEPARATOR
-    MENUITEM "配置 FTP(&O)...", 489
+    MENUITEM "���� FTP(&O)...", 489
 END_POPUP
 
-POPUP "网络(&N)"
-    MENUITEM "显示网络连接(&C)", 2125
-    MENUITEM "映射网络驱动器(&N)...", 512
-    MENUITEM "断开网络驱动器(&D)...", 513
-    MENUITEM "共享当前文件夹(&S)...", 514
-    MENUITEM "取消文件夹共享(&U)...", 515
+POPUP "����(&N)"
+    MENUITEM "��ʾ��������(&C)", 2125
+    MENUITEM "ӳ������������(&N)...", 512
+    MENUITEM "�Ͽ�����������(&D)...", 513
+    MENUITEM "������ǰ�ļ���(&S)...", 514
+    MENUITEM "ȡ���ļ��й���(&U)...", 515
   MENUITEM SEPARATOR
-  MENUITEM "在网络上显示管理共享(&A)", 2204
-  MENUITEM "哪个网络用户打开了本地文件(&W)...", 2203
-  MENUITEM "用不同的活动本地用户打开程序(&O)...", 2800
+  MENUITEM "����������ʾ��������(&A)", 2204
+  MENUITEM "�ĸ������û����˱����ļ�(&W)...", 2203
+  MENUITEM "�ò�ͬ�Ļ�����û��򿪳���(&O)...", 2800
   MENUITEM SEPARATOR
-  POPUP "N&TFS  (仅 Windows XP 和更早版本)"
-    MENUITEM "权限(&P)...", 2200
-    MENUITEM "审核文件(&F)...", 2201
-    MENUITEM "获取所有权(&T)...", 2202
+  POPUP "N&TFS  (�� Windows XP �͸���汾)"
+    MENUITEM "Ȩ��(&P)...", 2200
+    MENUITEM "����ļ�(&F)...", 2201
+    MENUITEM "��ȡ����Ȩ(&T)...", 2202
   END_POPUP
 END_POPUP
 
-POPUP "首选项(&P)"
-  MENUITEM "设置(&o)...", 490
-  POPUP "工具栏(&B)"
-    MENUITEM "改变工具栏(&B)...", 498
-    MENUITEM "改变工具栏 2 (垂直&V)...", 583
+POPUP "��ѡ��(&P)"
+  MENUITEM "����(&o)...", 490
+  POPUP "������(&B)"
+    MENUITEM "�ı乤����(&B)...", 498
+    MENUITEM "�ı乤���� 2 (��ֱ&V)...", 583
     MENUITEM SEPARATOR
-    MENUITEM "加载光标下的工具栏(&L)", em_ext_loadbar
-    MENUITEM "加载光标下的工具栏 &2 (垂直)", em_ext_loadbar2
+    MENUITEM "���ع���µĹ�����(&L)", em_ext_loadbar
+    MENUITEM "���ع���µĹ����� &2 (��ֱ)", em_ext_loadbar2
     MENUITEM SEPARATOR
-    MENUITEM "移除工具栏 (临时)(&R)", em_ext_bar4
-    MENUITEM "移除工具栏2 (临时)(&U)", em_ext_bar5
+    MENUITEM "�Ƴ������� (��ʱ)(&R)", em_ext_bar4
+    MENUITEM "�Ƴ�������2 (��ʱ)(&U)", em_ext_bar5
     MENUITEM SEPARATOR
-    MENUITEM "语言/菜单工具栏(&M)", em_ext_langbar
-    MENUITEM "内部命令工具栏(&I)", em_ext_bar3
-    MENUITEM "&Windows 10 工具栏", em_ext_bar1
-    MENUITEM "控制面板工具栏(&N)", em_ext_bar2
+    MENUITEM "����/�˵�������(&M)", em_ext_langbar
+    MENUITEM "�ڲ��������(&I)", em_ext_bar3
+    MENUITEM "&Windows 10 ������", em_ext_bar1
+    MENUITEM "������幤����(&N)", em_ext_bar2
     MENUITEM SEPARATOR
-    MENUITEM "默认工具栏 (default.bar)(&D)", em_ext_bar0
-    MENUITEM "默认工具栏2 (vertical.bar)(&E)", em_ext_bar6
-    MENUITEM "默认工具栏 (使用预配置)(&F)", em_ext_bar0a
-    MENUITEM "默认工具栏2 (使用预配置)(&A)", em_ext_bar6a
+    MENUITEM "Ĭ�Ϲ����� (default.bar)(&D)", em_ext_bar0
+    MENUITEM "Ĭ�Ϲ�����2 (vertical.bar)(&E)", em_ext_bar6
+    MENUITEM "Ĭ�Ϲ����� (ʹ��Ԥ����)(&F)", em_ext_bar0a
+    MENUITEM "Ĭ�Ϲ�����2 (ʹ��Ԥ����)(&A)", em_ext_bar6a
   END_POPUP
-    MENUITEM "改变开始菜单...", 700
-    MENUITEM "保存位置(&S)", 493
-    MENUITEM "保存文件夹历史", 582
-    MENUITEM "保存设置(&v)", 580
-    POPUP "修改配置文件(&C)"
-        MENUITEM "主配置和FTP配置文件(只用Notepad)(&N)...", 581
-        MENUITEM "主配置文件(&M)...", em_ext_editwincmd
-        MENUITEM "FTP 配置文件(wcx_ftp.ini)(&F)...", em_ext_editwcx_ftp
-    MENUITEM "用户命令 (language\wcmd_win10amd64_1_chn.ini)(&C)...", em_ext_editextcmd
-        MENUITEM "通用用户命令(usercmd.ini)(&U)...", em_ext_editusercmd
-        MENUITEM "通用压缩程序插件(pkplugin.ini)(&P)...", em_ext_editpkplugins
-        MENUITEM "通用文件系统插件(fsplugin.ini)(&S)...", em_ext_editfsplugins
-        MENUITEM "通用查看程序插件(lsplugin.ini)(&L)...", em_ext_editlsplugins
-        MENUITEM "通用内容插件(contplug.ini)(&O)...", em_ext_editcontplugins
+    MENUITEM "�ı俪ʼ�˵�...", 700
+    MENUITEM "����λ��(&S)", 493
+    MENUITEM "�����ļ�����ʷ", 582
+    MENUITEM "��������(&v)", 580
+    POPUP "�޸������ļ�(&C)"
+        MENUITEM "�����ú�FTP�����ļ�(ֻ��Notepad)(&N)...", 581
+        MENUITEM "�������ļ�(&M)...", em_ext_editwincmd
+        MENUITEM "FTP �����ļ�(wcx_ftp.ini)(&F)...", em_ext_editwcx_ftp
+    MENUITEM "�û����� (language\wcmd_win10amd64_1_chn.ini)(&C)...", em_ext_editextcmd
+        MENUITEM "ͨ���û�����(usercmd.ini)(&U)...", em_ext_editusercmd
+        MENUITEM "ͨ��ѹ��������(pkplugin.ini)(&P)...", em_ext_editpkplugins
+        MENUITEM "ͨ���ļ�ϵͳ���(fsplugin.ini)(&S)...", em_ext_editfsplugins
+        MENUITEM "ͨ�ò鿴������(lsplugin.ini)(&L)...", em_ext_editlsplugins
+        MENUITEM "ͨ�����ݲ��(contplug.ini)(&O)...", em_ext_editcontplugins
   END_POPUP
   MENUITEM SEPARATOR
-    POPUP "布局(&L)"
-        MENUITEM "工具栏(&B)", 2901
-        MENUITEM "工具栏 &2 (垂直)", 2944
-        MENUITEM "驱动器按钮(&D)", 2902
-        MENUITEM "    两个驱动器按钮栏(&W)", 2903
-        MENUITEM "    平坦驱动器按钮图标(&I)", 2904
-        MENUITEM "驱动器下拉框(&M)", 2906
-        MENUITEM "文件夹标签(&O)", 2916
-        MENUITEM "当前目录(&C)", 2907
-        MENUITEM "    路径导航栏(&e)", 2926
-        MENUITEM "    历史和常用列表按钮(&H)", 2919
-        MENUITEM "排序制表符(&T)", 2908
-        MENUITEM "状态栏(&S)", 2909
-        MENUITEM "命令行(&L)", 2910
-        MENUITEM "功能键按钮(&F)", 2911
+    POPUP "����(&L)"
+        MENUITEM "������(&B)", 2901
+        MENUITEM "������ &2 (��ֱ)", 2944
+        MENUITEM "��������ť(&D)", 2902
+        MENUITEM "    ������������ť��(&W)", 2903
+        MENUITEM "    ƽ̹��������ťͼ��(&I)", 2904
+        MENUITEM "������������(&M)", 2906
+        MENUITEM "�ļ��б�ǩ(&O)", 2916
+        MENUITEM "��ǰĿ¼(&C)", 2907
+        MENUITEM "    ·��������(&e)", 2926
+        MENUITEM "    ��ʷ�ͳ����б���ť(&H)", 2919
+        MENUITEM "�����Ʊ���(&T)", 2908
+        MENUITEM "״̬��(&S)", 2909
+        MENUITEM "������(&L)", 2910
+        MENUITEM "���ܼ���ť(&F)", 2911
     MENUITEM SEPARATOR
-        MENUITEM "平坦用户界面(&U)", 2905
-        MENUITEM "Windows XP 主题背景(&X)", 2923
+        MENUITEM "ƽ̹�û�����(&U)", 2905
+        MENUITEM "Windows XP ���ⱳ��(&X)", 2923
   END_POPUP
-  POPUP "显示(&D)"
-    MENUITEM "显示隐藏文件(&H)", 3013
-    MENUITEM "显示系统文件(&S)", 3014
-    MENUITEM "显示隐藏和系统文件(&N)", 2011
-    MENUITEM "显示隐藏文件(&FTP)", 553
-        MENUITEM "显示长文件名(&L)", 2010
-        MENUITEM "显示 8.3 式文件名小写(&8)", 2013
-    MENUITEM "总是按名称排序目录(&A)", 2012
-        MENUITEM "显示叠置图标(&O)", 2917
-    MENUITEM "显示文件的工具提示(&T)", 2959
-    MENUITEM "按文件类型显示颜色(&C)", 2957
-    MENUITEM "夜间模式(&D)", 2950
+  POPUP "��ʾ(&D)"
+    MENUITEM "��ʾ�����ļ�(&H)", 3013
+    MENUITEM "��ʾϵͳ�ļ�(&S)", 3014
+    MENUITEM "��ʾ���غ�ϵͳ�ļ�(&N)", 2011
+    MENUITEM "��ʾ�����ļ�(&FTP)", 553
+        MENUITEM "��ʾ���ļ���(&L)", 2010
+        MENUITEM "��ʾ 8.3 ʽ�ļ���Сд(&8)", 2013
+    MENUITEM "���ǰ���������Ŀ¼(&A)", 2012
+        MENUITEM "��ʾ����ͼ��(&O)", 2917
+    MENUITEM "��ʾ�ļ��Ĺ�����ʾ(&T)", 2959
+    MENUITEM "���ļ�������ʾ��ɫ(&C)", 2957
+    MENUITEM "ҹ��ģʽ(&D)", 2950
     MENUITEM SEPARATOR
-    MENUITEM "自动切换模式(&W)", 2947
-    MENUITEM "垂直对齐(&V)", 305
+    MENUITEM "�Զ��л�ģʽ(&W)", 2947
+    MENUITEM "��ֱ����(&V)", 305
   END_POPUP
   POPUP "Language/Menu"
     MENUITEM "English with E&xtended Menu I", em_ext_openlanguagefile1
@@ -788,387 +788,387 @@ POPUP "首选项(&P)"
     MENUITEM "English Language && Menu (&External)*", em_ext_openlanguagefile0
     MENUITEM "Current Language &with English Menu (External)*", em_ext_openmenufile0
     MENUITEM SEPARATOR
-    MENUITEM "Ceština (C&zech)*", em_ext_openlanguage_cz
+    MENUITEM "Ce?tina (C&zech)*", em_ext_openlanguage_cz
     MENUITEM "&Chinese (Simplified)*", em_ext_openlanguage_chn
     MENUITEM "D&ansk*", em_ext_openlanguage_dan
     MENUITEM "Deutsc&h*", em_ext_openlanguage_deu
-    MENUITEM "E&spañol (Tradicional)*", em_ext_openlanguage_esp
-    MENUITEM "&Français*", em_ext_openlanguage_fra
+    MENUITEM "E&spa?ol (Tradicional)*", em_ext_openlanguage_esp
+    MENUITEM "&Fran?ais*", em_ext_openlanguage_fra
     MENUITEM "I&taliano*", em_ext_openlanguage_ita
     MENUITEM "&Korean*", em_ext_openlanguage_kor
-    MENUITEM "Mag&yar (Tegezõs)*", em_ext_openlanguage_hun
+    MENUITEM "Mag&yar (Tegez?s)*", em_ext_openlanguage_hun
     MENUITEM "&Nederlands*", em_ext_openlanguage_dut
-    MENUITEM "Norsk (&Bokmål)*", em_ext_openlanguage_nor
+    MENUITEM "Norsk (&Bokm?l)*", em_ext_openlanguage_nor
     MENUITEM "&Polski*", em_ext_openlanguage_pol
-    MENUITEM "Ro&mâna*", em_ext_openlanguage_rom
+    MENUITEM "Ro&m?na*", em_ext_openlanguage_rom
     MENUITEM "&Russian*", em_ext_openlanguage_rus
-    MENUITEM "S&lovenský (Slovak)*", em_ext_openlanguage_sk
+    MENUITEM "S&lovensk? (Slovak)*", em_ext_openlanguage_sk
     MENUITEM "Sl&ovenski (Slovenian)*", em_ext_openlanguage_svn
     MENUITEM "S&venska*", em_ext_openlanguage_swe
     MENUITEM SEPARATOR
     MENUITEM "* = if installed", em_ext_dummy
   END_POPUP
   MENUITEM SEPARATOR
-  MENUITEM "布局...", 476
-    MENUITEM "显示...", 486
-    MENUITEM "    图标...", 477
-    MENUITEM "    字体(&N)...", 492
-    MENUITEM "    颜色(&R)...", 494
-    MENUITEM "    制表符(&A)...", 497
-    MENUITEM "    文件夹标签(&F)...", 488
-    MENUITEM "    自定义列(&U)...", 483
-    MENUITEM "        设置当前自定义列...", 2920
-    MENUITEM "    视图模式...", 2939
-    MENUITEM "        自动切换模式...", 2940
-    MENUITEM "    语言(&g)...", 499
-    MENUITEM "操作(&E)...", 516
-    MENUITEM "    编辑/查看(&W)...", 496
-    MENUITEM "    复制/删除(&Y)...", 487
-    MENUITEM "    刷新...", 478
-    MENUITEM "    快速搜索(&Q)...", 479
+  MENUITEM "����...", 476
+    MENUITEM "��ʾ...", 486
+    MENUITEM "    ͼ��...", 477
+    MENUITEM "    ����(&N)...", 492
+    MENUITEM "    ��ɫ(&R)...", 494
+    MENUITEM "    �Ʊ���(&A)...", 497
+    MENUITEM "    �ļ��б�ǩ(&F)...", 488
+    MENUITEM "    �Զ�����(&U)...", 483
+    MENUITEM "        ���õ�ǰ�Զ�����...", 2920
+    MENUITEM "    ��ͼģʽ...", 2939
+    MENUITEM "        �Զ��л�ģʽ...", 2940
+    MENUITEM "    ����(&g)...", 499
+    MENUITEM "����(&E)...", 516
+    MENUITEM "    �༭/�鿴(&W)...", 496
+    MENUITEM "    ����/ɾ��(&Y)...", 487
+    MENUITEM "    ˢ��...", 478
+    MENUITEM "    ��������(&Q)...", 479
     MENUITEM "    FTP(&T)...", 489
-    MENUITEM "    插件(&P)...", 484
-    MENUITEM "    缩略图(&H)...", 482
-    MENUITEM "    日志文件...", 481
-  MENUITEM "    忽略列表(&I)...", 480
-  MENUITEM "    历史...", 475
-    MENUITEM "压缩程序(&K)...", 491
-    MENUITEM "    Zip 压缩程序(&Z)...", 485
-    MENUITEM "其他(&M)...", 495
+    MENUITEM "    ���(&P)...", 484
+    MENUITEM "    ����ͼ(&H)...", 482
+    MENUITEM "    ��־�ļ�...", 481
+  MENUITEM "    �����б�(&I)...", 480
+  MENUITEM "    ��ʷ...", 475
+    MENUITEM "ѹ������(&K)...", 491
+    MENUITEM "    Zip ѹ������(&Z)...", 485
+    MENUITEM "����(&M)...", 495
 END_POPUP
 
-POPUP "文件夹(&O)"
-  POPUP "虚拟文件夹(&V)"
-    MENUITEM "快速访问(&Q)", em_ext_quickaccess
-    MENUITEM "桌面(&D)", 2121
-    MENUITEM "库(&L)", em_ext_libraries
-    MENUITEM "家庭组(&H)", em_ext_otherusers
-    MENUITEM "用户文件(&S)", em_ext_userfiles
-    MENUITEM "公共文件", em_ext_publicfiles
-    MENUITEM "我的文档(&U)", em_ext_documents
-    MENUITEM "下载", em_ext_downloads
-    MENUITEM "此电脑(&C)", 2122
-    MENUITEM "网络(&N)", 2125
-    MENUITEM "网络 (工作组)(&K)", em_ext_network_workgroup
+POPUP "�ļ���(&O)"
+  POPUP "�����ļ���(&V)"
+    MENUITEM "���ٷ���(&Q)", em_ext_quickaccess
+    MENUITEM "����(&D)", 2121
+    MENUITEM "��(&L)", em_ext_libraries
+    MENUITEM "��ͥ��(&H)", em_ext_otherusers
+    MENUITEM "�û��ļ�(&S)", em_ext_userfiles
+    MENUITEM "�����ļ�", em_ext_publicfiles
+    MENUITEM "�ҵ��ĵ�(&U)", em_ext_documents
+    MENUITEM "����", em_ext_downloads
+    MENUITEM "�˵���(&C)", 2122
+    MENUITEM "����(&N)", 2125
+    MENUITEM "���� (������)(&K)", em_ext_network_workgroup
     MENUITEM "OneDrive", em_ext_onedrivefolder
-    MENUITEM "控制面板(类别)(&t)", em_ext_controlpanelhome
-    MENUITEM "回收站(&B)", 2127
+    MENUITEM "�������(���)(&t)", em_ext_controlpanelhome
+    MENUITEM "����վ(&B)", 2127
     MENUITEM SEPARATOR
-    MENUITEM "控制面板(&e)", 2123
-    MENUITEM "管理工具(&A)", em_ext_administration
-    MENUITEM "设备和打印机(&v)", em_ext_devicesandprinters
-    MENUITEM "字体(&F)", 2124
-    MENUITEM "网络连接(&k)", em_ext_network_connections
-    MENUITEM "打印机(&P)", 2126
-    MENUITEM "程序和功能(&M)", em_ext_programsandfeatures
-    MENUITEM "所有任务(上帝模式)", em_ext_allsettings
+    MENUITEM "�������(&e)", 2123
+    MENUITEM "��������(&A)", em_ext_administration
+    MENUITEM "�豸�ʹ�ӡ��(&v)", em_ext_devicesandprinters
+    MENUITEM "����(&F)", 2124
+    MENUITEM "��������(&k)", em_ext_network_connections
+    MENUITEM "��ӡ��(&P)", 2126
+    MENUITEM "����͹���(&M)", em_ext_programsandfeatures
+    MENUITEM "��������(�ϵ�ģʽ)", em_ext_allsettings
     MENUITEM SEPARATOR
-    MENUITEM "离线文件(&O)", em_ext_cscfolder
-    MENUITEM "搜索(&R)", em_ext_searches
-    MENUITEM "链接(&I)", em_ext_links
-    MENUITEM "游戏(G)", em_ext_gamefolder
+    MENUITEM "�����ļ�(&O)", em_ext_cscfolder
+    MENUITEM "����(&R)", em_ext_searches
+    MENUITEM "����(&I)", em_ext_links
+    MENUITEM "��Ϸ(G)", em_ext_gamefolder
   END_POPUP
-  POPUP "系统(&S)"
-    MENUITEM "临时文件夹(TEMP)(&E)", em_ext_temp
+  POPUP "ϵͳ(&S)"
+    MENUITEM "��ʱ�ļ���(TEMP)(&E)", em_ext_temp
     MENUITEM "&Windows", em_ext_systemroot
     MENUITEM SEPARATOR
-        MENUITEM "P&rogram Files (64位)", em_ext_programfiles
-        MENUITEM "通用 Pr&ogram Files (64位)", em_ext_commonprogramfiles
-    MENUITEM "&System32 (64位)", em_ext_system32
+        MENUITEM "P&rogram Files (64λ)", em_ext_programfiles
+        MENUITEM "ͨ�� Pr&ogram Files (64λ)", em_ext_commonprogramfiles
+    MENUITEM "&System32 (64λ)", em_ext_system32
     MENUITEM SEPARATOR
-    MENUITEM "Pro&gram Files (32位)", em_ext_programfilesx86
-    MENUITEM "通用 Progr&am Files (32bit)", em_ext_commonprogramfilesx86
-    MENUITEM "S&ystem32 (32位)", em_ext_system32x86
+    MENUITEM "Pro&gram Files (32λ)", em_ext_programfilesx86
+    MENUITEM "ͨ�� Progr&am Files (32bit)", em_ext_commonprogramfilesx86
+    MENUITEM "S&ystem32 (32λ)", em_ext_system32x86
     MENUITEM SEPARATOR
-    MENUITEM "字体 (物理)(&F)", em_ext_fontfiles
+    MENUITEM "���� (����)(&F)", em_ext_fontfiles
   END_POPUP
-  POPUP "个人(&P)"
-    MENUITEM "用户配置文件夹(&O)", em_ext_userprofile
-    MENUITEM "桌面(&D)", em_ext_mydesktop
-    MENUITEM "文档(&U)", em_ext_mydocuments
-    MENUITEM "库(&b)", em_ext_mylibraries
-    MENUITEM "照片(&P)", em_ext_mypictures
-    MENUITEM "音乐(XP)(&M)", em_ext_mymusic
-    MENUITEM "视频(XP)(&V)", em_ext_myvideo
-    MENUITEM "下载(&W)", em_ext_mydownloads
-    MENUITEM "联系人(&C)", em_ext_mycontacts
-    MENUITEM "链接(&I)", em_ext_mylinks
-    MENUITEM "收藏夹(&F)", em_ext_myfavorites
-    MENUITEM "最近访问(&E)", em_ext_myrecent
-    MENUITEM "搜索(&H)", em_ext_mysavedsearches
+  POPUP "����(&P)"
+    MENUITEM "�û������ļ���(&O)", em_ext_userprofile
+    MENUITEM "����(&D)", em_ext_mydesktop
+    MENUITEM "�ĵ�(&U)", em_ext_mydocuments
+    MENUITEM "��(&b)", em_ext_mylibraries
+    MENUITEM "��Ƭ(&P)", em_ext_mypictures
+    MENUITEM "����(XP)(&M)", em_ext_mymusic
+    MENUITEM "��Ƶ(XP)(&V)", em_ext_myvideo
+    MENUITEM "����(&W)", em_ext_mydownloads
+    MENUITEM "��ϵ��(&C)", em_ext_mycontacts
+    MENUITEM "����(&I)", em_ext_mylinks
+    MENUITEM "�ղؼ�(&F)", em_ext_myfavorites
+    MENUITEM "�������(&E)", em_ext_myrecent
+    MENUITEM "����(&H)", em_ext_mysavedsearches
     MENUITEM "O&neDrive", em_ext_myonedrive
-        MENUITEM "应用程序数据(&A)", em_ext_appdata
-        MENUITEM "应用程序数据（本地）(&L)", em_ext_local_appdata
+        MENUITEM "Ӧ�ó�������(&A)", em_ext_appdata
+        MENUITEM "Ӧ�ó������ݣ����أ�(&L)", em_ext_local_appdata
     MENUITEM SEPARATOR
-    MENUITEM "开始菜单(&S)", em_ext_startmenu
-    MENUITEM "    程序(&R)", em_ext_programs
-    MENUITEM "        启动(&T)", em_ext_startup
-    MENUITEM "快速启动(&Q)", em_ext_quicklaunch
+    MENUITEM "��ʼ�˵�(&S)", em_ext_startmenu
+    MENUITEM "    ����(&R)", em_ext_programs
+    MENUITEM "        ����(&T)", em_ext_startup
+    MENUITEM "��������(&Q)", em_ext_quicklaunch
   END_POPUP
-  POPUP "通用(&C)"
-    MENUITEM "用户配置文件夹(&o)", em_ext_public
-    MENUITEM "桌面(&D)", em_ext_common_desktopdirectory
-    MENUITEM "共享文档(&U)", em_ext_common_documents
-    MENUITEM "共享照片(&P)", em_ext_common_pictures
-    MENUITEM "应用程序数据(&A)", em_ext_common_appdata
+  POPUP "ͨ��(&C)"
+    MENUITEM "�û������ļ���(&o)", em_ext_public
+    MENUITEM "����(&D)", em_ext_common_desktopdirectory
+    MENUITEM "�����ĵ�(&U)", em_ext_common_documents
+    MENUITEM "������Ƭ(&P)", em_ext_common_pictures
+    MENUITEM "Ӧ�ó�������(&A)", em_ext_common_appdata
     MENUITEM SEPARATOR
-    MENUITEM "开始菜单(&S)", em_ext_common_startmenu
-    MENUITEM "    程序(&R)", em_ext_common_programs
-    MENUITEM "        启动(&T)", em_ext_common_startup
+    MENUITEM "��ʼ�˵�(&S)", em_ext_common_startmenu
+    MENUITEM "    ����(&R)", em_ext_common_programs
+    MENUITEM "        ����(&T)", em_ext_common_startup
   END_POPUP
   POPUP "&Total Commander"
-    MENUITEM "程序(&P)", em_ext_commanderpath
-    MENUITEM "配置(&C)", em_ext_commandercfg
-    MENUITEM "数据(&D)", em_ext_commanderdata
-    MENUITEM "数据(本地)(&L)", em_ext_commanderlocaldata
+    MENUITEM "����(&P)", em_ext_commanderpath
+    MENUITEM "����(&C)", em_ext_commandercfg
+    MENUITEM "����(&D)", em_ext_commanderdata
+    MENUITEM "����(����)(&L)", em_ext_commanderlocaldata
   END_POPUP
 END_POPUP
 
 STARTMENU
 
 POPUP "Windows &10"
-  POPUP "管理工具(&A)"
-    MENUITEM "组件服务", em_ext_comexp
-    MENUITEM "计算机管理", em_ext_compmgmt
-    MENUITEM "碎片整理和优化驱动器", em_ext_dfrgui
-    MENUITEM "磁盘清理", em_ext_cleanmgr
-    MENUITEM "事件查看器", em_ext_eventvwrb
+  POPUP "��������(&A)"
+    MENUITEM "�������", em_ext_comexp
+    MENUITEM "���������", em_ext_compmgmt
+    MENUITEM "��Ƭ�������Ż�������", em_ext_dfrgui
+    MENUITEM "��������", em_ext_cleanmgr
+    MENUITEM "�¼��鿴��", em_ext_eventvwrb
     MENUITEM "iSCSI Initiator", em_ext_iscsiinitiator
-    MENUITEM "ODBC 数据源 (32位)", em_ext_odbcad32b
-    MENUITEM "ODBC 数据源 (64位)", em_ext_odbcad32b64
-    MENUITEM "性能监视器", em_ext_perfmonb
-    MENUITEM "资源监视器", em_ext_perfmon
-    MENUITEM "服务", em_ext_services
-    MENUITEM "系统配置", em_ext_msconfig
-    MENUITEM "系统信息", em_ext_msinfo32
-    MENUITEM "任务计划程序", em_ext_schedtasks
-    MENUITEM "带高级安全的Windows防火墙", em_ext_wf
-    MENUITEM "Windows 内存诊断", em_ext_mdsched
+    MENUITEM "ODBC ����Դ (32λ)", em_ext_odbcad32b
+    MENUITEM "ODBC ����Դ (64λ)", em_ext_odbcad32b64
+    MENUITEM "���ܼ�����", em_ext_perfmonb
+    MENUITEM "��Դ������", em_ext_perfmon
+    MENUITEM "����", em_ext_services
+    MENUITEM "ϵͳ����", em_ext_msconfig
+    MENUITEM "ϵͳ��Ϣ", em_ext_msinfo32
+    MENUITEM "����ƻ�����", em_ext_schedtasks
+    MENUITEM "���߼���ȫ��Windows����ǽ", em_ext_wf
+    MENUITEM "Windows �ڴ����", em_ext_mdsched
     MENUITEM SEPARATOR
-    MENUITEM "证书", em_ext_certmgr
-    MENUITEM "设备管理器", em_ext_devmgmt
-    MENUITEM "磁盘管理", em_ext_diskmgmt
-    MENUITEM "驱动程序验证程序管理器", em_ext_verifier
-    MENUITEM "注册表编辑器", em_ext_regedit
-    MENUITEM "共享目录", em_ext_fsmgmt
-    MENUITEM "SQL Server 客户端网络实用工具", em_ext_cliconfg
+    MENUITEM "֤��", em_ext_certmgr
+    MENUITEM "�豸������", em_ext_devmgmt
+    MENUITEM "���̹���", em_ext_diskmgmt
+    MENUITEM "����������֤���������", em_ext_verifier
+    MENUITEM "ע����༭��", em_ext_regedit
+    MENUITEM "����Ŀ¼", em_ext_fsmgmt
+    MENUITEM "SQL Server �ͻ�������ʵ�ù���", em_ext_cliconfg
   END_POPUP
-  POPUP "控制面板(&C)"
+  POPUP "�������(&C)"
     POPUP "A - &M"
-      MENUITEM "管理工具", em_ext_admintools
-      MENUITEM "自动播放", em_ext_autoplay
-      MENUITEM "备份和还原", em_ext_backupandrestorecenter
-      MENUITEM "生物特征设备", em_ext_biometricdevices
-      MENUITEM "BitLocker 驱动器加密", em_ext_bitlockerdriveencryption
-      MENUITEM "蓝牙设备", em_ext_bluetoothdevices
-      MENUITEM "蓝牙设置", em_ext_bluetooth
-      MENUITEM "颜色管理", em_ext_colormanagement
-      MENUITEM "创建还原点", em_ext_createrestore
-      MENUITEM "凭据管理器", em_ext_credentialmanager
-      MENUITEM "日期和时间", em_ext_datetime
-      MENUITEM "默认程序", em_ext_defaultprograms
-      MENUITEM "桌面小工具", em_ext_desktopgadgets
-      MENUITEM "设备管理器", em_ext_devmgmt
-      MENUITEM "设备和打印机", em_ext_printers
-      MENUITEM "显示", em_ext_display
-      MENUITEM "轻松使用设置中心", em_ext_access
-      MENUITEM "家庭安全", em_ext_parentalcontrols
-      MENUITEM "文件资源管理器选项", em_ext_folders
-      MENUITEM "文件历史", em_ext_filehistory
-      MENUITEM "字体", em_ext_fonts
-      MENUITEM "游戏控制器", em_ext_joy
-      MENUITEM "获得程序", em_ext_getprograms
-      MENUITEM "家庭组", em_ext_homegroup
-      MENUITEM "索引选项", em_ext_indexingoptions
-      MENUITEM "红外线", em_ext_infrared
-      MENUITEM "Internet 选项", em_ext_inetcpl
-      MENUITEM "键盘", em_ext_keyboard
-      MENUITEM "语言", em_ext_language
-      MENUITEM "位置设置", em_ext_locationandothersensors
-      MENUITEM "鼠标", em_ext_mouse
+      MENUITEM "��������", em_ext_admintools
+      MENUITEM "�Զ�����", em_ext_autoplay
+      MENUITEM "���ݺͻ�ԭ", em_ext_backupandrestorecenter
+      MENUITEM "���������豸", em_ext_biometricdevices
+      MENUITEM "BitLocker ����������", em_ext_bitlockerdriveencryption
+      MENUITEM "�����豸", em_ext_bluetoothdevices
+      MENUITEM "��������", em_ext_bluetooth
+      MENUITEM "��ɫ����", em_ext_colormanagement
+      MENUITEM "������ԭ��", em_ext_createrestore
+      MENUITEM "ƾ�ݹ�����", em_ext_credentialmanager
+      MENUITEM "���ں�ʱ��", em_ext_datetime
+      MENUITEM "Ĭ�ϳ���", em_ext_defaultprograms
+      MENUITEM "����С����", em_ext_desktopgadgets
+      MENUITEM "�豸������", em_ext_devmgmt
+      MENUITEM "�豸�ʹ�ӡ��", em_ext_printers
+      MENUITEM "��ʾ", em_ext_display
+      MENUITEM "����ʹ����������", em_ext_access
+      MENUITEM "��ͥ��ȫ", em_ext_parentalcontrols
+      MENUITEM "�ļ���Դ������ѡ��", em_ext_folders
+      MENUITEM "�ļ���ʷ", em_ext_filehistory
+      MENUITEM "����", em_ext_fonts
+      MENUITEM "��Ϸ������", em_ext_joy
+      MENUITEM "��ó���", em_ext_getprograms
+      MENUITEM "��ͥ��", em_ext_homegroup
+      MENUITEM "����ѡ��", em_ext_indexingoptions
+      MENUITEM "������", em_ext_infrared
+      MENUITEM "Internet ѡ��", em_ext_inetcpl
+      MENUITEM "����", em_ext_keyboard
+      MENUITEM "����", em_ext_language
+      MENUITEM "λ������", em_ext_locationandothersensors
+      MENUITEM "���", em_ext_mouse
     END_POPUP
     POPUP "&N - Z"
-      MENUITEM "网络和共享中心", em_ext_networkandsharingcenter
-      MENUITEM "网络连接", em_ext_netconnections
-      MENUITEM "网络连接向导", em_ext_netsetup
-      MENUITEM "通知区域图标", em_ext_notificationareaicons
-      MENUITEM "笔和触摸", em_ext_tabletpc
-      MENUITEM "性能选项", em_ext_performance
-      MENUITEM "个性化", em_ext_desktop
-      MENUITEM "电话和调制解调器", em_ext_telephony
-      MENUITEM "电源选项", em_ext_powercfg
-      MENUITEM "程序和功能", em_ext_appwiz
-      MENUITEM "恢复", em_ext_recovery
-      MENUITEM "区域", em_ext_international
-      MENUITEM "RemoteApp 和桌面连接", em_ext_remoteappanddesktopconnections
-      MENUITEM "扫描仪和照相机", em_ext_scannercamera
-      MENUITEM "屏幕分辨率", em_ext_displaysettings
-      MENUITEM "屏幕保护程序设置", em_ext_screensaversettings
-      MENUITEM "安全和维护", em_ext_wscui
-      MENUITEM "声音", em_ext_mmsys
-      MENUITEM "语音属性", em_ext_texttospeech
-      MENUITEM "语音识别", em_ext_speechrecognitionoptions
-      MENUITEM "存储空间", em_ext_storagespaces
-      MENUITEM "同步中心", em_ext_synccenter
-      MENUITEM "系统", em_ext_sysdm
+      MENUITEM "����͹�������", em_ext_networkandsharingcenter
+      MENUITEM "��������", em_ext_netconnections
+      MENUITEM "����������", em_ext_netsetup
+      MENUITEM "֪ͨ����ͼ��", em_ext_notificationareaicons
+      MENUITEM "�ʺʹ���", em_ext_tabletpc
+      MENUITEM "����ѡ��", em_ext_performance
+      MENUITEM "���Ի�", em_ext_desktop
+      MENUITEM "�绰�͵��ƽ����", em_ext_telephony
+      MENUITEM "��Դѡ��", em_ext_powercfg
+      MENUITEM "����͹���", em_ext_appwiz
+      MENUITEM "�ָ�", em_ext_recovery
+      MENUITEM "����", em_ext_international
+      MENUITEM "RemoteApp ����������", em_ext_remoteappanddesktopconnections
+      MENUITEM "ɨ���Ǻ������", em_ext_scannercamera
+      MENUITEM "��Ļ�ֱ���", em_ext_displaysettings
+      MENUITEM "��Ļ������������", em_ext_screensaversettings
+      MENUITEM "��ȫ��ά��", em_ext_wscui
+      MENUITEM "����", em_ext_mmsys
+      MENUITEM "��������", em_ext_texttospeech
+      MENUITEM "����ʶ��", em_ext_speechrecognitionoptions
+      MENUITEM "�洢�ռ�", em_ext_storagespaces
+      MENUITEM "ͬ������", em_ext_synccenter
+      MENUITEM "ϵͳ", em_ext_sysdm
       MENUITEM "System Properties", em_ext_sysdm2
-      MENUITEM "Tablet PC 设置", em_ext_tabletpcsettings
-      MENUITEM "任务栏和导航", em_ext_taskbar
-      MENUITEM "疑难解答", em_ext_troubleshooting
-      MENUITEM "用户账户", em_ext_userpasswords
-      MENUITEM "Windows Defender 安全中心", em_ext_windowsdefender
-      MENUITEM "Windows 防火墙", em_ext_firewall
-      MENUITEM "Windows 移动中心", em_ext_mobilitycenter
-      MENUITEM "Windows 更新", em_ext_wuaucpl
-      MENUITEM "工作文件夹", em_ext_workfolders
+      MENUITEM "Tablet PC ����", em_ext_tabletpcsettings
+      MENUITEM "�������͵���", em_ext_taskbar
+      MENUITEM "���ѽ��", em_ext_troubleshooting
+      MENUITEM "�û��˻�", em_ext_userpasswords
+      MENUITEM "Windows Defender ��ȫ����", em_ext_windowsdefender
+      MENUITEM "Windows ����ǽ", em_ext_firewall
+      MENUITEM "Windows �ƶ�����", em_ext_mobilitycenter
+      MENUITEM "Windows ����", em_ext_wuaucpl
+      MENUITEM "�����ļ���", em_ext_workfolders
     END_POPUP
     MENUITEM SEPARATOR
-    POPUP "第三方控件(&T)"
-      MENUITEM "DivX 控制面板", em_ext_divxplayer
-      MENUITEM "Flash 播放器设置管理器", em_ext_flashplayer
-      MENUITEM "Java 控制面板", em_ext_javacpl
-      MENUITEM "Quicktime 设置", em_ext_quicktime
+    POPUP "�������ؼ�(&T)"
+      MENUITEM "DivX �������", em_ext_divxplayer
+      MENUITEM "Flash ���������ù�����", em_ext_flashplayer
+      MENUITEM "Java �������", em_ext_javacpl
+      MENUITEM "Quicktime ����", em_ext_quicktime
     END_POPUP
   END_POPUP
-  POPUP "设置(&S)"
-      MENUITEM "设置", em_ext_ms-settings
+  POPUP "����(&S)"
+      MENUITEM "����", em_ext_ms-settings
       MENUITEM SEPARATOR
-      MENUITEM "系统", em_ext_ms-settings-display
-      MENUITEM "设备", em_ext_ms-settings-connecteddevices
-      MENUITEM "电话", em_ext_ms-settings-mobile-devices
-      MENUITEM "网络和Internet", em_ext_ms-settings-network-wifi
-      MENUITEM "个性化", em_ext_ms-settings-personalization-background
-      MENUITEM "应用程序", em_ext_ms-settings-appsfeatures
-      MENUITEM "帐户", em_ext_ms-settings-emailandaccounts
-      MENUITEM "时间和语言", em_ext_ms-settings-dateandtime
-      MENUITEM "游戏", em_ext_ms-settings-gaming-gamebar
-      MENUITEM "轻松使用", em_ext_ms-settings-easeofaccess-narrator
-      MENUITEM "搜索", em_ext_ms-settings-search
-      MENUITEM "隐私", em_ext_ms-settings-privacy
-      MENUITEM "安全和更新", em_ext_ms-settings-windowsupdate
-      MENUITEM "混合现实", em_ext_ms-settings-holographic
+      MENUITEM "ϵͳ", em_ext_ms-settings-display
+      MENUITEM "�豸", em_ext_ms-settings-connecteddevices
+      MENUITEM "�绰", em_ext_ms-settings-mobile-devices
+      MENUITEM "�����Internet", em_ext_ms-settings-network-wifi
+      MENUITEM "���Ի�", em_ext_ms-settings-personalization-background
+      MENUITEM "Ӧ�ó���", em_ext_ms-settings-appsfeatures
+      MENUITEM "�ʻ�", em_ext_ms-settings-emailandaccounts
+      MENUITEM "ʱ�������", em_ext_ms-settings-dateandtime
+      MENUITEM "��Ϸ", em_ext_ms-settings-gaming-gamebar
+      MENUITEM "����ʹ��", em_ext_ms-settings-easeofaccess-narrator
+      MENUITEM "����", em_ext_ms-settings-search
+      MENUITEM "��˽", em_ext_ms-settings-privacy
+      MENUITEM "��ȫ�͸���", em_ext_ms-settings-windowsupdate
+      MENUITEM "�����ʵ", em_ext_ms-settings-holographic
   END_POPUP
-  POPUP "Windows 系统(&Y)"
-    MENUITEM "命令提示符", em_ext_cmd
-    POPUP "控制面板"
-      MENUITEM "所有元素", em_ext_control-allelements
-      MENUITEM "类别", em_ext_control_categories
-      MENUITEM "外观和个性化", em_ext_control-personal
-      MENUITEM "时钟、语言和区域", em_ext_control-international
-      MENUITEM "轻松访问", em_ext_control-accessability
-      MENUITEM "硬件和声音", em_ext_control-hardware
-      MENUITEM "网络和 Internet", em_ext_control-network
-      MENUITEM "程序", em_ext_control-programs
-      MENUITEM "系统和安全", em_ext_control-system
-      MENUITEM "用户账户和家庭安全", em_ext_control-useraccounts
+  POPUP "Windows ϵͳ(&Y)"
+    MENUITEM "������ʾ��", em_ext_cmd
+    POPUP "�������"
+      MENUITEM "����Ԫ��", em_ext_control-allelements
+      MENUITEM "���", em_ext_control_categories
+      MENUITEM "��ۺ͸��Ի�", em_ext_control-personal
+      MENUITEM "ʱ�ӡ����Ժ�����", em_ext_control-international
+      MENUITEM "���ɷ���", em_ext_control-accessability
+      MENUITEM "Ӳ��������", em_ext_control-hardware
+      MENUITEM "����� Internet", em_ext_control-network
+      MENUITEM "����", em_ext_control-programs
+      MENUITEM "ϵͳ�Ͱ�ȫ", em_ext_control-system
+      MENUITEM "�û��˻��ͼ�ͥ��ȫ", em_ext_control-useraccounts
       MENUITEM SEPARATOR
-      MENUITEM "所有任务 (上帝模式)", em_ext_godmode
+      MENUITEM "�������� (�ϵ�ģʽ)", em_ext_godmode
     END_POPUP
-    MENUITEM "文件资源管理器", em_ext_explorer
-    MENUITEM "运行", em_ext_run
-    MENUITEM "任务管理器", em_ext_taskmgr
-    MENUITEM "此电脑", em_ext_computer
+    MENUITEM "�ļ���Դ������", em_ext_explorer
+    MENUITEM "����", em_ext_run
+    MENUITEM "���������", em_ext_taskmgr
+    MENUITEM "�˵���", em_ext_computer
     MENUITEM SEPARATOR
-    MENUITEM "关于 Windows", em_ext_winver
-    MENUITEM "创建共享文件夹向导", em_ext_shrpubw
-    MENUITEM "默认程序", em_ext_defaultprograms
-    MENUITEM "设备", em_ext_devices
-    MENUITEM "拨号连接", em_ext_rasphone
-    MENUITEM "DirectX 诊断工具", em_ext_dxdiag
-    MENUITEM "帮助与支持", em_ext_helppane
-    MENUITEM "IExpress 向导", em_ext_iexpress
-    MENUITEM "恢复驱动器", em_ext_recdrive
-    MENUITEM "扫描仪和照相机向导", em_ext_wiaacmgr
-    MENUITEM "系统镜像备份", em_ext_systemimage
-    MENUITEM "系统还原", em_ext_rstrui
-    MENUITEM "Windows 远程协助", em_ext_msra
+    MENUITEM "���� Windows", em_ext_winver
+    MENUITEM "���������ļ�����", em_ext_shrpubw
+    MENUITEM "Ĭ�ϳ���", em_ext_defaultprograms
+    MENUITEM "�豸", em_ext_devices
+    MENUITEM "��������", em_ext_rasphone
+    MENUITEM "DirectX ��Ϲ���", em_ext_dxdiag
+    MENUITEM "������֧��", em_ext_helppane
+    MENUITEM "IExpress ��", em_ext_iexpress
+    MENUITEM "�ָ�������", em_ext_recdrive
+    MENUITEM "ɨ���Ǻ��������", em_ext_wiaacmgr
+    MENUITEM "ϵͳ���񱸷�", em_ext_systemimage
+    MENUITEM "ϵͳ��ԭ", em_ext_rstrui
+    MENUITEM "Windows Զ��Э��", em_ext_msra
   END_POPUP
-  POPUP "Win&dows 附件"
+  POPUP "Win&dows ����"
     MENUITEM "3D Builder", em_ext_com.microsoft.builder3d
-    MENUITEM "字符映射表", em_ext_charmap
+    MENUITEM "�ַ�ӳ���", em_ext_charmap
     POPUP "Internet Explorer"
       MENUITEM "Internet Explorer", em_ext_iexplore
-      MENUITEM "Internet Explorer (64位)", em_ext_iexplorex64
-      MENUITEM "Internet Explorer (无加载项)", em_ext_iexplorer
+      MENUITEM "Internet Explorer (64λ)", em_ext_iexplorex64
+      MENUITEM "Internet Explorer (�޼�����)", em_ext_iexplorer
     END_POPUP
-    MENUITEM "数学输入面板", em_ext_mip
-    MENUITEM "记事本", em_ext_notepad
-    MENUITEM "画图", em_ext_mspaint
-    MENUITEM "画图 3D", em_ext_print3d
-    MENUITEM "快速助手", em_ext_quickassist
-    MENUITEM "远程桌面连接", em_ext_mstsc
-    MENUITEM "截图工具", em_ext_snippingtool
-    MENUITEM "步骤记录器", em_ext_stepsrecorder
-    MENUITEM "便利贴", em_ext_stikynot
-    MENUITEM "Windows 传真和扫描", em_ext_wfs
-    MENUITEM "写字板", em_ext_write
-    MENUITEM "XPS 查看器", em_ext_xpsrchvw
+    MENUITEM "��ѧ�������", em_ext_mip
+    MENUITEM "���±�", em_ext_notepad
+    MENUITEM "��ͼ", em_ext_mspaint
+    MENUITEM "��ͼ 3D", em_ext_print3d
+    MENUITEM "��������", em_ext_quickassist
+    MENUITEM "Զ����������", em_ext_mstsc
+    MENUITEM "��ͼ����", em_ext_snippingtool
+    MENUITEM "�����¼��", em_ext_stepsrecorder
+    MENUITEM "������", em_ext_stikynot
+    MENUITEM "Windows �����ɨ��", em_ext_wfs
+    MENUITEM "д�ְ�", em_ext_write
+    MENUITEM "XPS �鿴��", em_ext_xpsrchvw
     MENUITEM SEPARATOR
-    MENUITEM "蓝牙文件传送", em_ext_bluetoothtransfer
-    MENUITEM "计算器", em_ext_calc
-    MENUITEM "连接到投影机", em_ext_displayswitch
-    MENUITEM "主音量", em_ext_sndvol
+    MENUITEM "�����ļ�����", em_ext_bluetoothtransfer
+    MENUITEM "������", em_ext_calc
+    MENUITEM "���ӵ�ͶӰ��", em_ext_displayswitch
+    MENUITEM "������", em_ext_sndvol
     MENUITEM "Movie Maker", em_ext_livemmoviemaker
-    MENUITEM "照片库", em_ext_livephotogallery
-    MENUITEM "专用字符编辑程序", em_ext_eudcedit
+    MENUITEM "��Ƭ��", em_ext_livephotogallery
+    MENUITEM "ר���ַ��༭����", em_ext_eudcedit
     POPUP "Tablet PC"
-      MENUITEM "手写个性化", em_ext_shapecollector
-      MENUITEM "平板电脑输入面板", em_ext_tabtip
-      MENUITEM "平板电脑设置", em_ext_tabletpcsettings
+      MENUITEM "��д���Ի�", em_ext_shapecollector
+      MENUITEM "ƽ������������", em_ext_tabtip
+      MENUITEM "ƽ���������", em_ext_tabletpcsettings
     END_POPUP
-    MENUITEM "Windows 媒体播放器", em_ext_wmplayer
-    MENUITEM "Windows 照片查看器", em_ext_photoviewer
+    MENUITEM "Windows ý�岥����", em_ext_wmplayer
+    MENUITEM "Windows ��Ƭ�鿴��", em_ext_photoviewer
   END_POPUP
-  POPUP "&Metro应用程序"
-    MENUITEM "天气", em_ext_msnweather
-    MENUITEM "日历", em_ext_outlookcal
-    MENUITEM "闹钟和时钟", em_ext_ms-clock
-    MENUITEM "邮件", em_ext_ms-unistore-email
-    MENUITEM "人脉", em_ext_ms-people
+  POPUP "&MetroӦ�ó���"
+    MENUITEM "����", em_ext_msnweather
+    MENUITEM "����", em_ext_outlookcal
+    MENUITEM "���Ӻ�ʱ��", em_ext_ms-clock
+    MENUITEM "�ʼ�", em_ext_ms-unistore-email
+    MENUITEM "����", em_ext_ms-people
     MENUITEM "Skype", em_ext_skypeuwp
-    MENUITEM "地图", em_ext_bingmaps
-    MENUITEM "Cortana / 搜索", em_ext_cortana
+    MENUITEM "��ͼ", em_ext_bingmaps
+    MENUITEM "Cortana / ����", em_ext_cortana
     MENUITEM SEPARATOR
-    MENUITEM "照片", em_ext_ms-photos
-    MENUITEM "电影和电视", em_ext_mswindowsvideo
-    MENUITEM "媒体播放器", em_ext_mswindowsmusic
-    MENUITEM "录音机", em_ext_windowssoundrecorder
-    MENUITEM "相机", em_ext_microsoft.windows.camera
-    MENUITEM "连接", em_ext_ms-projection
+    MENUITEM "��Ƭ", em_ext_ms-photos
+    MENUITEM "��Ӱ�͵���", em_ext_mswindowsvideo
+    MENUITEM "ý�岥����", em_ext_mswindowsmusic
+    MENUITEM "¼����", em_ext_windowssoundrecorder
+    MENUITEM "���", em_ext_microsoft.windows.camera
+    MENUITEM "����", em_ext_ms-projection
     MENUITEM SEPARATOR
-    MENUITEM "计算器", em_ext_calculator
-    MENUITEM "扫描", em_ext_windowsscan
+    MENUITEM "������", em_ext_calculator
+    MENUITEM "ɨ��", em_ext_windowsscan
     MENUITEM "OneNote", em_ext_onenote
     MENUITEM "Sway", em_ext_ms-sway
-    MENUITEM "截图和素描", em_ext_screensketch
+    MENUITEM "��ͼ������", em_ext_screensketch
     MENUITEM SEPARATOR
-    MENUITEM "画图 3D", em_ext_ms-paint
-    MENUITEM "3D 生成器", em_ext_com.microsoft.builder3d
-    MENUITEM "3D 查看器", em_ext_com.microsoft.3dviewer
-    MENUITEM "打印 3D", em_ext_print3d
-    MENUITEM "混合现实门户", em_ext_ms-holographicfirstrun
+    MENUITEM "��ͼ 3D", em_ext_ms-paint
+    MENUITEM "3D ������", em_ext_com.microsoft.builder3d
+    MENUITEM "3D �鿴��", em_ext_com.microsoft.3dviewer
+    MENUITEM "��ӡ 3D", em_ext_print3d
+    MENUITEM "�����ʵ�Ż�", em_ext_ms-holographicfirstrun
     MENUITEM SEPARATOR
-    MENUITEM "微软 Edge", em_ext_microsoft-edge
+    MENUITEM "΢�� Edge", em_ext_microsoft-edge
     MENUITEM "Reader", em_ext_reader
     MENUITEM SEPARATOR
-    MENUITEM "新闻", em_ext_msnnews
-    MENUITEM "体育", em_ext_msnsports
-    MENUITEM "财经", em_ext_msnfinance
-    MENUITEM "食物和饮料", em_ext_bingfoodanddrink
-    MENUITEM "健康和运动", em_ext_binghealthnfitness
+    MENUITEM "����", em_ext_msnnews
+    MENUITEM "����", em_ext_msnsports
+    MENUITEM "�ƾ�", em_ext_msnfinance
+    MENUITEM "ʳ�������", em_ext_bingfoodanddrink
+    MENUITEM "�������˶�", em_ext_binghealthnfitness
     MENUITEM SEPARATOR
-    MENUITEM "你的电话", em_ext_yourphone
-    MENUITEM "微软 Wi-Fi", em_ext_connectivitystore
+    MENUITEM "��ĵ绰", em_ext_yourphone
+    MENUITEM "΢�� Wi-Fi", em_ext_connectivitystore
     MENUITEM SEPARATOR
-    MENUITEM "应用商店", em_ext_ms-windows-store
-    MENUITEM "Xbox游戏机伴侣", em_ext_xbox
-    MENUITEM "Xbox游戏栏", em_ext_gamingoverlay
-    MENUITEM "微软纸牌系列", em_ext_xboxliveapp
-    MENUITEM "糖果大爆险", em_ext_candycrushsaga
+    MENUITEM "Ӧ���̵�", em_ext_ms-windows-store
+    MENUITEM "Xbox��Ϸ������", em_ext_xbox
+    MENUITEM "Xbox��Ϸ��", em_ext_gamingoverlay
+    MENUITEM "΢��ֽ��ϵ��", em_ext_xboxliveapp
+    MENUITEM "�ǹ�����", em_ext_candycrushsaga
     MENUITEM SEPARATOR
-    MENUITEM "使用技巧", em_ext_ms-get-started
-    MENUITEM "获取帮助", em_ext_ms-contact-support
-    MENUITEM "反馈中心", em_ext_windows-feedback
+    MENUITEM "ʹ�ü���", em_ext_ms-get-started
+    MENUITEM "��ȡ����", em_ext_ms-contact-support
+    MENUITEM "��������", em_ext_windows-feedback
   END_POPUP
   POPUP "Windows PowerShell"
     MENUITEM "Windows PowerShell", em_ext_powershellx64
@@ -1176,13 +1176,13 @@ POPUP "Windows &10"
     MENUITEM "Windows PowerShell ISE", em_ext_powershellisex64
     MENUITEM "Windows PowerShell ISE (x86)", em_ext_powershellisex86
   END_POPUP
-  POPUP "Windows 轻松访问(&E)"
-    MENUITEM "放大镜", em_ext_magnify
-    MENUITEM "讲述人", em_ext_narrator
-    MENUITEM "屏幕键盘", em_ext_osk
-    MENUITEM "Windows 语音识别", em_ext_sapi
+  POPUP "Windows ���ɷ���(&E)"
+    MENUITEM "�Ŵ�", em_ext_magnify
+    MENUITEM "������", em_ext_narrator
+    MENUITEM "��Ļ����", em_ext_osk
+    MENUITEM "Windows ����ʶ��", em_ext_sapi
     MENUITEM SEPARATOR
-    MENUITEM "轻松访问中心", em_ext_access
+    MENUITEM "���ɷ�������", em_ext_access
   END_POPUP
   POPUP "Windows &Live Essentials"
     MENUITEM "Windows Live Family Safety", em_ext_livefamilysafety
@@ -1193,63 +1193,63 @@ POPUP "Windows &10"
     MENUITEM "Windows Live Photo Gallery", em_ext_livephotogallery
     MENUITEM "Windows Live Writer", em_ext_livewriter
   END_POPUP
-  MENUITEM "Windows Defender 安全中心(&U)", em_ext_windowsdefender
+  MENUITEM "Windows Defender ��ȫ����(&U)", em_ext_windowsdefender
   MENUITEM "Mic&rosoft Silverlight", em_ext_silverlight
   MENUITEM "&OneDrive", em_ext_onedrive
-  MENUITEM "发送电子邮件(标准客户端)(&I)", em_ext_mailto
+  MENUITEM "���͵����ʼ�(��׼�ͻ���)(&I)", em_ext_mailto
   MENUITEM SEPARATOR
-    MENUITEM "Windows 10 工具栏(&W)", em_ext_bar1
-    MENUITEM "控制面板工具栏(&n)", em_ext_bar2
+    MENUITEM "Windows 10 ������(&W)", em_ext_bar1
+    MENUITEM "������幤����(&n)", em_ext_bar2
 END_POPUP
 
-POPUP "其他"
-  MENUITEM "在目标面板创建与光标下文件同名的文件夹(&M) *", em_ext_newdir
-  MENUITEM "在目标面板中创建与光标下文件相同名称+扩展名的目录(&A) *", em_ext_newdir2
-  MENUITEM "复制标记的文件到目标面板的与当前光标下文件名同名的目录中(&C) *", em_ext_copyallnewdir
-  MENUITEM "复制标记的文件到目标面板的与当前光标下文件名+扩展名同名的目录中(&F) *", em_ext_copyallnewdir2
-  MENUITEM "移动标记的文件到目标面板的与当前光标下文件名同名的目录中(&O) *", em_ext_moveallnewdir
-  MENUITEM "移动标记的文件到目标面板的与当前光标下文件名+扩展名同名的目录中(&V) *", em_ext_moveallnewdir2
+POPUP "����"
+  MENUITEM "��Ŀ����崴���������ļ�ͬ�����ļ���(&M) *", em_ext_newdir
+  MENUITEM "��Ŀ������д����������ļ���ͬ����+��չ����Ŀ¼(&A) *", em_ext_newdir2
+  MENUITEM "���Ʊ�ǵ��ļ���Ŀ�������뵱ǰ������ļ���ͬ����Ŀ¼��(&C) *", em_ext_copyallnewdir
+  MENUITEM "���Ʊ�ǵ��ļ���Ŀ�������뵱ǰ������ļ���+��չ��ͬ����Ŀ¼��(&F) *", em_ext_copyallnewdir2
+  MENUITEM "�ƶ���ǵ��ļ���Ŀ�������뵱ǰ������ļ���ͬ����Ŀ¼��(&O) *", em_ext_moveallnewdir
+  MENUITEM "�ƶ���ǵ��ļ���Ŀ�������뵱ǰ������ļ���+��չ��ͬ����Ŀ¼��(&V) *", em_ext_moveallnewdir2
   MENUITEM SEPARATOR
-  MENUITEM "复制光标下的文件的内容到同面板中标记的文件(&E) *", em_ext_copyonetomulti
-  MENUITEM "复制光标下的文件的名称到同面板中标记的文件(&D) *", em_ext_copynametomulti
-  MENUITEM "交换同一面板中两个文件的内容(&W) *", em_ext_swapfilenames
+  MENUITEM "���ƹ���µ��ļ������ݵ�ͬ����б�ǵ��ļ�(&E) *", em_ext_copyonetomulti
+  MENUITEM "���ƹ���µ��ļ������Ƶ�ͬ����б�ǵ��ļ�(&D) *", em_ext_copynametomulti
+  MENUITEM "����ͬһ����������ļ�������(&W) *", em_ext_swapfilenames
   MENUITEM SEPARATOR
-  MENUITEM "在对面面板中创建光标下文件夹的连接(不在网络上)(&J)*", em_ext_junction
-  MENUITEM "在目标面板中建立光标下文件夹的符号链接(&S) *", em_ext_symlinkd
-  MENUITEM "在目标面板中建立光标下文件的符号链接(&Y) *", em_ext_symlink
-  MENUITEM "在对面面板中创建光标下文件的硬链接 (仅在相同驱动器上)(&H) *", em_ext_hardlink
+  MENUITEM "�ڶ�������д���������ļ��е�����(����������)(&J)*", em_ext_junction
+  MENUITEM "��Ŀ������н���������ļ��еķ�������(&S) *", em_ext_symlinkd
+  MENUITEM "��Ŀ������н���������ļ��ķ�������(&Y) *", em_ext_symlink
+  MENUITEM "�ڶ�������д���������ļ���Ӳ���� (������ͬ��������)(&H) *", em_ext_hardlink
   MENUITEM SEPARATOR
-  MENUITEM "在光标下的文件夹中启用区分大小写(&B)", em_ext_casesensitivefolder
-  MENUITEM "在光标下的文件夹中禁用区分大小写(&L)", em_ext_caseinsensitivefolder
+  MENUITEM "�ڹ���µ��ļ������������ִ�Сд(&B)", em_ext_casesensitivefolder
+  MENUITEM "�ڹ���µ��ļ����н������ִ�Сд(&L)", em_ext_caseinsensitivefolder
   MENUITEM SEPARATOR
-  MENUITEM "所有这些都使用DOS，可能无法在所有操作系统下运行", em_ext_dummy
-  MENUITEM "注意！没有关于文件覆盖的警告。无效选择文件夹/文件时会发出提示音", em_ext_dummy
+  MENUITEM "������Щ��ʹ��DOS�������޷������в���ϵͳ������", em_ext_dummy
+  MENUITEM "ע�⣡û�й����ļ����ǵľ��档��Чѡ���ļ���/�ļ�ʱ�ᷢ����ʾ��", em_ext_dummy
 END_POPUP
 
 HELP_BREAK
 
-POPUP "帮助(&H)"
-    MENUITEM "索引(&I)...\tF1", 610
-    MENUITEM "键盘(&K)...", 620
-    MENUITEM "老式帮助(&d)", em_ext_oldhelp
-    MENUITEM "额外的帮助窗口(&x)", em_ext_extrahelp
-    MENUITEM "注册信息(&R)...", 630
+POPUP "����(&H)"
+    MENUITEM "����(&I)...\tF1", 610
+    MENUITEM "����(&K)...", 620
+    MENUITEM "��ʽ����(&d)", em_ext_oldhelp
+    MENUITEM "����İ�������(&x)", em_ext_extrahelp
+    MENUITEM "ע����Ϣ(&R)...", 630
   MENUITEM SEPARATOR
-    MENUITEM "关于Total Commander(&A)...", 690
-  MENUITEM "检查新版本(&C)...", 650
-  MENUITEM "Total Command&er 订单...", em_ext_registerform
+    MENUITEM "����Total Commander(&A)...", 690
+  MENUITEM "����°汾(&C)...", 650
+  MENUITEM "Total Command&er ����...", em_ext_registerform
   MENUITEM SEPARATOR
-    MENUITEM "文件描述(&L)...", em_ext_description
-    MENUITEM "历史文件(&T)...", em_ext_historytext
-    MENUITEM "快捷键帮助文件(&B)...", em_ext_keyboardtext
-    MENUITEM "Total Commander ini 文件(&N)...", em_ext_commanderini
+    MENUITEM "�ļ�����(&L)...", em_ext_description
+    MENUITEM "��ʷ�ļ�(&T)...", em_ext_historytext
+    MENUITEM "��ݼ������ļ�(&B)...", em_ext_keyboardtext
+    MENUITEM "Total Commander ini �ļ�(&N)...", em_ext_commanderini
   MENUITEM SEPARATOR
-    MENUITEM "关于本菜单(&M)", em_ext_about
-    MENUITEM "为Total Commander安装扩展程序(&S)...", em_ext_install
+    MENUITEM "���ڱ��˵�(&M)", em_ext_about
+    MENUITEM "ΪTotal Commander��װ��չ����(&S)...", em_ext_install
   MENUITEM SEPARATOR
-    MENUITEM "Total Commander 网站(&H)", 640
-    MENUITEM "Total Commander 论坛(&F)", em_ext_help_forum
+    MENUITEM "Total Commander ��վ(&H)", 640
+    MENUITEM "Total Commander ��̳(&F)", em_ext_help_forum
     MENUITEM "Total Commander &Wiki", em_ext_help_wiki
-    MENUITEM "官方插件网页(&O)", em_ext_help_plugins
-    MENUITEM "非官方插件网页(totalcmd.net)(&U)", em_ext_help_totalcmd.net
+    MENUITEM "�ٷ������ҳ(&O)", em_ext_help_plugins
+    MENUITEM "�ǹٷ������ҳ(totalcmd.net)(&U)", em_ext_help_totalcmd.net
 END_POPUP
