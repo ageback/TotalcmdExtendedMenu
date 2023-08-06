@@ -1077,10 +1077,10 @@ POPUP "Windows &10"
     MENUITEM "DirectX 诊断工具", em_ext_dxdiag
     MENUITEM "帮助与支持", em_ext_helppane
     MENUITEM "IExpress 向导", em_ext_iexpress
-    MENUITEM "恢复驱动器（仅升高）", em_ext_recdrive
+    MENUITEM "恢复驱动器", em_ext_recdrive
     MENUITEM "扫描仪和照相机向导", em_ext_wiaacmgr
-    MENUITEM "系统镜像备份（仅升高）", em_ext_systemimage
-    MENUITEM "系统还原（仅升高）", em_ext_rstrui
+    MENUITEM "系统镜像备份", em_ext_systemimage
+    MENUITEM "系统还原", em_ext_rstrui
     MENUITEM "Windows 远程协助", em_ext_msra
   END_POPUP
   POPUP "Win&dows 附件"
