@@ -615,7 +615,7 @@ POPUP "标签(&A)"
     MENUITEM "在左侧打开活动标签(&L)", em_ext_opentabsl
     MENUITEM "在右侧打开活动标签(&R)", em_ext_opentabsr
   END_POPUP
-  POPUP "将文件夹标签保存在文件中(&S)
+  POPUP "将文件夹标签保存在文件中(&S)"
     MENUITEM "从活动侧(&A)...", em_ext_savetabs
     MENUITEM "从左侧(&L)...", em_ext_savetabsl
     MENUITEM "从右侧(&R)...", em_ext_savetabsr
