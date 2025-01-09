@@ -1,0 +1,1336 @@
+POPUP "&Left"
+  MENUITEM "&Brief View\tCtrl+F1", 101
+  MENUITEM "&Full View\tCtrl+F2", 102
+  MENUITEM "T&humbnail View\tShift+Ctrl+F1", 69
+  MENUITEM "F&ile Comments\tShift+Ctrl+F2", 100
+  MENUITEM SEPARATOR
+  MENUITEM "Cust&om Columns\tShift+F1", 70
+  MENUITEM "    Previous", 5506
+  MENUITEM "    Next", 5505
+  MENUITEM "Custom View Modes", 133
+  MENUITEM "    Auto Switch Mode", 2947
+  MENUITEM SEPARATOR
+  MENUITEM "&Tree View\tCtrl+F8", 103
+  POPUP "S&eparate Tree View"
+    MENUITEM "&0 (None)", 3200
+    MENUITEM "&1 (One for Both Panels)", 3201
+    MENUITEM "&2 (One for Each Panel)", 3202
+    MENUITEM "&Next\tShift+Ctrl+F8", 3203
+    MENUITEM SEPARATOR
+    MENUITEM "&One Tree View On/Off", 3204
+    MENUITEM "&Two Tree Views On/Off", 3205
+  END_POPUP
+  MENUITEM "    Next\tShift+Ctrl+F8", 3203
+  MENUITEM SEPARATOR
+  MENUITEM "&Quick View\tCtrl+Q", 204
+  MENUITEM "Quick View (Without Plu&gins)", 206
+  MENUITEM "Quick View in Separate Window\tShift+Ctrl+Q", 2941
+  MENUITEM "Quick View in Separate Window (Without Plugins)", 2942
+  MENUITEM SEPARATOR
+  MENUITEM "Branch Vie&w\tCtrl+B", 2034
+  MENUITEM "Branch View (On&ly Selected)\tShift+Ctrl+B", 2047
+  MENUITEM SEPARATOR
+  MENUITEM "&Vertical Arrangement", 305
+  MENUITEM SEPARATOR
+  MENUITEM "Sort by &Name\tCtrl+F3", 121
+  MENUITEM "Sort by E&xtension\tCtrl+F4", 122
+  MENUITEM "Sort by Ti&me\tCtrl+F5", 124
+  MENUITEM "Sort by &Size\tCtrl+F6", 123
+  MENUITEM "&Unsorted\tCtrl+F7", 125
+  MENUITEM "&Reverse Order", 130
+  POPUP "Sort b&y Column"
+    MENUITEM "Sort by &3rd Column", 6203
+    MENUITEM "Sort by &4th Column", 6204
+    MENUITEM "Sort by &5th Column", 6205
+    MENUITEM "Sort by &6th Column", 6206
+    MENUITEM "Sort by &7th Column", 6207
+    MENUITEM "Sort by &8th Column", 6208
+    MENUITEM "Sort by &9th Column", 6209
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "&All Files\tCtrl+F10", 112
+  MENUITEM "&Programs\tCtrl+F11", 111
+  MENUITEM "&Custom...\tCtrl+F12", 114
+  MENUITEM "*.*", 113
+  MENUITEM SEPARATOR
+  MENUITEM "Select &Drive\tAlt+F1", 131
+END_POPUP
+
+POPUP "&Files"
+  MENUITEM "&Change Attributes...", 502
+  MENUITEM "Show Propert&ies...\tAlt+Enter", 510
+  MENUITEM "Associate (Windows O&verall)...", 507
+  MENUITEM "Internal &Associations (Total Commander Only)...", 519
+  MENUITEM SEPARATOR
+  MENUITEM "Calculate &Occupied Space...\tCtrl+L", 503
+  MENUITEM "Sho&w Occupied Space\tShift+Alt+Enter", 2014
+  MENUITEM SEPARATOR
+  MENUITEM "&Find Files...\tAlt+F7", 501
+  MENUITEM "Find Files &- Separate Process...\tShift+Alt+F7", 545
+  MENUITEM "Find Files in Folder Under Cursor...", 517
+  MENUITEM "Compare Co&ntents...", 2022
+  MENUITEM "Compare Contents (Internal)...", 2040
+  MENUITEM "Synchroni&ze Directories...", 2020
+  MENUITEM "Multi-&Rename Tool...\tCtrl+M", 2400
+  POPUP "Saved"
+    MENUITEM "&Change Attributes - with Default/Saved Setup...", em_ext_attrib_user
+    MENUITEM "C&hange Attributes - Autostart with Default/Saved Setup...", em_ext_attrib_user_auto
+    MENUITEM SEPARATOR
+    MENUITEM "&Find Files - with Default/Saved Setup...", em_ext_search_user
+    MENUITEM "Find files - A&utostart with Default/Saved Setup...", em_ext_search_user_auto
+    MENUITEM "Find files - Aut&ostart with Default/Saved Setup - Copy to Listbox...", em_ext_search_user_auto2
+    MENUITEM "&Save Search Result", em_ext_savelist
+    MENUITEM "&Load Search Result", em_ext_loadlist
+    MENUITEM "Load Search Result Fro&m File Under Cursor", em_ext_loadlist2
+    MENUITEM SEPARATOR
+    MENUITEM "Synchroni&ze Directories - with Default/Saved Setup...", em_ext_sync_user
+    MENUITEM "Synchronize Directories - &Autostart with Default/Saved Setup...", em_ext_sync_user_auto
+    MENUITEM SEPARATOR
+    MENUITEM "Multi-&Rename Tool - with Default/Saved Setup...", em_ext_multirename_user
+    MENUITEM "Multi-R&ename Tool - Autostart with Saved Setup...", em_ext_multirename_user_auto
+    MENUITEM "Multi-Re&name Tool - Autostart with Saved Setup - Close Afterwards...", em_ext_multirename_user_auto2
+  END_POPUP
+  MENUITEM SEPARATOR
+  POPUP "&Pack"
+    MENUITEM "&Pack Files...\tAlt+F5", 508
+    MENUITEM "&Move files (Pack && DELETE)...\tShift+Alt+F5", 2956
+    MENUITEM "&Unpack Files...\tAlt+F9", 509
+    MENUITEM "&Test Archive(s)\tShift+Alt+F9", 518
+    MENUITEM "P&ack Selected Elements to Archive with Name of File Under Cursor - in Same Folder", em_ext_zipfromlist1
+    MENUITEM "Move &Selected Elements to Archive with Name of File Under Cursor - in Same Folder", em_ext_zipfromlist3
+    MENUITEM "Pac&k Selected Elements to Archive with Name of File Under Cursor - with Encryption", em_ext_zipfromlist2
+    MENUITEM "&Open Self Extracting Archive\tCtrl+PgDn", 2003
+    MENUITEM "Change &Encoding of File Names in Opened ZIP-file", 2948
+    MENUITEM "Set &Date for Archive Under Cursor to Newest File Date", em_ext_setArcDate
+    MENUITEM SEPARATOR
+    MENUITEM "&Configure Zip Packer...", 485
+    MENUITEM "Configure &7-Zip Packer...", 474
+    MENUITEM "Co&nfigure other Packing Programs...", 491
+  END_POPUP
+  POPUP "&Split"
+    MENUITEM "&Split File...", 560
+    MENUITEM "&Combine Files...", 561
+  END_POPUP
+  POPUP "Enco&de"
+    MENUITEM "&Encode File (MIME, UUE, XXE)...", 562
+    MENUITEM "&Decode File (MIME, UUE, XXE, BinHex)...", 563
+  END_POPUP
+  POPUP "Checks&um"
+    MENUITEM "&Create C&hecksum File(s) (SFV, MD5, SHA1 etc.)...", 564
+    MENUITEM "&Verify Checksums File(s) (SFV, MD5, SHA1 etc.)...\tEnter", 565
+  END_POPUP
+  POPUP "Prin&t"
+    MENUITEM "Print &Directory...", 2027
+    MENUITEM "Print Directory with &Subdirs...", 2028
+    MENUITEM "Print File &Contents\tCtrl+F9", 504
+  END_POPUP
+  POPUP "Cop&y (Names)"
+    MENUITEM "Copy &File Names to Clipboard", 2017
+    MENUITEM "Copy &Path + File Names to Clipboard", 2018
+    MENUITEM "Copy &Network Path + File Names to Clipboard", 2021
+    MENUITEM "Copy Path Names to Clipboard", 3035
+    MENUITEM SEPARATOR
+    MENUITEM "Copy File Names + All &Columns to Clipboard", 2036
+    MENUITEM "Copy File Names + All Columns + &Headers to Clipboard", 2090
+    MENUITEM "Copy Path + File Names + &All Columns to Clipboard", 2037
+    MENUITEM "Copy Path + File Names + All Columns + Headers to Clipboa&rd", 2091
+    MENUITEM "Copy Network Path + File Names + All C&olumns to Clipboard", 2038
+    MENUITEM "Copy Net&work Path + File Names + All Columns + Headers to Clipboard", 2092
+    MENUITEM SEPARATOR
+    MENUITEM "Copy &Source Path to Clipboard", 2029
+    MENUITEM "Copy &Target Path to Clipboard", 2030
+    MENUITEM SEPARATOR
+    MENUITEM "Copy File Na&mes to File...", 2031
+    MENUITEM "Copy Fi&le Names to File (Force ANSI)...", 2041
+    MENUITEM "Copy File Names to File (Force &Unicode)...", 2042
+    MENUITEM SEPARATOR
+    MENUITEM "Copy Fil&e Names + All Columns to File...", 2039
+    MENUITEM "Copy File Names + All Columns + Headers to File...", 2093
+    MENUITEM "Copy File Names + All Columns to File (Force ANS&I)...", 2043
+    MENUITEM "Copy File Names + All Columns + Headers to File (Force ANSI)...", 2094
+    MENUITEM "Copy File Names + All Columns to File (Force Unico&de)...", 2044
+    MENUITEM "Copy File Names + All Columns + Headers to File (Force Unicode)...", 2095
+    MENUITEM SEPARATOR
+    MENUITEM "Copy File Names to the File SELECTEDFILES.txt", em_ext_saveselection
+    MENUITEM "Copy File Names to the File SELECTEDFILES.txt (Force ANSI)", em_ext_saveselectiona
+    MENUITEM "Copy File Names to the File SELECTEDFILES.txt (Force Unicode)", em_ext_saveselectionw
+    MENUITEM "Copy File Names to the File SELECTEDFILES.txt (Force UTF-&8) *", em_ext_copynamestofile1
+    MENUITEM "Copy Short File Names to the File SELECTEDFILES.txt (ANSI) *", em_ext_copynamestofile1a
+    MENUITEM "Copy Short File Names to the File SELECTEDFILES.txt (ASCII) *", em_ext_copynamestofile1b
+    MENUITEM SEPARATOR
+    MENUITEM "Copy File Names + All Columns to the File SELECTEDFILES.txt", em_ext_savedetails
+    MENUITEM "Copy File Names + All Columns to the File SELECTEDFILES.txt (Force ANSI)", em_ext_savedetailsa
+    MENUITEM "Copy File Names + All Columns to the File SELECTEDFILES.txt (Force Unicode)", em_ext_savedetailsw
+    MENUITEM SEPARATOR
+    MENUITEM "Copy Path + File Names to the File SELECTEDFILES.txt (Force ANSI) *", em_ext_copynamestofile2a
+    MENUITEM "Copy Path + File Names to the File SELECTEDFILES.txt (Force Unicode) *", em_ext_copynamestofile2b
+    MENUITEM "Copy Path + File Names to the File SELECTEDFILES.txt (Force UTF-8) *", em_ext_copynamestofile2c
+    MENUITEM "Copy Short Path + File Names to the File SELECTEDFILES.txt (ANSI) *", em_ext_copynamestofile2d
+    MENUITEM "Copy Short Path + File Names to the File SELECTEDFILES.txt (ASCII) *", em_ext_copynamestofile2e
+    MENUITEM SEPARATOR
+    MENUITEM "Copy File Names Without Filet&ype to the File SELECTEDFILES.txt (UTF-8) *", em_ext_copynamestofile3
+  END_POPUP
+  POPUP "&Basic File Handling"
+    MENUITEM "&Show (as Configured)...\tF3", 903
+    MENUITEM "Show (Without P&lugins), File Under Cursor...\tShift+Alt+F3", 1006
+    MENUITEM "Show (Without Plu&gins), Marked Files...", 2933
+    MENUITEM "Show (With Plugins), File Under Cursor...", 2934
+    MENUITEM "Show (With Plugins), Marked Files...", 2935
+    MENUITEM "Show with External &Viewer, File Under Cursor...", 3026
+    MENUITEM "&Edit...\tF4", 904
+    MENUITEM "Create and Edit New Te&xt File...\tShift+F4", 2931
+    MENUITEM "Create Ne&w Text File", em_ext_createNewFile
+    MENUITEM "&Copy...\tF5", 905
+    MENUITEM "Copy (S&ame Panel)...\tShift+F5", 3100
+    MENUITEM "C&opy to File Under Cursor in Opposite Panel...", em_ext_copyToOtherPanel
+    MENUITEM "&Rename/Move...\tF6", 906
+    MENUITEM "Rename (I&nline)\tShift+F6", 1002
+    MENUITEM "Rena&me (Only File Under Cursor)", 1007
+    MENUITEM "New &Folder...\tF7", 907
+    MENUITEM "New Folder (O&ther Panel)...\tShift+F7", 907
+    MENUITEM "&Delete...\tF8 / Delete", 908
+    MENUITEM SEPARATOR
+    MENUITEM "Co&py to Clipboard\tCtrl+C", 2008
+    MENUITEM "C&ut to Clipboard\tCtrl+X", 2007
+    MENUITEM "&Insert from Clipboard\tCtrl+V", 2009
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "Create S&hortcut(s)...\tShift+Ctrl+F5", 1004
+  MENUITEM "Edit File Co&mment...\tCtrl+Z", 2700
+  MENUITEM "Show Fil&e Hint", 2914
+  POPUP "&Quick Search\tCtrl+S"
+    MENUITEM "Quick Search &With Filtering\tCtrl+S", 3019
+    MENUITEM "Quick Search With &Last Used Filtering\tShift+Ctrl+S", em_ext_lastquickfilter
+    MENUITEM "Quick Search With&out Filtering", 3018
+    MENUITEM "Quick Search as &Saved", 2915
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "Internal Context Menu for Fi&le Under Cursor...", 2928
+  MENUITEM "Internal Context Menu for Mar&ked Files...", 2927
+  MENUITEM "Windows' Context Menu...\tShift+F10", 2500
+  MENUITEM "Windows' Context Menu for Active Drive...", 3020
+  MENUITEM "Windows' Open With...", em_ext_openas
+  MENUITEM "Windows' New...", 2943
+  MENUITEM "Windows' Share...", 1008
+  MENUITEM "Media Center Remote Control Menu...\tFn+ >||", 2930
+  MENUITEM SEPARATOR
+  MENUITEM "E&xit\tAlt+F4", 24340
+END_POPUP
+
+POPUP "F&ilter"
+  MENUITEM "Show &All Files && Folders", em_ext_show_all
+  MENUITEM "Hide All Files (Show Only &Folders)", em_ext_hide_all
+  MENUITEM "Hide All Folders (Show Onl&y Files)", em_ext_hide_folders
+  MENUITEM "Hide All Files && Folders", em_ext_hide_everything
+  MENUITEM SEPARATOR
+  MENUITEM "Show Only Files with Same &Extension", em_ext_show_ext
+  MENUITEM "Hide Files with Same E&xtension", em_ext_hide_ext
+  MENUITEM "Show Only Folders with Same Extension", em_ext_show_folder_ext
+  MENUITEM "Hide Folders with Same Extension", em_ext_hide_folder_ext
+  MENUITEM SEPARATOR
+  MENUITEM "Show Only Files with Same &Name *", em_ext_show_name
+  MENUITEM "&Hide Files with Same Name *", em_ext_hide_name
+  MENUITEM "Show Only Folders with Same Name *", em_ext_show_folder_name
+  MENUITEM "Hide Folders with Same Name *", em_ext_hide_folder_name
+  MENUITEM SEPARATOR
+  MENUITEM "Show Only Files with Same Name + Ex&tension *", em_ext_show_name_ext
+  MENUITEM "Hide Fi&les with Same Name + Extension *", em_ext_hide_name_ext
+  MENUITEM "Show Only Folders with Same Name + Extension *", em_ext_show_folder_name_ext
+  MENUITEM "Hide Folders with Same Name + Extension *", em_ext_hide_folder_name_ext
+  MENUITEM SEPARATOR
+  MENUITEM "Show Only &Selected Files (Filter max. 1018 characters) *", em_ext_show_selected
+  MENUITEM "Hide Sele&cted Files (Filter max. 1018 characters) *", em_ext_hide_selected
+  MENUITEM SEPARATOR
+  MENUITEM "* = only from the root when already in Branch View (Ctrl+B)", em_ext_dummy
+  MENUITEM SEPARATOR
+  POPUP "Show I&mage Files"
+    MENUITEM "&Web Formats", em_ext_show_images_web
+    MENUITEM "Filetype &1 - G", em_ext_show_images1
+    MENUITEM "Filetype &H - O", em_ext_show_images2
+    MENUITEM "Filetype &P - X", em_ext_show_images3
+  END_POPUP
+  MENUITEM "Show M&usic Files", em_ext_show_music
+  MENUITEM "Show Soun&d Files", em_ext_show_sounds
+  MENUITEM "Show &Video Files", em_ext_show_videos
+  MENUITEM "Show A&rchive Files", em_ext_show_archives
+  MENUITEM "Show &Internet Files", em_ext_show_webfiles
+  MENUITEM "Show D&ocument Files", em_ext_show_documents
+  MENUITEM "Show Spreadsheet Files", em_ext_show_spreadsheets
+  MENUITEM "Show &Presentation Files", em_ext_show_presentations
+  MENUITEM "Show Data&base Files", em_ext_show_datafiles
+  MENUITEM SEPARATOR
+  MENUITEM "Sho&w Program Files", em_ext_show_programfiles
+  MENUITEM "Hide Pro&gram Files", em_ext_hide_programfiles
+END_POPUP
+
+POPUP "&Mark"
+  MENUITEM "&Compare Panels\tShift+F2", 533
+  MENUITEM "Compare Panels Incl. &Folders", 536
+  MENUITEM "Compare &Panels - Ignore Date && Time", em_ext_compare2
+  MENUITEM "&Mark Newer, Hide Same Files *", 534
+  MENUITEM "Mar&k Elements that Exist in Both Panels", em_ext_select_duplicates
+  MENUITEM "Mark Elements that Does Not Exist in Both Panels", em_ext_select_non_duplicates
+  MENUITEM "Remove All Selections in &Both Panels", em_ext_clearallselected
+  MENUITEM "Go to Pr&evious Selected Element", 2054
+  MENUITEM "Go to Next Selected Element", 2053
+  MENUITEM SEPARATOR
+  MENUITEM "Show &Only Selected Elements *", 2023
+  MENUITEM "Hide Selected Elements *", em_ext_hideallselected
+  MENUITEM "Reread So&urce Panel\tF2 / Ctrl+R", 540
+  MENUITEM "Sho&w Only Elements that Exist In Both Panels *", em_ext_show_duplicates
+  MENUITEM "Hide Elements that Exist In Both Panels *", em_ext_show_non_duplicates
+  MENUITEM "Show Only Files with Same Name, Size && Date *", em_ext_show_same_size_date
+  MENUITEM "Hide Files with Same Name, Size && Date *", em_ext_hide_same_size_date
+  MENUITEM "Reread Both Panels", em_ext_UpdateBothPanels
+  MENUITEM SEPARATOR
+  MENUITEM "* = Only as Long as Total Commander is in Focus", em_ext_dummy
+  MENUITEM SEPARATOR
+  POPUP "E&xpand Selection...\tNum +"
+    MENUITEM "E&xpand Selection (as Configured)...\tNum +", 521
+    MENUITEM "Expand Selection, Same Ex&tension (as Configured)...", 546
+    MENUITEM SEPARATOR
+    MENUITEM "&Both Files and Folders...", 3311
+    MENUITEM "&Only Files...", 3312
+    MENUITEM "Only &Folders...", 3313
+  END_POPUP
+  POPUP "S&hrink Selection...\tNum  -"
+    MENUITEM "S&hrink Selection (as Configured)...", 3316
+    MENUITEM SEPARATOR
+    MENUITEM "&Both Files and Folders...\tNum  -", 522
+    MENUITEM "Both Files and Folders, Same Ex&tension...", 547
+    MENUITEM "&Only Files...\tShift+Num  -", 3314
+    MENUITEM "Only &Folders...", 3315
+  END_POPUP
+  POPUP "&Invert Selection\tNum  *"
+    MENUITEM "&Invert Selection (as Configured)\tNum  *", 525
+    MENUITEM SEPARATOR
+    MENUITEM "&Both Files and Folders", 3321
+    MENUITEM "&Only Files", 3322
+    MENUITEM "Only &Folders", 3323
+  END_POPUP
+  MENUITEM "&Restore Selection\tNum  /", 529
+  POPUP "&Select All\tCtrl+Num +"
+    MENUITEM "&Select All (as Configured)\tCtrl+Num + / Ctrl+A", 523
+    MENUITEM SEPARATOR
+    MENUITEM "&Both Files and Folders", 3301
+    MENUITEM "&Only Files", 3302
+    MENUITEM "Only &Folders", 3303
+    MENUITEM SEPARATOR
+    MENUITEM "Select All with Same &Extension (as Configured)\tAlt+Num +", 527
+    MENUITEM "Select All with Same &Name (as Configured)", 541
+    MENUITEM "Select All &with Same Name + Extension (as Configured)", 543
+    MENUITEM "Select All in Same &Path (Branch View)", 537
+  END_POPUP
+  POPUP "&Deselect All\tCtrl+Num  -"
+    MENUITEM "&Deselect All (as Configured)", 3306
+    MENUITEM SEPARATOR
+    MENUITEM "&Both Files and Folders\tCtrl+Num  -", 524
+    MENUITEM "&Only Files\tShift+Ctrl+Num  -", 3304
+    MENUITEM "Only &Folders", 3305
+    MENUITEM SEPARATOR
+    MENUITEM "Deselect All with Same &Extension\tAlt+Num  -", 528
+    MENUITEM "Deselect All with Same &Name", 542
+    MENUITEM "Deselect All &with Same Name + Extension", 544
+    MENUITEM "Deselect All in Same &Path (Branch View)", 538
+  END_POPUP
+  MENUITEM SEPARATOR
+  POPUP "Save/&Get File Selection"
+    MENUITEM "Save Selection to &Memory", 530
+    MENUITEM "Get Selection from Mem&ory\tNum  /", 529
+    MENUITEM SEPARATOR
+    MENUITEM "&Save Selection to Clipboard", 2018
+    MENUITEM "&Get Selection from Clipboard", 2033
+    MENUITEM SEPARATOR
+    MENUITEM "Save Selection &to File...", 2031
+    MENUITEM "Get Selection &from File...", 2032
+    MENUITEM "Save Selection to File (Force &ANSI)...", 2041
+    MENUITEM "Save Selection to File (Force &Unicode)...", 2042
+    MENUITEM SEPARATOR
+    MENUITEM "Sav&e Selection to the File SELECTEDFILES.txt", em_ext_saveselection
+    MENUITEM "Get Selectio&n from the File SELECTEDFILES.txt", em_ext_loadselection
+    MENUITEM "Save Selection to the File SELECTE&DFILES.txt (Force ANSI)", em_ext_saveselectiona
+    MENUITEM "Save Selection to the File SELECTEDFILES.t&xt (Force Unicode)", em_ext_saveselectionw
+    MENUITEM "Save Selection to the File SELECTEDFILES.txt (Force UTF-&8)", em_ext_copynamestofile
+  END_POPUP
+  POPUP "Source/T&arget Selection"
+    MENUITEM "&Select Elements in Target Side, if Selected in Source Side", em_ext_select_source
+    MENUITEM "&Deselect Elements in Target Side, if Selected in Source Side", em_ext_deselect_source
+    MENUITEM "Deselect Elements in &Both Sides, if Selected in Source Side", em_ext_deselect2_source
+    MENUITEM SEPARATOR
+    MENUITEM "Select &Elements in Source Side, if Selected in Target Side", em_ext_select_target
+    MENUITEM "Deselect E&lements in Source Side, if Selected in Target Side", em_ext_deselect_target
+    MENUITEM "Deselect Elements in B&oth Sides, if Selected in Target Side", em_ext_deselect2_target
+    MENUITEM SEPARATOR
+    MENUITEM "Select All in Both Sides with Same E&xtension as Element Under Cursor", em_ext_select_type
+    MENUITEM "Deselect All in Both Sides with Same Ex&tension as Element Under Cursor", em_ext_deselect_type
+    MENUITEM SEPARATOR
+    MENUITEM "Select All in Both Sides with Same &Name as Element Under Cursor", em_ext_select_name
+    MENUITEM "Deselect All in Both Sides with Same N&ame as Element Under Cursor", em_ext_deselect_name
+    MENUITEM SEPARATOR
+    MENUITEM "Select All in Both Sides &with Same Name + Extension as Element Under Cursor", em_ext_select_nameext
+    MENUITEM "Deselect All in Both Sides wit&h Same Name + Extension as Element Under Cursor", em_ext_deselect_nameext
+    MENUITEM SEPARATOR
+    MENUITEM "Deselect All Ele&ments in Both Sides", em_ext_deselectboth
+    MENUITEM SEPARATOR
+    MENUITEM "NOTE - Hold Shift Down to Include Folders", em_ext_dummy
+  END_POPUP
+  POPUP "Mark Based on Selections"
+    MENUITEM "Mark Elements with Same &Names as Selected Elements", em_ext_markBySelectedNames
+    MENUITEM "Mark Elements with Same &Types as Selected Elements", em_ext_markBySelectedTypes
+    MENUITEM "NOTE - Hold Shift Down to Include Folders", em_ext_dummy
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "Select Element U&nder Cursor", em_ext_select
+  MENUITEM "Dese&lect Element Under Cursor", em_ext_unselect
+  MENUITEM "In&vert Selection of Element Under Cursor\tSpace", em_ext_reverse
+  MENUITEM "Invert Selection of Element Under Cursor, Go to Next Item\tInsert", 2938
+  MENUITEM "Selec&t a Number of Elements From Current Position...", em_ext_SelectNumber
+END_POPUP
+
+POPUP "Navigat&e"
+  MENUITEM "Go to F&irst File", 2050
+  MENUITEM "Go to Newest File", em_ext_gotonewestfile
+  MENUITEM "Go to Oldest File", em_ext_gotooldestfile
+  MENUITEM "Go to Sm&allest File", em_ext_gotosmallestfile
+  MENUITEM "Go to Largest File", em_ext_gotolargestfile
+  MENUITEM "Go to First Element\tHome", em_ext_GoToFirstEntry
+  MENUITEM "Go to Last Element\tEnd", 2057
+  MENUITEM "Go to Previous Element\tUp", 2056
+  MENUITEM "Go to Next Element\tDown", 2055
+  MENUITEM "Go to Element &With Stated Number...", em_ext_GotoNumber
+  MENUITEM "Go to Pr&evious Selected Element", 2054
+  MENUITEM "Go to &Next Selected Element", 2053
+  MENUITEM "Go to Element with Same Name in Opposite Panel", em_ext_goto_item_opositepanel
+  MENUITEM "Quic&k Search\tCtrl+S", 2915
+  MENUITEM SEPARATOR
+  MENUITEM "Directory &Hotlist [ * ] ...\tCtrl+D", 526
+  MENUITEM "Hi&story [ v ] ...\tAlt+Down", 572
+  MENUITEM "History [ v ] - unfiltered...\tShift+Alt+Down", 575
+  MENUITEM "&Go to Previous Directory in History\tAlt+Left", 570
+  MENUITEM "Go to Ne&xt Directory in History\tAlt+Right", 571
+  MENUITEM "Go &to Previous Directory in History, Skip FTP", 573
+  MENUITEM "Go t&o Next Directory in History, Skip FTP", 574
+  MENUITEM "Go to &Parent Directory [ .. ]\tCtrl+PgUp / Backspace", 2002
+  MENUITEM "Go to Root Director&y [ \ ]\tCtrl+ \", 2001
+  MENUITEM "Open Fo&lder/Archive Under Cursor\tCtrl+PgDn / Enter", 2003
+  MENUITEM "Go to Newest Folder", em_ext_gotonewestdir
+  MENUITEM "Go to Oldest Folder", em_ext_gotooldestdir
+  MENUITEM "Go to &File Under Cursor (Listbox, Branch View)", em_ext_gotofileundercursor
+  MENUITEM "Go to TC's Progra&m Folder", em_ext_commanderpath
+  MENUITEM "Edit &Current Path", 2912
+  MENUITEM SEPARATOR
+  MENUITEM "Select &Drive\tAlt+F1 / Alt+F2", 331
+  MENUITEM "Go to Previo&us Drive", 2052
+  MENUITEM "Go to Next Dri&ve", 2051
+  MENUITEM "Go to First Drive", em_ext_drive1
+  MENUITEM "Go to Last Drive", em_ext_lastdrive
+  POPUP "Go to Drive Letter:"
+    MENUITEM "&A:", 2061
+    MENUITEM "&B:", 2062
+    MENUITEM "&C:", 2063
+    MENUITEM "&D:", 2064
+    MENUITEM "&E:", 2065
+    MENUITEM "&F:", 2066
+    MENUITEM "&G:", 2067
+    MENUITEM "&H:", 2068
+    MENUITEM "&Z:", 2086
+  END_POPUP
+  POPUP "Go to Drive Number:"
+    MENUITEM "&1", em_ext_drive1
+    MENUITEM "&2", em_ext_drive2
+    MENUITEM "&3", em_ext_drive3
+    MENUITEM "&4", em_ext_drive4
+    MENUITEM "&5", em_ext_drive5
+    MENUITEM "&6", em_ext_drive6
+    MENUITEM "&7", em_ext_drive7
+    MENUITEM "&8", em_ext_drive8
+    MENUITEM "&9", em_ext_drive9
+  END_POPUP
+  MENUITEM "Go to TC's Program D&rive", em_ext_commanderdrive
+END_POPUP
+
+POPUP "Foc&us"
+  MENUITEM "&Menu Line\tAlt / F10", 4011
+  MENUITEM SEPARATOR
+  MENUITEM "&Button Bar\tShift+Alt+F11", 4004
+  MENUITEM "Button Bar &2 (Vertical)\tShift+Alt+F12", 4012
+  MENUITEM SEPARATOR
+  MENUITEM "&Drive Selection Box - Active Side", 331
+  MENUITEM "Drive Selection B&ox - Left Side\tAlt+F1", 131
+  MENUITEM "Drive Selection Bo&x - Right Side\tAlt+F2", 231
+  MENUITEM SEPARATOR
+  MENUITEM "Path Field (Breadcrumb Bar) - &Active Side", 332
+  MENUITEM "&Path Field - Left/Top\tAlt+F11", 132
+  MENUITEM "Path &Field - Right/Bottom\tAlt+F12", 232
+  MENUITEM "Path Field (Editi&ng) - Active Side", 2912
+  MENUITEM SEPARATOR
+  MENUITEM "File Panel - &Left/Top", 4001
+  MENUITEM "File Panel - &Right/Bottom", 4002
+  MENUITEM "Fil&e Panel - Source Side", 4005
+  MENUITEM "File Panel - &Target Side\tTab / Ctrl+I", 4006
+  MENUITEM SEPARATOR
+  MENUITEM "Separate Tree &View - Left/Top", 4007
+  MENUITEM "Separate Tree Vie&w - Right/Bottom", 4008
+  MENUITEM "Separate Tree View - &Source side\tShift+Tab", 4009
+  MENUITEM "Separate Tree View - Target S&ide", 4010
+  MENUITEM SEPARATOR
+  MENUITEM "&Command Line\tShift+Right", 4003
+END_POPUP
+
+POPUP "&Commands"
+  MENUITEM "Directory &Tree...\tAlt+F10", 500
+  MENUITEM "Set &Volume Label...", 505
+  MENUITEM "System &Information...", 506
+  MENUITEM "Background Transfer &Manager...", 559
+  MENUITEM "&Choose Internal Command...", 2924
+  POPUP "&Unload Plugins From Memory"
+    MENUITEM "&All Plugins", 2913
+    MENUITEM "&Lister Plugins", em_ext_UnloadPlugins4
+    MENUITEM "&Content Plugins", em_ext_UnloadPlugins8
+    MENUITEM "&File System Plugins", em_ext_UnloadPlugins2
+    MENUITEM "&Packer Plugins", em_ext_UnloadPlugins1
+    MENUITEM "&External Quick Search", em_ext_UnloadPlugins16
+  END_POPUP
+  MENUITEM "&Watch Directory Changes", 2921
+  MENUITEM "Ignore &Files and Folders on Ignore List", 2922
+;  MENUITEM "Don't Redirect system&32 Folder", 2925
+  MENUITEM SEPARATOR
+  MENUITEM "Source &<-> Target\tCtrl+U", 531
+  MENUITEM "Source <-&> Target (Including Tabs)\tShift+Ctrl+U", 535
+  MENUITEM "Source &= Target", 532
+  MENUITEM "Directory/Link at Cursor -> &Left/Top\tCtrl+Left", 2024
+  MENUITEM "Directory/Link at Cursor -> &Right/Bottom\tCtrl+Right", 2025
+  MENUITEM "Sync&hronize Directory Change Source && Target", 2600
+  MENUITEM SEPARATOR
+  MENUITEM "Reread Source\tF2 / Ctrl+R", 540
+  MENUITEM "Reload Selected Thum&bnails", 2918
+  MENUITEM "Reload Icons in Button Bars and Main Menu", 2945
+  MENUITEM "Reload Icons in File Panels", 2958
+  MENUITEM "Reload File in Quic&k View", 2946
+  MENUITEM "Decrease Thumbnail Size (min. 10%)\tCtrl+Wheel", 2954
+  MENUITEM "Increase Thumbnail Size (max. 200%)\tCtrl+Wheel", 2953
+  POPUP "Custom Colum&ns"
+    MENUITEM "Load 'On Demand' Fields for &All Files", 5512
+    MENUITEM "Load 'On Demand' Fields for &Selected Files", 5513
+    MENUITEM "Stop Loading of Fields in the &Background", 5514
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "Center &Panel Divider", 909
+  MENUITEM "Panel Divider &100% Towards Destination", 910
+  MENUITEM "Vertical Button Bar On/Off", 2944
+  MENUITEM SEPARATOR
+  MENUITEM "Rest&art Total Commander...", em_ext_restartcommander
+  MENUITEM "Restart Total Commander as Administrator...", em_ext_restartcommander2
+  POPUP "Run S&eparate Instance of..."
+    MENUITEM "&Total Commander...", em_ext_newcommander
+    MENUITEM "Total Commander as &Administrator ...", em_ext_newcommander1
+    MENUITEM "Total Co&mmander as Different User ...", em_ext_newcommander1a
+    MENUITEM "Total Commander with &Fresh ini Files *...", em_ext_newcommander2
+    MENUITEM "&Lister...", em_ext_list
+    MENUITEM "Fi&nd Files...", em_ext_find
+    MENUITEM "&Compare Contents...", em_ext_comp
+    MENUITEM "&Synchronize Directories...", em_ext_sync
+    MENUITEM "Synchronize &Directories (Only Selected Files/Folders)...", em_ext_sync2
+    MENUITEM "Syncroni&ze First Two Selected Folders/Archives...", em_ext_sync3
+    MENUITEM "Synchronize Directories - Autostart &with Current Settings...", em_ext_sync4
+    MENUITEM "Synchronize Directories - Autostart wit&h Default Settings...", em_ext_sync5
+    MENUITEM "&USB Cable Connection - Server...", em_ext_USBcable
+    MENUITEM "L&PT1 Cable Connection - Server...", em_ext_LPTcable
+  END_POPUP
+  MENUITEM SEPARATOR
+  POPUP "C&ommand Line"
+    MENUITEM "C&opy File Name to Command Line\tCtrl+Enter", 3021
+    MENUITEM "Copy P&ath + File Name to Command Line\tShift+Ctrl+Enter", 3022
+    MENUITEM "&Copy Path to Command Line\tCtrl+P", 2019
+    MENUITEM "&Next Command Line", 2005
+    MENUITEM "&Previous Command Line\tCtrl+E", 2006
+    MENUITEM "&Delete Command Line\tCtrl+Y", 2004
+    MENUITEM "&Focus on Command Line\tShift+Right", 4003
+    MENUITEM "Show Command Line &History\tAlt+F8", 3023
+    MENUITEM SEPARATOR
+    MENUITEM "&Show Command Line", 2910
+  END_POPUP
+  MENUITEM "Comman&d Prompt Window...", 511
+  MENUITEM "Command Prompt Window (Administrator) *...", em_ext_cmdelevated
+  MENUITEM SEPARATOR
+  MENUITEM "Ma&ximize Window", 2015
+  MENUITEM "Minimi&ze Window\tShift+Esc", 2000
+  MENUITEM "Re&store Window", 2016
+  MENUITEM "Close Window (&Quit)\tAlt+F4", 24340
+END_POPUP
+
+POPUP "Lister"
+  MENUITEM "Separa&te Instance (Auto-detect)", em_ext_list
+  MENUITEM SEPARATOR
+  MENUITEM "&0  Auto (No Plugins/Multimedia)", em_ext_listN
+  MENUITEM "&1  Text Only", em_ext_list1
+  MENUITEM "&2  Binary (Fixed Line Length)", em_ext_list2
+  MENUITEM "&3  Hex", em_ext_list3
+  MENUITEM "&4  Image/Multimedia", em_ext_list4
+  MENUITEM "&5  HTML Text (Strip Tags)", em_ext_list5
+  MENUITEM "&6  Unicode", em_ext_list6
+  MENUITEM "&7  UTF-8", em_ext_list7
+  MENUITEM "&8  Explorer Preview", em_ext_list8
+  MENUITEM SEPARATOR
+  MENUITEM "&ANSI (Windows Charset)", em_ext_listA
+  MENUITEM "A&SCII (DOS Charset)", em_ext_listS
+  MENUITEM "&Variable Char Width", em_ext_listV
+  MENUITEM "&Full Screen", em_ext_listF
+  MENUITEM SEPARATOR
+  MENUITEM "GDI+ / DirectShow / MCI / I&rfanView / XnView", em_ext_list_irfanview
+  MENUITEM "&Imagine Plugin", em_ext_list_imagine
+  MENUITEM "Ph&otoViewer plugin", em_ext_list_photoviewer
+  MENUITEM "I&CLView Plugin", em_ext_list_iclview
+  MENUITEM SEPARATOR
+  MENUITEM "&HTMLView Plugin", em_ext_list_htmlview
+  MENUITEM "sLister Plugin", em_ext_list_slister
+  MENUITEM "Office2007 &Plugin", em_ext_list_office2007
+  MENUITEM "R&edCell Plugin", em_ext_list_redcell
+  MENUITEM SEPARATOR
+  MENUITEM "Multime&dia Player Plugin", em_ext_list_mmedia
+  MENUITEM "S&WFView Plugin", em_ext_list_swfview
+  MENUITEM SEPARATOR
+  MENUITEM "AKFo&nt Viewer", em_ext_list_akfont
+  MENUITEM SEPARATOR
+  MENUITEM "C&udalister plugin", em_ext_list_cudalister
+  MENUITEM "S&yn2 Plugin", em_ext_list_syn2
+  MENUITEM SEPARATOR
+  MENUITEM "Fi&leInfo Plugin", em_ext_list_fileinfo
+  MENUITEM "DirSi&zeCalc Chart Plugin (Only Folders)", em_ext_list_dirsizecalccharts
+  MENUITEM SEPARATOR
+  MENUITEM "Confi&gure Lister...", 3036
+END_POPUP
+
+POPUP "T&abs"
+  MENUITEM "New &Folder Tab\tCtrl+T", 3001
+  MENUITEM "New Folder Tab in &Background\tShift+Ctrl+T", 3002
+  MENUITEM SEPARATOR
+  MENUITEM "Copy Folder Tab to Oppos&ite Panel", 3027
+  MENUITEM "Cop&y Folder Tab to Opposite Panel in Background", 3028
+  MENUITEM SEPARATOR
+  MENUITEM "&Directory Under Cursor in New Tab\tCtrl+Up", 3003
+  MENUITEM "Dir&ectory Under Cursor in New Tab in Opposite Panel\tShift+Ctrl+Up", 3004
+  MENUITEM SEPARATOR
+  MENUITEM "Mo&ve Current Folder Tab to Opposite Panel", em_ext_movetab
+  MENUITEM "Move Current Folder Tab One Position to the Left", 3015
+  MENUITEM "Move Current Folder Tab One Position to the Right", 3016
+  MENUITEM SEPARATOR
+  POPUP "Load Folder Tabs from File (Under Cursor), &Keep Current\tEnter"
+    MENUITEM "Open Active Tabs in &Active side\tEnter", em_ext_appendtabs
+    MENUITEM "Open Active Tabs in &Left Side", em_ext_appendtabsl
+    MENUITEM "Open Active Tabs in &Right Side", em_ext_appendtabsr
+  END_POPUP
+  POPUP "Load Folder Tabs from File (&Under Cursor), Replace Tabs\tShift+Enter"
+    MENUITEM "Open Active Tabs in &Active side\tShift+Enter", em_ext_opentabs
+    MENUITEM "Open Active Tabs in &Left side", em_ext_opentabsl
+    MENUITEM "Open Active Tabs in &Right Side", em_ext_opentabsr
+  END_POPUP
+  POPUP "&Save Folder Tabs in File"
+    MENUITEM "From &Active Side...", em_ext_savetabs
+    MENUITEM "From &Left Side...", em_ext_savetabsl
+    MENUITEM "From &Right Side...", em_ext_savetabsr
+    MENUITEM SEPARATOR
+    MENUITEM "From Both Sides (A&ctive First)...", em_ext_savetabs2
+    MENUITEM "From Both Sides (L&eft First)...", em_ext_savetabs2l
+    MENUITEM "From Both Sides (R&ight First)...", em_ext_savetabs2r
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "&Close Folder Tab\tCtrl+W", 3007
+  MENUITEM "Close &All Folder Tabs\tShift+Ctrl+W", 3008
+  MENUITEM "Close Duplicate Folder Tabs", 3017
+  MENUITEM "Close All Folder Tabs - Without Confirmation", em_ext_closeAllTabs
+  MENUITEM SEPARATOR
+  MENUITEM "Rename/Lock Active Folder Tab", 3024
+  MENUITEM "&Lock Active Folder Tab", 3010
+  MENUITEM "Lock Active Folder Tab, but Allow Directory C&hanges", 3012
+  MENUITEM "&Return to Base Directory for Locked Folder Tab", 3011
+  MENUITEM "Lock All Folder Tabs", 3033
+  MENUITEM "Lock All Folder Tabs, but Allow Directory Chan&ges", 3034
+  MENUITEM "Unlock All Folder Tabs", 3032
+  MENUITEM SEPARATOR
+  MENUITEM "Source <-&> Target (Including Tabs)\tShift+Ctrl+U", 535
+  MENUITEM SEPARATOR
+  MENUITEM "Switch to &Next Folder Tab\tCtrl+Tab", 3005
+  MENUITEM "Switch to &Previous Folder Tab\tShift+Ctrl+Tab", 3006
+  POPUP "Switch to Folder Tab Number:"
+    MENUITEM "&1", 5001
+    MENUITEM "&2", 5002
+    MENUITEM "&3", 5003
+    MENUITEM "&4", 5004
+    MENUITEM "&5", 5005
+    MENUITEM "&6", 5006
+    MENUITEM "&7", 5007
+    MENUITEM "&8", 5008
+    MENUITEM "&9", 5009
+  END_POPUP
+  MENUITEM "S&witch to Last Folder Tab", em_ext_goToLastTab
+  MENUITEM SEPARATOR
+  MENUITEM "Show List With All Active Folder Tabs\tCtrl+Shift+A", 5515
+  MENUITEM "Folder Tab &Menu...", 3009
+  MENUITEM "Show Folder &Tabs", 2916
+  MENUITEM "C&onfigure Folder Tabs...", 488
+END_POPUP
+
+POPUP "F&TP"
+  MENUITEM "&Connect to Server...\tCtrl+F", 550
+  MENUITEM "&Disconnect from Server\tShift+Ctrl+F", 552
+  MENUITEM "&New Connection...\tCtrl+N", 551
+  MENUITEM "&Abort FTP Command", 554
+  MENUITEM SEPARATOR
+  MENUITEM "&Resume Download...", 555
+  MENUITEM "Add to Download &List...", 557
+  MENUITEM "Download &From List", 558
+  MENUITEM "&Background transfer manager...", 559
+  MENUITEM SEPARATOR
+  MENUITEM "&Show Hidden Files", 553
+  MENUITEM "Select &Transfer Mode\tShift+Ctrl+M", 556
+  MENUITEM SEPARATOR
+  MENUITEM "&PORT Connection to Other PC...", 2300
+  MENUITEM "&USB Cable Connection - Server (Separate)...", em_ext_USBcable
+  MENUITEM "LPT1 Cabl&e Connection - Server (Separate)...", em_ext_LPTcable
+  MENUITEM "&Install PORT Driver (Windows NT)...", 2301
+  MENUITEM "Re&move PORT Driver (Windows NT)...", 2302
+  MENUITEM SEPARATOR
+  MENUITEM "C&onfigure FTP...", 489
+END_POPUP
+
+POPUP "&Net"
+  MENUITEM "Show Network &Connections", 2125
+  MENUITEM "Map &Network Drive...", 512
+  MENUITEM "&Disconnect Network Drives...", 513
+  MENUITEM "&Share Current Directory...", 514
+  MENUITEM "&Unshare Directory...", 515
+  MENUITEM SEPARATOR
+  MENUITEM "Show &Admin Shares on Network", 2204
+  MENUITEM "&Which Network User has Opened Local File...", 2203
+  MENUITEM "&Open Program as Different Active Local User...", 2800
+  MENUITEM SEPARATOR
+  POPUP "N&TFS  (Only Windows XP and Earlier)"
+    MENUITEM "&Permissions...", 2200
+    MENUITEM "&File Auditing...", 2201
+    MENUITEM "&Take Ownership...", 2202
+  END_POPUP
+END_POPUP
+
+POPUP "&Preferences"
+  MENUITEM "C&onfiguration...", 490
+  POPUP "&Button Bars"
+    MENUITEM "Change &Button Bar...", 498
+    MENUITEM "Change Button Bar 2 (&Vertical)...", 583
+    MENUITEM SEPARATOR
+    MENUITEM "&Load Button Bar Under Cursor", em_ext_loadbar
+    MENUITEM "Load Button Bar &2 (Vertical) Under Cursor", em_ext_loadbar2
+    MENUITEM SEPARATOR
+    MENUITEM "&Remove Button Bar (Temporarily)", em_ext_bar4
+    MENUITEM "Remove B&utton Bar 2 (Temporarily)", em_ext_bar5
+    MENUITEM SEPARATOR
+    MENUITEM "Language/&Menu Button Bar", em_ext_langbar
+    MENUITEM "&Internal Commands Button Bar", em_ext_bar3
+    MENUITEM "&Windows 10 Button Bar", em_ext_bar1
+    MENUITEM "Co&ntrol Panel Button Bar", em_ext_bar2
+    MENUITEM SEPARATOR
+    MENUITEM "&Default Button Bar (default.bar)", em_ext_bar0
+    MENUITEM "D&efault Button Bar 2 (vertical.bar)", em_ext_bar6
+    MENUITEM "De&fault Button Bar (as Configured)", em_ext_bar0a
+    MENUITEM "Def&ault Button Bar 2 (as Configured)", em_ext_bar6a
+  END_POPUP
+  MENUITEM "Change Start Menu...", 700
+  MENUITEM "&Save Position", 493
+  MENUITEM "Save History", 582
+  MENUITEM "Sa&ve Settings", 580
+  POPUP "&Change Settings Files"
+    MENUITEM "Main and FTP Settings (Only &Notepad)...", 581
+    MENUITEM "&Main Settings...", em_ext_editwincmd
+    MENUITEM "&FTP Settings (wcx_ftp.ini)...", em_ext_editwcx_ftp
+    MENUITEM "User &Commands (language\wcmd_win10amd64_2_eng.ini)...", em_ext_editextcmd
+    MENUITEM "Common &User Commands (usercmd.ini)...", em_ext_editusercmd
+    MENUITEM "Common &Packer Plugins (pkplugin.ini)...", em_ext_editpkplugins
+    MENUITEM "Common File &System Plugins (fsplugin.ini)...", em_ext_editfsplugins
+    MENUITEM "Common &Lister Plugins (lsplugin.ini)...", em_ext_editlsplugins
+    MENUITEM "Common C&ontent Plugins (contplug.ini)...", em_ext_editcontplugins
+  END_POPUP
+  MENUITEM SEPARATOR
+  POPUP "&Layout"
+    MENUITEM "&Button Bar", 2901
+    MENUITEM "Button Bar &2 (Vertical)", 2944
+    MENUITEM "&Drive Buttons", 2902
+    MENUITEM "    T&wo Sets of Drive Buttons", 2903
+    MENUITEM "    Flat Drive Button &Icons", 2904
+    MENUITEM "Drive Co&mbobox", 2906
+    MENUITEM "F&older Tabs", 2916
+    MENUITEM "&Current Directory", 2907
+    MENUITEM "    Br&eadcrumb Bar", 2926
+    MENUITEM "    &History and Hotlist Buttons", 2919
+    MENUITEM "&Tabstop Header", 2908
+    MENUITEM "&Status Bar", 2909
+    MENUITEM "Command &Line", 2910
+    MENUITEM "&Function Key Buttons", 2911
+    MENUITEM SEPARATOR
+    MENUITEM "Flat &User Interface", 2905
+    MENUITEM "Windows &XP theme background", 2923
+    MENUITEM SEPARATOR
+    MENUITEM "&Vertical Arrangement", 305
+  END_POPUP
+  POPUP "&Display"
+    MENUITEM "Show &Hidden Files", 3013
+    MENUITEM "Show &System Files", 3014
+    MENUITEM "Show Hidden a&nd System Files", 2011
+    MENUITEM "Show Hidden Files (&FTP)", 553
+    MENUITEM "Show &Long Filenames", 2010
+    MENUITEM "Show Old &8.3 Filenames", 2013
+    MENUITEM "Always Sort Directories by N&ame", 2012
+    MENUITEM "Show &Overlay Icons", 2917
+    MENUITEM "Show &Tool Tips for Files", 2959
+    MENUITEM "Show &Colors by File Type", 2957
+    MENUITEM "&Dark Mode", 2950
+    MENUITEM "Auto S&witch Mode", 2947
+    MENUITEM SEPARATOR
+    MENUITEM "&Ignore Files and Folders on Ignore List", 2922
+  END_POPUP
+  POPUP "Language/Menu"
+    MENUITEM "English with E&xtended Menu I", em_ext_openlanguagefile1
+    MENUITEM "English with Exten&ded Menu II", em_ext_openlanguagefile2
+    MENUITEM SEPARATOR
+    MENUITEM "Open Langua&ge/Menu File under Cursor", em_ext_openlanguagefile
+    MENUITEM "Open Men&u File under Cursor", em_ext_openmenufile
+    MENUITEM "Open Language/Menu Button Bar", em_ext_langbar
+    MENUITEM SEPARATOR
+    MENUITEM "English Language && Menu (&Internal)", em_ext_openlanguage
+    MENUITEM "Current Language with English Menu (Internal)", em_ext_openmenu
+    MENUITEM "English Language && Menu (&External)*", em_ext_openlanguagefile0
+    MENUITEM "Current Language &with English Menu (External)*", em_ext_openmenufile0
+    MENUITEM SEPARATOR
+    MENUITEM "C&zech (Èeština)*", em_ext_openlanguage_cz
+    MENUITEM "&Chinese (Simplified)*", em_ext_openlanguage_chn
+    MENUITEM "D&ansk*", em_ext_openlanguage_dan
+    MENUITEM "Deutsc&h*", em_ext_openlanguage_deu
+    MENUITEM "E&spañol (Tradicional)*", em_ext_openlanguage_esp
+    MENUITEM "&Français*", em_ext_openlanguage_fra
+    MENUITEM "I&taliano*", em_ext_openlanguage_ita
+    MENUITEM "&Korean*", em_ext_openlanguage_kor
+    MENUITEM "Mag&yar (Tegezõs)*", em_ext_openlanguage_hun
+    MENUITEM "&Nederlands*", em_ext_openlanguage_dut
+    MENUITEM "Norsk (&Bokmål)*", em_ext_openlanguage_nor
+    MENUITEM "&Polski*", em_ext_openlanguage_pol
+    MENUITEM "Ro&mâna*", em_ext_openlanguage_rom
+    MENUITEM "&Russian*", em_ext_openlanguage_rus
+    MENUITEM "S&lovak (Slovenský)*", em_ext_openlanguage_sk
+    MENUITEM "Sl&ovenian (Slovenski)*", em_ext_openlanguage_svn
+    MENUITEM "S&venska*", em_ext_openlanguage_swe
+    MENUITEM "Ukrainian*", em_ext_openlanguage_ukr
+    MENUITEM SEPARATOR
+    MENUITEM "* = if installed", em_ext_dummy
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "Layout...", 476
+  MENUITEM "Display...", 486
+  MENUITEM "    Icons...", 477
+  MENUITEM "    Fo&nt...", 492
+  MENUITEM "    Colo&r...", 494
+  MENUITEM "    T&abstops/Data Formats...", 497
+  MENUITEM "    &Folder Tabs...", 488
+  MENUITEM "    C&ustom Columns...", 483
+  MENUITEM "        Configure current...", 2920
+  MENUITEM "    View Modes...", 2939
+  MENUITEM "        Auto Switch Mode...", 2940
+  MENUITEM "    Lan&guage...", 499
+  MENUITEM "Op&eration...", 516
+  MENUITEM "    Edit/Vie&w...", 496
+  MENUITEM "    Cop&y/Delete...", 487
+  MENUITEM "    Refresh...", 478
+  MENUITEM "    &Quick Search...", 479
+  MENUITEM "    F&TP...", 489
+  MENUITEM "    &Plugins...", 484
+  MENUITEM "    T&humbnails...", 482
+  MENUITEM "    Log File...", 481
+  MENUITEM "    &Ignore List...", 480
+  MENUITEM "    History...", 475
+  MENUITEM "Pac&ker...", 491
+  MENUITEM "    &Zip Packer...", 485
+  MENUITEM "    &7-Zip Packer...", 474
+  MENUITEM "&Misc...", 495
+END_POPUP
+
+POPUP "F&olders"
+  POPUP "&Virtual"
+    MENUITEM "&Quick Access", em_ext_quickaccess
+    MENUITEM "&Desktop", 2121
+    MENUITEM "&Libraries", em_ext_libraries
+    MENUITEM "&HomeGroup", em_ext_otherusers
+    MENUITEM "U&ser Files", em_ext_userfiles
+    MENUITEM "Public Files", em_ext_publicfiles
+    MENUITEM "My Doc&uments", em_ext_documents
+    MENUITEM "Downloads", em_ext_downloads
+    MENUITEM "This P&C", 2122
+    MENUITEM "Applications", em_ext_appsfolder
+    MENUITEM "&Network", 2125
+    MENUITEM "Networ&k (Workgroup)", em_ext_network_workgroup
+    MENUITEM "OneDrive", em_ext_onedrivefolder
+    MENUITEM "Con&trol Panel (Categories)", em_ext_controlpanelhome
+    MENUITEM "Recycle &Bin", 2127
+    MENUITEM SEPARATOR
+    MENUITEM "Control Pan&el", 2123
+    MENUITEM "&Administrative Tools", em_ext_administration
+    MENUITEM "De&vices and Printers", em_ext_devicesandprinters
+    MENUITEM "&Fonts", em_ext_fontsfolder
+    MENUITEM "Net&work Connections", em_ext_network_connections
+    MENUITEM "&Printers", 2126
+    MENUITEM "Progra&ms and Features", em_ext_programsandfeatures
+    MENUITEM "All Tasks (God Mode)", em_ext_allsettings
+    MENUITEM SEPARATOR
+    MENUITEM "&Offline Files", em_ext_cscfolder
+    MENUITEM "Sea&rches", em_ext_searches
+    MENUITEM "L&inks", em_ext_links
+    MENUITEM "&Games", em_ext_gamefolder
+  END_POPUP
+  POPUP "&System"
+    MENUITEM "T&emporary Files (TEMP)", em_ext_temp
+    MENUITEM "&Windows", em_ext_systemroot
+    MENUITEM SEPARATOR
+    MENUITEM "P&rogram Files (64bit)", em_ext_programfiles
+    MENUITEM "Common Pr&ogram Files (64bit)", em_ext_commonprogramfiles
+    MENUITEM "&System32 (64bit)", em_ext_system32
+    MENUITEM SEPARATOR
+    MENUITEM "Pro&gram Files (32bit)", em_ext_programfilesx86
+    MENUITEM "Common Progr&am Files (32bit)", em_ext_commonprogramfilesx86
+    MENUITEM "S&ystem32 (32bit)", em_ext_system32x86
+    MENUITEM SEPARATOR
+    MENUITEM "&Fonts (Physical)", em_ext_fontfiles
+  END_POPUP
+  POPUP "&Personal"
+    MENUITEM "User Pr&ofile", em_ext_userprofile
+    MENUITEM "&Desktop", em_ext_mydesktop
+    MENUITEM "Doc&uments", em_ext_mydocuments
+    MENUITEM "Li&braries", em_ext_mylibraries
+    MENUITEM "&Pictures", em_ext_mypictures
+    MENUITEM "&Music", em_ext_mymusic
+    MENUITEM "&Videos", em_ext_myvideo
+    MENUITEM "Do&wnloads", em_ext_mydownloads
+    MENUITEM "&Contacts", em_ext_mycontacts
+    MENUITEM "L&inks", em_ext_mylinks
+    MENUITEM "&Favorites", em_ext_myfavorites
+    MENUITEM "R&ecent", em_ext_myrecent
+    MENUITEM "Searc&hes", em_ext_mysavedsearches
+    MENUITEM "O&neDrive", em_ext_myonedrive
+    MENUITEM "&Application Data", em_ext_appdata
+    MENUITEM "Application Data (&Local)", em_ext_local_appdata
+    MENUITEM SEPARATOR
+    MENUITEM "&Start Menu", em_ext_startmenu
+    MENUITEM "    P&rograms", em_ext_programs
+    MENUITEM "        S&tartup", em_ext_startup
+    MENUITEM "&Quick Launch", em_ext_quicklaunch
+  END_POPUP
+  POPUP "&Common"
+    MENUITEM "User Pr&ofile", em_ext_public
+    MENUITEM "&Desktop", em_ext_common_desktopdirectory
+    MENUITEM "Shared Doc&uments", em_ext_common_documents
+    MENUITEM "Shared &Pictures", em_ext_common_pictures
+    MENUITEM "&Application Data", em_ext_common_appdata
+    MENUITEM SEPARATOR
+    MENUITEM "&Start Menu", em_ext_common_startmenu
+    MENUITEM "    P&rograms", em_ext_common_programs
+    MENUITEM "        S&tartup", em_ext_common_startup
+  END_POPUP
+  POPUP "&Total Commander"
+    MENUITEM "&Program", em_ext_commanderpath
+    MENUITEM "&Configuration", em_ext_commandercfg
+    MENUITEM "&Data", em_ext_commanderdata
+    MENUITEM "Data (&Local)", em_ext_commanderlocaldata
+  END_POPUP
+END_POPUP
+
+STARTMENU
+
+POPUP "Windows &10"
+  POPUP "Windows &Administrative Tools"
+    MENUITEM "Component Services", em_ext_comexp
+    MENUITEM "Computer Management", em_ext_compmgmt
+    MENUITEM "Defragment and Optimize Drives", em_ext_dfrgui
+    MENUITEM "Disk Cleanup", em_ext_cleanmgr
+    MENUITEM "Event Viewer", em_ext_eventvwrb
+    MENUITEM "iSCSI Initiator", em_ext_iscsiinitiator
+    MENUITEM "ODBC Data sources (32-bit)", em_ext_odbcad32b
+    MENUITEM "ODBC Data sources (64-bit)", em_ext_odbcad32b64
+    MENUITEM "Performance Monitor", em_ext_perfmonb
+    MENUITEM "Resource Monitor", em_ext_perfmon
+    MENUITEM "Services", em_ext_services
+    MENUITEM "System Configuration", em_ext_msconfig
+    MENUITEM "System Information", em_ext_msinfo32
+    MENUITEM "Task Scheduler", em_ext_schedtasks
+    MENUITEM "Windows Firewall with Advanced Security", em_ext_wf
+    MENUITEM "Windows Memory Diagnostic", em_ext_mdsched
+    MENUITEM SEPARATOR
+    MENUITEM "Certificates", em_ext_certmgr
+    MENUITEM "Device Manager", em_ext_devmgmt
+    MENUITEM "Disk Management", em_ext_diskmgmt
+    MENUITEM "Driver Verifier Manager", em_ext_verifier
+    MENUITEM "Registry Editor", em_ext_regedit
+    MENUITEM "Shared Folders", em_ext_fsmgmt
+    MENUITEM "SQL Server Client Network Utility", em_ext_cliconfg
+  END_POPUP
+  POPUP "&Control Panel"
+    POPUP "A - &M"
+      MENUITEM "Administrative Tools", em_ext_admintools
+      MENUITEM "AutoPlay", em_ext_autoplay
+      MENUITEM "Backup and Restore", em_ext_backupandrestorecenter
+      MENUITEM "Biometric Devices", em_ext_biometricdevices
+      MENUITEM "BitLocker Drive Encryption", em_ext_bitlockerdriveencryption
+      MENUITEM "Bluetooth Devices", em_ext_bluetoothdevices
+      MENUITEM "Bluetooth Settings", em_ext_bluetooth
+      MENUITEM "Color Management", em_ext_colormanagement
+      MENUITEM "Create a Restore Point", em_ext_createrestore
+      MENUITEM "Credential Manager", em_ext_credentialmanager
+      MENUITEM "Date and Time", em_ext_datetime
+      MENUITEM "Default Programs", em_ext_defaultprograms
+      MENUITEM "Desktop Gadgets", em_ext_desktopgadgets
+      MENUITEM "Device Manager", em_ext_devmgmt
+      MENUITEM "Devices and Printers", em_ext_printers
+      MENUITEM "Display", em_ext_display
+      MENUITEM "Ease of Access Center", em_ext_access
+      MENUITEM "Family Safety", em_ext_parentalcontrols
+      MENUITEM "File Explorer Options", em_ext_folders
+      MENUITEM "File History", em_ext_filehistory
+      MENUITEM "Fonts", em_ext_fonts
+      MENUITEM "Game Controllers", em_ext_joy
+      MENUITEM "Get Programs", em_ext_getprograms
+      MENUITEM "HomeGroup", em_ext_homegroup
+      MENUITEM "Indexing Options", em_ext_indexingoptions
+      MENUITEM "Infrared", em_ext_infrared
+      MENUITEM "Internet Options", em_ext_inetcpl
+      MENUITEM "Keyboard", em_ext_keyboard
+      MENUITEM "Language", em_ext_language
+      MENUITEM "Location Settings", em_ext_locationandothersensors
+      MENUITEM "Mouse", em_ext_mouse
+    END_POPUP
+    POPUP "&N - Z"
+      MENUITEM "Network and Sharing Center", em_ext_networkandsharingcenter
+      MENUITEM "Network Connections", em_ext_netconnections
+      MENUITEM "Network Setup Wizard", em_ext_netsetup
+      MENUITEM "Notification Area Icons", em_ext_notificationareaicons
+      MENUITEM "Pen and Touch", em_ext_tabletpc
+      MENUITEM "Performance Options", em_ext_performance
+      MENUITEM "Personalization", em_ext_desktop
+      MENUITEM "Phone and Modem", em_ext_telephony
+      MENUITEM "Power Options", em_ext_powercfg
+      MENUITEM "Programs and Features", em_ext_appwiz
+      MENUITEM "Recovery", em_ext_recovery
+      MENUITEM "Region", em_ext_international
+      MENUITEM "RemoteApp and Desktop Connections", em_ext_remoteappanddesktopconnections
+      MENUITEM "Scanners and Cameras", em_ext_scannercamera
+      MENUITEM "Screen Resolution", em_ext_displaysettings
+      MENUITEM "Screen Saver Settings", em_ext_screensaversettings
+      MENUITEM "Security and Maintenance", em_ext_wscui
+      MENUITEM "Sound", em_ext_mmsys
+      MENUITEM "Speech Properties", em_ext_texttospeech
+      MENUITEM "Speech Recognition", em_ext_speechrecognitionoptions
+      MENUITEM "Storage Spaces", em_ext_storagespaces
+      MENUITEM "Sync Center", em_ext_synccenter
+      MENUITEM "System", em_ext_sysdm
+      MENUITEM "System Properties", em_ext_sysdm2
+      MENUITEM "Tablet PC Settings", em_ext_tabletpcsettings
+      MENUITEM "Taskbar and Navigation", em_ext_taskbar
+      MENUITEM "Troubleshooting", em_ext_troubleshooting
+      MENUITEM "User Accounts", em_ext_userpasswords
+      MENUITEM "Windows Defender Security Center", em_ext_windowsdefender
+      MENUITEM "Windows Firewall", em_ext_firewall
+      MENUITEM "Windows Mobility Center", em_ext_mobilitycenter
+      MENUITEM "Windows Update", em_ext_wuaucpl
+      MENUITEM "Work Folders", em_ext_workfolders
+    END_POPUP
+    MENUITEM SEPARATOR
+    POPUP "&Third Party Controls"
+      MENUITEM "DivX Control Panel", em_ext_divxplayer
+      MENUITEM "Flash Player Settings Manager", em_ext_flashplayer
+      MENUITEM "Java Control Panel", em_ext_javacpl
+      MENUITEM "Quicktime Settings", em_ext_quicktime
+    END_POPUP
+  END_POPUP
+  POPUP "&Settings"
+      MENUITEM "Settings", em_ext_ms-settings
+      MENUITEM SEPARATOR
+      MENUITEM "System", em_ext_ms-settings-display
+      MENUITEM "Devices", em_ext_ms-settings-connecteddevices
+      MENUITEM "Phone", em_ext_ms-settings-mobile-devices
+      MENUITEM "Network && Internet", em_ext_ms-settings-network-wifi
+      MENUITEM "Personalization", em_ext_ms-settings-personalization-background
+      MENUITEM "Apps", em_ext_ms-settings-appsfeatures
+      MENUITEM "Accounts", em_ext_ms-settings-emailandaccounts
+      MENUITEM "Time && Language", em_ext_ms-settings-dateandtime
+      MENUITEM "Gaming", em_ext_ms-settings-gaming-gamebar
+      MENUITEM "Ease of Access", em_ext_ms-settings-easeofaccess-narrator
+      MENUITEM "Search", em_ext_ms-settings-search
+      MENUITEM "Privacy", em_ext_ms-settings-privacy
+      MENUITEM "Update && Security", em_ext_ms-settings-windowsupdate
+      MENUITEM "Mixed reality", em_ext_ms-settings-holographic
+  END_POPUP
+  POPUP "Windows S&ystem"
+    MENUITEM "Command Prompt", em_ext_cmd
+    POPUP "Control Panel"
+      MENUITEM "All Elements", em_ext_control-allelements
+      MENUITEM "Categories", em_ext_control_categories
+      MENUITEM "Appearance and Personalization", em_ext_control-personal
+      MENUITEM "Clock, Language and Region", em_ext_control-international
+      MENUITEM "Ease of Access", em_ext_control-accessability
+      MENUITEM "Hardware and Sound", em_ext_control-hardware
+      MENUITEM "Network and Internet", em_ext_control-network
+      MENUITEM "Programs", em_ext_control-programs
+      MENUITEM "System and Security", em_ext_control-system
+      MENUITEM "User Accounts and Family Safety", em_ext_control-useraccounts
+      MENUITEM SEPARATOR
+      MENUITEM "All Tasks (God Mode)", em_ext_godmode
+    END_POPUP
+    MENUITEM "File Explorer", em_ext_explorer
+    MENUITEM "Run", em_ext_run
+    MENUITEM "Task Manager", em_ext_taskmgr
+    MENUITEM "This PC", em_ext_computer
+    MENUITEM SEPARATOR
+    MENUITEM "About Windows", em_ext_winver
+    MENUITEM "Create A Shared Folder Wizard", em_ext_shrpubw
+    MENUITEM "Default Programs", em_ext_defaultprograms
+    MENUITEM "Devices", em_ext_devices
+    MENUITEM "Dial-up Connection", em_ext_rasphone
+    MENUITEM "DirectX Diagnostic Tool", em_ext_dxdiag
+    MENUITEM "Help and Support", em_ext_helppane
+    MENUITEM "IExpress Wizard", em_ext_iexpress
+    MENUITEM "Recovery Drive", em_ext_recdrive
+    MENUITEM "Scanner and Camera Wizard", em_ext_wiaacmgr
+    MENUITEM "System Image Backup", em_ext_systemimage
+    MENUITEM "System Restore", em_ext_rstrui
+    MENUITEM "Windows Remote Assistance", em_ext_msra
+  END_POPUP
+  POPUP "Win&dows Accessories"
+    MENUITEM "3D Builder", em_ext_com.microsoft.builder3d
+    MENUITEM "Character Map", em_ext_charmap
+    POPUP "Internet Explorer"
+      MENUITEM "Internet Explorer", em_ext_iexplore
+      MENUITEM "Internet Explorer (64-bit)", em_ext_iexplorex64
+      MENUITEM "Internet Explorer (No Add-ons)", em_ext_iexplorer
+    END_POPUP
+    MENUITEM "Math Input Panel", em_ext_mip
+    MENUITEM "Notepad", em_ext_notepad
+    MENUITEM "Paint", em_ext_mspaint
+    MENUITEM "Print 3D", em_ext_print3d
+    MENUITEM "Quick Assist", em_ext_quickassist
+    MENUITEM "Remote Desktop Connection", em_ext_mstsc
+    MENUITEM "Snipping Tool", em_ext_snippingtool
+    MENUITEM "Steps Recorder", em_ext_stepsrecorder
+    MENUITEM "Sticky Notes", em_ext_stikynot
+    MENUITEM "Windows Fax and Scan", em_ext_wfs
+    MENUITEM "WordPad", em_ext_write
+    MENUITEM "XPS Viewer", em_ext_xpsrchvw
+    MENUITEM SEPARATOR
+    MENUITEM "Bluetooth File Transfer Wizard", em_ext_bluetoothtransfer
+    MENUITEM "Calculator", em_ext_calc
+    MENUITEM "Connect to a Projector", em_ext_displayswitch
+    MENUITEM "Master Volume", em_ext_sndvol
+    MENUITEM "Movie Maker", em_ext_livemmoviemaker
+    MENUITEM "Photo Gallery", em_ext_livephotogallery
+    MENUITEM "Private Character Editor", em_ext_eudcedit
+    POPUP "Tablet PC"
+      MENUITEM "Personalize Handwriting Recognition", em_ext_shapecollector
+      MENUITEM "Tablet PC Input Panel", em_ext_tabtip
+      MENUITEM "Tablet PC Settings", em_ext_tabletpcsettings
+    END_POPUP
+    MENUITEM "Windows Media Player", em_ext_wmplayer
+    MENUITEM "Windows Photo Viewer", em_ext_photoviewer
+  END_POPUP
+  POPUP "&Metro Apps"
+    MENUITEM "Weather", em_ext_msnweather
+    MENUITEM "Alarms && Clock", em_ext_ms-clock
+    MENUITEM "People", em_ext_ms-people
+    MENUITEM "Outlook", em_ext_Outlook
+    MENUITEM "Mail", em_ext_ms-unistore-email
+    MENUITEM "Calendar", em_ext_outlookcal
+    MENUITEM "Skype", em_ext_skypeuwp
+    MENUITEM "Maps", em_ext_bingmaps
+    MENUITEM "Windows Backup", em_ext_WindowsBackup
+    MENUITEM "Cortana / Search", em_ext_cortana
+    MENUITEM SEPARATOR
+    MENUITEM "Photos", em_ext_ms-photos
+    MENUITEM "Movies && TV", em_ext_mswindowsvideo
+    MENUITEM "Media Player", em_ext_mswindowsmusic
+    MENUITEM "Voice Recorder", em_ext_windowssoundrecorder
+    MENUITEM "Camera", em_ext_microsoft.windows.camera
+    MENUITEM "Connect", em_ext_ms-projection
+    MENUITEM SEPARATOR
+    MENUITEM "Calculator", em_ext_calculator
+    MENUITEM "Scan", em_ext_windowsscan
+    MENUITEM "OneNote", em_ext_onenote
+    MENUITEM "Sway", em_ext_ms-sway
+    MENUITEM "Snip && Sketch", em_ext_screensketch
+    MENUITEM SEPARATOR
+    MENUITEM "Paint 3D", em_ext_ms-paint
+    MENUITEM "3D Builder", em_ext_com.microsoft.builder3d
+    MENUITEM "3D Viewer", em_ext_com.microsoft.3dviewer
+    MENUITEM "Print 3D", em_ext_print3d
+    MENUITEM "Mixed Reality Portal", em_ext_ms-holographicfirstrun
+    MENUITEM SEPARATOR
+    MENUITEM "Microsoft Edge", em_ext_microsoft-edge
+    MENUITEM "Reader", em_ext_reader
+    MENUITEM SEPARATOR
+    MENUITEM "News", em_ext_msnnews
+    MENUITEM "Sports", em_ext_msnsports
+    MENUITEM "Money", em_ext_msnfinance
+    MENUITEM "Food && Drink", em_ext_bingfoodanddrink
+    MENUITEM "Health && Fitness", em_ext_binghealthnfitness
+    MENUITEM SEPARATOR
+    MENUITEM "Phone Link", em_ext_yourphone
+    MENUITEM "Microsoft Wi-Fi", em_ext_connectivitystore
+    MENUITEM SEPARATOR
+    MENUITEM "Store", em_ext_ms-windows-store
+    MENUITEM "Xbox Console Companion", em_ext_xbox
+    MENUITEM "Xbox Game Bar", em_ext_gamingoverlay
+    MENUITEM "Microsoft Solitaire Collection", em_ext_xboxliveapp
+    MENUITEM "Candy Crush Saga", em_ext_candycrushsaga
+    MENUITEM SEPARATOR
+    MENUITEM "Tips", em_ext_ms-get-started
+    MENUITEM "Get Help", em_ext_ms-contact-support
+    MENUITEM "Feedback Hub", em_ext_windows-feedback
+  END_POPUP
+  POPUP "Windows PowerShell"
+    MENUITEM "Windows PowerShell", em_ext_powershellx64
+    MENUITEM "Windows PowerShell (x86)", em_ext_powershellx86
+    MENUITEM "Windows PowerShell ISE", em_ext_powershellisex64
+    MENUITEM "Windows PowerShell ISE (x86)", em_ext_powershellisex86
+  END_POPUP
+  POPUP "Windows &Ease of Access"
+    MENUITEM "Magnifier", em_ext_magnify
+    MENUITEM "Narrator", em_ext_narrator
+    MENUITEM "On-Screen Keyboard", em_ext_osk
+    MENUITEM "Windows Speech Recognition", em_ext_sapi
+    MENUITEM SEPARATOR
+    MENUITEM "Ease of Access Center", em_ext_access
+  END_POPUP
+  POPUP "Windows &Live Essentials"
+    MENUITEM "Windows Live Family Safety", em_ext_livefamilysafety
+    MENUITEM "Windows Live Mail", em_ext_livemail
+    MENUITEM "Windows Live Mesh", em_ext_livemesh
+    MENUITEM "Windows Live Messenger", em_ext_livemessnger
+    MENUITEM "Windows Live Movie Maker", em_ext_livemmoviemaker
+    MENUITEM "Windows Live Photo Gallery", em_ext_livephotogallery
+    MENUITEM "Windows Live Writer", em_ext_livewriter
+  END_POPUP
+  MENUITEM "Windows Defender Sec&urity Center", em_ext_windowsdefender
+  MENUITEM "Mic&rosoft Silverlight", em_ext_silverlight
+  MENUITEM "&OneDrive", em_ext_onedrive
+  MENUITEM "Send Ma&il (Standard Client)", em_ext_mailto
+  MENUITEM SEPARATOR
+  MENUITEM "&Windows 10 Button Bar", em_ext_bar1
+  MENUITEM "Co&ntrol Panel Button Bar", em_ext_bar2
+END_POPUP
+
+POPUP "Misc."
+  MENUITEM "&Make Directories in Opposite Panel with Same Name as Marked Elements", em_ext_newdir
+  MENUITEM "M&ake Directories in Opposite Panel with Same Name + Extension as Marked Elements", em_ext_newdir2
+  MENUITEM "&Copy Marked Files to Directory in Opposite Panel with Name as Element Under Cursor", em_ext_copyallnewdir
+  MENUITEM "Copy Marked &Files to Directory in Opposite Panel with Name + Extension as Element Under Cursor", em_ext_copyallnewdir2
+  MENUITEM "M&ove Marked Files to Directory in Opposite Panel with Name as Element Under Cursor", em_ext_moveallnewdir
+  MENUITEM "Mo&ve Marked Files to Directory in Opposite Panel with Name + Extension as Element Under Cursor", em_ext_moveallnewdir2
+  MENUITEM SEPARATOR
+  MENUITEM "Copy Cont&ent of File Under Cursor to Marked Files in Same Panel", em_ext_copyonetomulti
+  MENUITEM "Copy Name of Element Un&der Cursor to Marked Files in Same Panel (Unchanged Extensions)", em_ext_copynametomulti
+  MENUITEM "S&wap the Content of Two Files in Same Panel", em_ext_swapfilenames
+  MENUITEM SEPARATOR
+  MENUITEM "Make &Junction in Opposite Panel to FOLDER Under Cursor (Not on Network)", em_ext_junction
+  MENUITEM "Make &Symlink in Opposite Panel to FOLDER Under Cursor", em_ext_symlinkd
+  MENUITEM "Make S&ymlink in Opposite Panel to FILE Under Cursor", em_ext_symlink
+  MENUITEM "Make &Hardlink in Opposite Panel to FILE Under Cursor (Only on Same Drive)", em_ext_hardlink
+  MENUITEM SEPARATOR
+  MENUITEM "Ena&ble Case Sensitivity in FOLDER Under Cursor", em_ext_casesensitivefolder
+  MENUITEM "Disab&le Case Sensitivity in FOLDER Under Cursor", em_ext_caseinsensitivefolder
+  MENUITEM SEPARATOR
+  MENUITEM "All these uses DOS and might not work under all Operating Systems", em_ext_dummy
+  MENUITEM "NOTE! No warning about overwriting of files.  A beep is given at invalid selection of folders/files", em_ext_dummy
+END_POPUP
+
+HELP_BREAK
+
+POPUP "&Help"
+  MENUITEM "&Index...\tF1", 610
+  MENUITEM "&Keyboard...", 620
+  MENUITEM "Ol&d Style Help *...", em_ext_oldhelp
+  MENUITEM "E&xtra Help Window...", em_ext_extrahelp
+  MENUITEM "&Registration Info...", 630
+  MENUITEM SEPARATOR
+  MENUITEM "Help for Button Bar (Commands and &Parameters)...", em_ext_helpbuttonbar
+  MENUITEM "Help for Commands (Commands with Parameters)...", em_ext_helpcommands
+  MENUITEM "Help for Command Line Parameters...", em_ext_helpcommandline
+  MENUITEM "Help for En&vironment Variables...", em_ext_helpenvars
+  MENUITEM "Help for Re&gular Expressions...", em_ext_helpregex
+  MENUITEM SEPARATOR
+  MENUITEM "&About Total Commander...", 690
+  MENUITEM "&Check for New Versions...", 650
+  MENUITEM "Total Command&er Order Form...", em_ext_registerform
+  MENUITEM SEPARATOR
+  MENUITEM "Fi&le Descriptions...", em_ext_description
+  MENUITEM "His&tory File...", em_ext_historytext
+  MENUITEM "Key&board File...", em_ext_keyboardtext
+  MENUITEM "Total Commander i&ni File...", em_ext_commanderini
+  MENUITEM SEPARATOR
+  MENUITEM "About this &Menu...", em_ext_about
+  MENUITEM "In&stall Addons for Total Commander...", em_ext_install
+  MENUITEM SEPARATOR
+  MENUITEM "Total Commander &Homepage...", 640
+  MENUITEM "Total Commander &Forum...", em_ext_help_forum
+  MENUITEM "Total Commander &Wiki...", em_ext_help_wiki
+  MENUITEM "&Official Plugins Page...", em_ext_help_plugins
+  MENUITEM "&Unofficial Plugins Page (totalcmd.net)...", em_ext_help_totalcmd.net
+END_POPUP
+
+POPUP "&Right"
+  MENUITEM "&Brief View\tCtrl+F1", 201
+  MENUITEM "&Full View\tCtrl+F2", 202
+  MENUITEM "T&humbnail View\tShift+Ctrl+F1", 169
+  MENUITEM "F&ile Comments\tShift+Ctrl+F2", 200
+  MENUITEM SEPARATOR
+  MENUITEM "Cust&om Columns\tShift+F1", 170
+  MENUITEM "    Previous", 5508
+  MENUITEM "    Next", 5507
+  MENUITEM "Custom View Modes", 233
+  MENUITEM "    Auto Switch Mode", 2947
+  MENUITEM SEPARATOR
+  MENUITEM "&Tree View\tCtrl+F8", 203
+  POPUP "S&eparate Tree View"
+    MENUITEM "&0 (None)", 3200
+    MENUITEM "&1 (One for Both Panels)", 3201
+    MENUITEM "&2 (One for Each Panel)", 3202
+    MENUITEM "&Next\tShift+Ctrl+F8", 3203
+    MENUITEM SEPARATOR
+    MENUITEM "&One Tree View On/Off", 3204
+    MENUITEM "&Two Tree Views On/Off", 3205
+  END_POPUP
+  MENUITEM "    Next\tShift+Ctrl+F8", 3203
+  MENUITEM SEPARATOR
+  MENUITEM "&Quick View\tCtrl+Q", 104
+  MENUITEM "Quick View (Without Plu&gins)", 106
+  MENUITEM "Quick View in Separate Window\tShift+Ctrl+Q", 2941
+  MENUITEM "Quick View in Separate Window (Without Plugins)", 2942
+  MENUITEM SEPARATOR
+  MENUITEM "Branch Vie&w\tCtrl+B", 2035
+  MENUITEM "Branch View (Only Selected)\tShift+Ctrl+B", 2048
+  MENUITEM SEPARATOR
+  MENUITEM "&Vertical Arrangement", 305
+  MENUITEM SEPARATOR
+  MENUITEM "Sort by &Name\tCtrl+F3", 221
+  MENUITEM "Sort by E&xtension\tCtrl+F4", 222
+  MENUITEM "Sort by Ti&me\tCtrl+F5", 224
+  MENUITEM "Sort by &Size\tCtrl+F6", 223
+  MENUITEM "&Unsorted\tCtrl+F7", 225
+  MENUITEM "&Reverse Order", 230
+  POPUP "Sort b&y Column"
+    MENUITEM "Sort by &3rd Column", 6303
+    MENUITEM "Sort by &4th Column", 6304
+    MENUITEM "Sort by &5th Column", 6305
+    MENUITEM "Sort by &6th Column", 6306
+    MENUITEM "Sort by &7th Column", 6307
+    MENUITEM "Sort by &8th Column", 6308
+    MENUITEM "Sort by &9th Column", 6309
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "&All Files\tCtrl+F10", 212
+  MENUITEM "&Programs\tCtrl+F11", 211
+  MENUITEM "&Custom...\tCtrl+F12", 214
+  MENUITEM "*.*", 213
+  MENUITEM SEPARATOR
+  MENUITEM "Select &Drive\tAlt+F2", 231
+END_POPUP

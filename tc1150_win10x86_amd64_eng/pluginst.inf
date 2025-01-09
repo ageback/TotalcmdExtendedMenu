@@ -1,0 +1,7 @@
+[plugininstall]
+description=Extended English Menus for Total Commander 11.50 32bit and 64bit under Windows 10 64bit (by petermad)
+descriptiondan=Udvidede Engelske Menuer for Total Commander 11.50 32bit og 64bit under Windows 10 64bit (af petermad)
+type=lng
+file=wcmd_win10%PROCESSOR_ARCHITECTURE%_1_eng.lng
+defaultdir=language
+version=11.50
